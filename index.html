@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#fbfaf7" />
+<title>VAULT · Gold Futures Intelligence</title>
+
+<style>
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:IBM Plex Sans,system-ui;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:IBM Plex Mono,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.visible{visibility:visible}.static{position:static}.mx-auto{margin-left:auto;margin-right:auto}.-mt-0\.5{margin-top:-.125rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.table{display:table}.grid{display:grid}.hidden{display:none}.h-1{height:.25rem}.h-2\.5{height:.625rem}.w-2\.5{width:.625rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-end{justify-content:flex-end}.justify-between{justify-content:space-between}.gap-0\.5{gap:.125rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.overflow-x-auto{overflow-x:auto}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.bg-\[\#211c14\]{--tw-bg-opacity:1;background-color:rgb(33 28 20/var(--tw-bg-opacity,1))}.bg-jade{--tw-bg-opacity:1;background-color:rgb(95 185 142/var(--tw-bg-opacity,1))}.bg-panel{--tw-bg-opacity:1;background-color:rgb(30 26 19/var(--tw-bg-opacity,1))}.bg-panel\/60{background-color:rgba(30,26,19,.6)}.p-1{padding:.25rem}.p-2\.5{padding:.625rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.pb-1{padding-bottom:.25rem}.pb-24{padding-bottom:6rem}.pb-3{padding-bottom:.75rem}.pt-4{padding-top:1rem}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-6xl{font-size:3.75rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[15px\]{font-size:15px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.text-brass{--tw-text-opacity:1;color:rgb(212 176 106/var(--tw-text-opacity,1))}.text-faint{--tw-text-opacity:1;color:rgb(111 101 83/var(--tw-text-opacity,1))}.text-hi{--tw-text-opacity:1;color:rgb(243 236 221/var(--tw-text-opacity,1))}.text-hi\/90{color:hsla(41,48%,91%,.9)}.text-jade{--tw-text-opacity:1;color:rgb(95 185 142/var(--tw-text-opacity,1))}.text-mid{--tw-text-opacity:1;color:rgb(168 156 132/var(--tw-text-opacity,1))}.text-verm{--tw-text-opacity:1;color:rgb(210 105 75/var(--tw-text-opacity,1))}.grayscale{--tw-grayscale:grayscale(100%)}.filter,.grayscale{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.hover\:bg-panel2:hover{--tw-bg-opacity:1;background-color:rgb(36 31 23/var(--tw-bg-opacity,1))}@media (min-width:640px){.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+<style>
+  :root{
+    --bg:#fbfaf7; --surface:#ffffff; --ink:#1b1712; --muted:#6f6557; --faint:#9a9080;
+    --hair:#ece7dd; --gold:#9a7a1e; --goldsoft:#c8a24a; --jade:#1e7a52; --verm:#b5482f; --paper2:#f5f2ea;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);}
+  body{font-family:"Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55;}
+  .display{font-family:"Fraunces",Georgia,serif;font-optical-sizing:auto;letter-spacing:-.01em;}
+  .num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;}
+  .ink{color:var(--ink);} .muted{color:var(--muted);} .faint{color:var(--faint);}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;letter-spacing:.2em;text-transform:uppercase;font-size:.66rem;color:var(--gold);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+  .rule{height:1px;background:linear-gradient(90deg,var(--goldsoft),transparent 70%);border:0;margin:0;}
+  .card{background:var(--surface);border:1px solid var(--hair);border-radius:16px;
+    box-shadow:0 1px 2px rgba(27,23,18,.03),0 18px 40px -32px rgba(27,23,18,.25);}
+  .chip{display:inline-block;border:1px solid var(--hair);border-radius:999px;padding:3px 10px;font-size:.7rem;}
+  .lens-no{font-family:"Fraunces",serif;font-size:2.6rem;line-height:1;color:var(--goldsoft);}
+  .eqn{font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.7;color:var(--muted);
+    background:var(--paper2);border:1px solid var(--hair);border-left:3px solid var(--goldsoft);
+    border-radius:10px;padding:12px 14px;overflow-x:auto;white-space:nowrap;}
+  table.reg{border-collapse:collapse;width:100%;font-family:"IBM Plex Mono",monospace;font-size:11px;}
+  table.reg th,table.reg td{padding:6px 9px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--hair);}
+  table.reg th{position:sticky;top:0;background:var(--paper2);color:var(--muted);font-weight:600;}
+  table.reg td:first-child,table.reg th:first-child{text-align:left;position:sticky;left:0;background:var(--surface);}
+  .pos{color:var(--jade);} .neg{color:var(--verm);}
+  .chartbox{position:relative;height:300px;width:100%;} .chartbox.sm{height:240px;}
+  a{color:var(--gold);} summary{cursor:pointer;list-style:none;} summary::-webkit-details-marker{display:none;}
+  .has-tip{position:relative;cursor:help;}
+  .has-tip:hover::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 9px);transform:translateX(-50%);
+    width:215px;background:var(--ink);color:#fdfcf9;font-family:"Inter",sans-serif;font-size:11.5px;font-weight:400;line-height:1.45;
+    padding:9px 11px;border-radius:9px;box-shadow:0 10px 26px -12px rgba(0,0,0,.45);z-index:30;white-space:normal;text-align:left;}
+  .has-tip:hover::before{content:"";position:absolute;left:50%;bottom:calc(100% + 3px);transform:translateX(-50%);
+    border:6px solid transparent;border-top-color:var(--ink);z-index:30;}
+  .lockwrap{position:relative;}
+  .locked-blur{filter:blur(5px) grayscale(.55);opacity:.5;user-select:none;pointer-events:none;}
+  .lock-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+    background:rgba(251,250,247,.34);backdrop-filter:blur(2.5px);-webkit-backdrop-filter:blur(2.5px);
+    border:1px solid var(--hair);border-radius:10px;text-align:center;}
+  .lock-badge{font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);}
+  .lock-price{font-family:"Fraunces",serif;font-size:1.75rem;font-weight:600;color:var(--ink);line-height:1;}
+  .lock-price span{font-family:"Inter",sans-serif;font-size:.78rem;font-weight:500;color:var(--muted);}
+  .lock-sub{font-size:.76rem;color:var(--muted);max-width:280px;margin-bottom:30px;}
+  .lead{font-size:1.18rem;line-height:1.6;color:#41382e;}
+  @media (prefers-reduced-motion:no-preference){.fade{opacity:0;transform:translateY(8px);animation:rise .6s ease forwards;}}
+  @keyframes rise{to{opacity:1;transform:none;}}
+</style>
+</head>
+<body>
+<div id="sampleBanner" style="display:none;background:#7a5e12;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:12px;text-align:center;padding:8px 14px;line-height:1.45;">
+  ⚠ SAMPLE / PLACEHOLDER DATA — not your run. Open the emitted <b>output/index2.html</b> (data baked in) or the deployed site. Opening <b>web/index2.html</b> via file:// always shows this sample.
+</div>
+
+<!-- Masthead -->
+<header class="wrap" style="padding-top:18px;padding-bottom:14px;display:flex;align-items:center;justify-content:space-between;">
+  <div style="display:flex;align-items:center;gap:9px;">
+    <span id="dot" style="width:9px;height:9px;border-radius:50%;background:var(--jade);display:inline-block;"></span>
+    <span class="display" style="font-weight:600;font-size:1.15rem;">VAULT</span>
+    <span class="eyebrow" style="color:var(--faint);">Gold Futures Intelligence</span>
+  </div>
+  <span class="num faint" style="font-size:11px;" id="asOf">—</span>
+</header>
+<hr class="rule">
+
+<!-- Verdict hero (value first) -->
+<section class="wrap" style="padding:46px 22px 30px;">
+  <div class="eyebrow fade">Today’s read</div>
+  <h1 class="display fade" id="headline" style="font-size:clamp(2.1rem,6vw,3.4rem);font-weight:600;line-height:1.05;margin:.35em 0 0;">—</h1>
+  <p class="lead fade" id="coreRead" style="margin-top:18px;">—</p>
+
+  <div class="fade" style="display:flex;flex-wrap:wrap;gap:26px;margin-top:28px;align-items:flex-end;">
+    <div>
+      <div class="eyebrow">Commodity Active Index</div>
+      <div class="num ink" style="font-size:3rem;font-weight:600;line-height:1;" id="caiValue">—</div>
+      <div id="bandPill" class="chip num" style="margin-top:8px;">—</div>
+    </div>
+    <div style="border-left:1px solid var(--hair);padding-left:24px;">
+      <div class="eyebrow">Gold futures</div>
+      <div class="num ink" style="font-size:1.7rem;font-weight:600;" id="goldPrice">—</div>
+      <div class="num" id="goldChange" style="font-size:.95rem;">—</div>
+    </div>
+    <div style="border-left:1px solid var(--hair);padding-left:24px;">
+      <div class="eyebrow">Conviction</div>
+      <div class="num muted" id="conviction" style="font-size:.9rem;max-width:230px;margin-top:6px;">—</div>
+    </div>
+    <div style="border-left:1px solid var(--hair);padding-left:24px;">
+      <div class="eyebrow">Gold projection <span id="projWk"></span></div>
+      <div class="num ink" id="projPoint" style="font-size:1.4rem;font-weight:600;">—</div>
+      <div class="num" id="projBand" style="font-size:.82rem;color:var(--muted);">Hi–Low —</div>
+    </div>
+  </div>
+</section>
+
+<!-- Thesis lede -->
+<section class="wrap" style="padding:8px 22px 34px;">
+  <div class="card" style="padding:22px 24px;">
+    <p class="ink" style="margin:0;font-size:1.02rem;">
+      This model reads COMEX gold futures through <strong>three independent lenses</strong> — the physical
+      metal actually changing hands, the dollar it is priced in, and the cost of money. Each tells part of
+      the story; when they agree, the signal is strong. Here is what each is saying now.
+    </p>
+  </div>
+</section>
+
+<!-- Lens 1: Physical -->
+<section class="wrap" style="padding:18px 22px;">
+  <div style="display:flex;gap:18px;align-items:baseline;">
+    <span class="lens-no">01</span>
+    <div>
+      <div class="eyebrow">Physical · COMEX deliveries</div>
+      <h2 class="display" style="font-size:1.7rem;font-weight:600;margin:.15em 0 0;">Who is actually taking the metal</h2>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:12px;">
+    Every delivery notice names a firm <em>issuing</em> gold (handing real bars out) and one <em>stopping</em> it
+    (standing for and taking them in). Heavy, broad stopping is genuine physical demand; thin or one-name flow is not.
+    The four sub-signals below combine into the CAI.
+  </p>
+  <div id="components" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px;"></div>
+  <div class="card" style="margin-top:14px;padding:16px;">
+    <div class="eyebrow">Latest report · issuers vs stoppers</div>
+    <div class="chartbox sm" style="margin-top:8px;"><canvas id="chartFirms"></canvas></div>
+  </div>
+</section>
+<hr class="rule" style="margin:26px 0;">
+
+<!-- Lens 2: Dollar -->
+<section class="wrap" style="padding:18px 22px;">
+  <div style="display:flex;gap:18px;align-items:baseline;">
+    <span class="lens-no">02</span>
+    <div>
+      <div class="eyebrow">The dollar · DXY</div>
+      <h2 class="display" style="font-size:1.7rem;font-weight:600;margin:.15em 0 0;">What gold is priced in</h2>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:12px;">
+    Gold is quoted in US dollars, so the dollar’s strength is a mechanical headwind or tailwind. A rising dollar
+    index (DXY) makes gold more expensive abroad and tends to cap it; a falling dollar does the opposite.
+  </p>
+  <div class="card" style="margin-top:14px;padding:18px 20px;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-end;">
+    <div><div class="eyebrow">DXY level</div><div class="num ink" id="dxyVal" style="font-size:1.8rem;font-weight:600;">—</div></div>
+    <div><div class="eyebrow">Across the window</div><div class="num" id="dxyChg" style="font-size:1.1rem;">—</div></div>
+    <div class="muted" id="dxyNote" style="font-size:.85rem;max-width:300px;">—</div>
+  </div>
+</section>
+<hr class="rule" style="margin:26px 0;">
+
+<!-- Lens 3: Macro -->
+<section class="wrap" style="padding:18px 22px;">
+  <div style="display:flex;gap:18px;align-items:baseline;">
+    <span class="lens-no">03</span>
+    <div>
+      <div class="eyebrow">Macro · 10-Year Treasury (FRED)</div>
+      <h2 class="display" style="font-size:1.7rem;font-weight:600;margin:.15em 0 0;">What money costs</h2>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:12px;">
+    Gold pays no yield, so the 10-year Treasury rate is its opportunity cost. When real yields rise, holding gold
+    is more expensive and demand softens; when they fall, gold becomes relatively more attractive.
+  </p>
+  <div class="card" style="margin-top:14px;padding:18px 20px;display:flex;gap:30px;flex-wrap:wrap;align-items:flex-end;">
+    <div><div class="eyebrow">10Y yield</div><div class="num ink" id="tnxVal" style="font-size:1.8rem;font-weight:600;">—</div></div>
+    <div><div class="eyebrow">Across the window</div><div class="num" id="tnxChg" style="font-size:1.1rem;">—</div></div>
+    <div class="muted" id="tnxNote" style="font-size:.85rem;max-width:300px;">—</div>
+  </div>
+</section>
+<hr class="rule" style="margin:26px 0;">
+
+<!-- Evidence: price story -->
+<section class="wrap" style="padding:6px 22px;">
+  <div class="eyebrow">The evidence</div>
+  <h2 class="display" style="font-size:1.7rem;font-weight:600;margin:.1em 0 4px;">Gold price &amp; the accumulation read</h2>
+  <p class="muted" style="margin:0 0 14px;">Daily gold futures with the CAI at each delivery report. The dashed line projects price forward (P̂) from the regression, with an 80% band.</p>
+  <div class="card" style="padding:16px;"><div class="chartbox"><canvas id="chartPrice"></canvas></div></div>
+  <div class="card" style="padding:16px;margin-top:14px;">
+    <div class="eyebrow">Gold, deliveries &amp; concentration · latest quarter</div>
+    <div class="chartbox sm" style="margin-top:8px;"><canvas id="chartDeliv"></canvas></div>
+  </div>
+  <details style="margin-top:16px;" class="card">
+    <summary class="eyebrow" style="display:flex;justify-content:space-between;padding:14px 16px;">What the variables mean <span class="faint">▾</span></summary>
+    <dl id="glossary" style="padding:0 16px 16px;"></dl>
+  </details>
+</section>
+<hr class="rule" style="margin:26px 0;">
+
+<!-- The model + regression table (visible) -->
+<section class="wrap" style="padding:6px 22px;">
+  <div class="eyebrow">The model</div>
+  <h2 class="display" style="font-size:1.7rem;font-weight:600;margin:.1em 0 4px;">The regression, and every input behind it</h2>
+  <p class="muted" style="margin:0 0 12px;">Access the three lenses highlighting different GOLD futures price pulls, price discovery projections and trading regimes</p>
+  <div class="lockwrap">
+    <div class="eqn locked-blur" id="eqn" aria-hidden="true">P̂(t+h)=α+β₀P+β₁zDI+β₂zBB−β₃zSC+β₄zIC−β₅zΔDXY−β₆zΔ10Y+β₇·(DI×−ΔDXY)+β₈·(BB×−ΔUST10)</div>
+    <div class="lock-overlay">
+      <div class="lock-badge">🔒 Full model</div>
+      <div class="lock-price">$600 <span>USD / month</span></div>
+      <div class="lock-sub">Unlock the exact equation, fitted betas &amp; live projections</div>
+    </div>
+  </div>
+  <p class="faint" style="font-size:.78rem;margin:10px 0 6px;">Every data point's regression variables — scroll horizontally:</p>
+  <div style="overflow-x:auto;border:1px solid var(--hair);border-radius:12px;"><table class="reg" id="regTable"></table></div>
+</section>
+
+<!-- Disclaimer -->
+<footer class="wrap" style="padding:26px 22px 48px;">
+  <div class="eyebrow">Disclaimer</div>
+  <p class="faint" style="font-size:12px;line-height:1.6;margin-top:8px;">This site STRICTLY provides informational data only. Data from CME Group, 10Y-UST, YFinance for Information only — not financial advice. Nothing on this site constitutes financial advice, investment recommendations, or buy/sell signals or should be used to derive any trading decisions. Always consult a qualified financial advisor before making investment decisions.</p>
+</footer>
+
+<script id="vaultData">window.__VAULT_DATA__ = {"generated_at": "2026-06-18 06:41", "as_of_date": "2026-06-17", "window": "2026-04-14 \u2013 2026-06-17", "sources": {"macro": "FRED", "delivery": "CME Issues & Stops"}, "chart_mode": "interactive", "gold": {"price": 4358.9, "change_pct": -9.660103626943013}, "cai": {"scaled": 0.6977352423470566, "band": "ACCUMULATION"}, "components": {"DI": 0.6465806679625375, "BB": 0.9, "SC": 0.42097863379462436, "IC": 0.5708515687939557}, "thesis": {"core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -9.7% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.", "stance": "mixed", "conviction": "LOW\u2013MODERATE", "delivery": "ELEVATED \u2014 1,134 contracts delivered, above baseline. Healthy standing for delivery.", "breadth": "BROAD \u2014 9 of 10 firms took delivery (effective 2.4). Demand is widely distributed.", "concentration": "Stoppers HHI 0.421 \u2014 top buyer JP MORGAN SECURITIES took 566 (50% of deliveries). Issuers HHI 0.571 \u2014 top seller JP MORGAN SECURITIES delivered 825 (73%). A single dominant accumulator is cornering the buy side."}, "latest_report": {"date": "2026-06-17", "total": 1134, "mtd": 36590, "firms": [{"firm": "JP MORGAN SECURITIES", "issued": 825, "stopped": 566}, {"firm": "SCOTIA CAPITAL (USA)", "issued": 0, "stopped": 467}, {"firm": "BARCLAYS", "issued": 208, "stopped": 0}, {"firm": "ADVANTAGE FUTURES", "issued": 101, "stopped": 3}, {"firm": "WELLS FARGO SECURITI", "issued": 0, "stopped": 42}, {"firm": "ADM", "issued": 0, "stopped": 29}, {"firm": "CME", "issued": 0, "stopped": 16}, {"firm": "DORMAN TRADING, LLC", "issued": 0, "stopped": 5}, {"firm": "DEUTSCHE BANK AG", "issued": 0, "stopped": 4}, {"firm": "BNP PARIBAS SEC CORP", "issued": 0, "stopped": 2}]}, "series": [{"date": "2026-04-14", "gold": 4825.0, "cai": 0.5340933714440348, "mtd": 18210}, {"date": "2026-04-20", "gold": 4806.6, "cai": 0.5516885826997735, "mtd": 20347}, {"date": "2026-04-24", "gold": 4722.3, "cai": 0.6509610018684515, "mtd": 22281}, {"date": "2026-05-04", "gold": 4519.5, "cai": 0.3481847971370672, "mtd": 3193}, {"date": "2026-05-08", "gold": 4720.4, "cai": 0.5206677276965439, "mtd": 3754}, {"date": "2026-05-22", "gold": 4521.0, "cai": 0.4010514839033855, "mtd": 6609}, {"date": "2026-06-05", "gold": 4337.1, "cai": 0.5950006789686892, "mtd": 28791}, {"date": "2026-06-09", "gold": 4260.0, "cai": 0.5333150419211986, "mtd": 29467}, {"date": "2026-06-10", "gold": 4108.2, "cai": 0.6081545367547365, "mtd": 29663}, {"date": "2026-06-11", "gold": 4090.3, "cai": 0.6582497078422933, "mtd": 33224}, {"date": "2026-06-16", "gold": 4330.9, "cai": 0.5530719874156006, "mtd": 35456}, {"date": "2026-06-17", "gold": 4358.9, "cai": 0.6977352423470566, "mtd": 36590}], "forecast": [{"weeks": 1, "date": "2026-06-25", "point": 4361.9, "lo": 4208.9, "hi": 4514.9, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 2, "date": "2026-07-02", "point": 4241.4, "lo": 4125.0, "hi": 4357.9, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 3, "date": "2026-07-09", "point": 4040.6, "lo": 3900.7, "hi": 4180.5, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 4, "date": "2026-07-16", "point": 4397.1, "lo": 4236.9, "hi": 4557.3, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 5, "date": "2026-07-23", "point": 4284.3, "lo": 4209.3, "hi": 4359.3, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 6, "date": "2026-07-30", "point": 3870.1, "lo": 3787.4, "hi": 3952.8, "from_price": 4324.7, "from_date": "2026-06-18"}], "history_points": 12, "image": "latest.png", "gold_history": [{"d": "2024-01-02", "v": 2064.4}, {"d": "2024-01-03", "v": 2034.2}, {"d": "2024-01-04", "v": 2042.3}, {"d": "2024-01-05", "v": 2042.4}, {"d": "2024-01-08", "v": 2026.6}, {"d": "2024-01-09", "v": 2026.4}, {"d": "2024-01-10", "v": 2021.7}, {"d": "2024-01-11", "v": 2014.3}, {"d": "2024-01-12", "v": 2046.7}, {"d": "2024-01-16", "v": 2026.0}, {"d": "2024-01-17", "v": 2002.6}, {"d": "2024-01-18", "v": 2018.6}, {"d": "2024-01-19", "v": 2026.5}, {"d": "2024-01-22", "v": 2019.8}, {"d": "2024-01-23", "v": 2023.7}, {"d": "2024-01-24", "v": 2013.9}, {"d": "2024-01-25", "v": 2016.9}, {"d": "2024-01-26", "v": 2016.8}, {"d": "2024-01-29", "v": 2025.2}, {"d": "2024-01-30", "v": 2031.5}, {"d": "2024-01-31", "v": 2048.4}, {"d": "2024-02-01", "v": 2053.0}, {"d": "2024-02-02", "v": 2036.1}, {"d": "2024-02-05", "v": 2025.7}, {"d": "2024-02-06", "v": 2034.5}, {"d": "2024-02-07", "v": 2035.2}, {"d": "2024-02-08", "v": 2032.2}, {"d": "2024-02-09", "v": 2023.3}, {"d": "2024-02-12", "v": 2018.2}, {"d": "2024-02-13", "v": 1992.9}, {"d": "2024-02-14", "v": 1990.3}, {"d": "2024-02-15", "v": 2002.1}, {"d": "2024-02-16", "v": 2011.5}, {"d": "2024-02-20", "v": 2027.5}, {"d": "2024-02-21", "v": 2022.3}, {"d": "2024-02-22", "v": 2019.7}, {"d": "2024-02-23", "v": 2038.6}, {"d": "2024-02-26", "v": 2028.5}, {"d": "2024-02-27", "v": 2034.0}, {"d": "2024-02-28", "v": 2033.0}, {"d": "2024-02-29", "v": 2045.7}, {"d": "2024-03-01", "v": 2086.9}, {"d": "2024-03-04", "v": 2117.7}, {"d": "2024-03-05", "v": 2133.5}, {"d": "2024-03-06", "v": 2150.3}, {"d": "2024-03-07", "v": 2158.0}, {"d": "2024-03-08", "v": 2178.6}, {"d": "2024-03-11", "v": 2182.5}, {"d": "2024-03-12", "v": 2160.4}, {"d": "2024-03-13", "v": 2175.4}, {"d": "2024-03-14", "v": 2163.0}, {"d": "2024-03-15", "v": 2157.3}, {"d": "2024-03-18", "v": 2160.7}, {"d": "2024-03-19", "v": 2156.3}, {"d": "2024-03-20", "v": 2157.9}, {"d": "2024-03-21", "v": 2182.4}, {"d": "2024-03-22", "v": 2158.1}, {"d": "2024-03-25", "v": 2174.8}, {"d": "2024-03-26", "v": 2175.6}, {"d": "2024-03-27", "v": 2190.6}, {"d": "2024-03-28", "v": 2217.4}, {"d": "2024-04-01", "v": 2236.5}, {"d": "2024-04-02", "v": 2261.0}, {"d": "2024-04-03", "v": 2294.4}, {"d": "2024-04-04", "v": 2288.8}, {"d": "2024-04-05", "v": 2325.7}, {"d": "2024-04-08", "v": 2331.7}, {"d": "2024-04-09", "v": 2343.5}, {"d": "2024-04-10", "v": 2329.6}, {"d": "2024-04-11", "v": 2354.8}, {"d": "2024-04-12", "v": 2356.2}, {"d": "2024-04-15", "v": 2365.8}, {"d": "2024-04-16", "v": 2390.8}, {"d": "2024-04-17", "v": 2371.7}, {"d": "2024-04-18", "v": 2382.3}, {"d": "2024-04-19", "v": 2398.4}, {"d": "2024-04-22", "v": 2332.2}, {"d": "2024-04-23", "v": 2327.7}, {"d": "2024-04-24", "v": 2324.5}, {"d": "2024-04-25", "v": 2329.8}, {"d": "2024-04-26", "v": 2334.8}, {"d": "2024-04-29", "v": 2345.4}, {"d": "2024-04-30", "v": 2291.4}, {"d": "2024-05-01", "v": 2299.9}, {"d": "2024-05-02", "v": 2299.2}, {"d": "2024-05-03", "v": 2299.0}, {"d": "2024-05-06", "v": 2321.6}, {"d": "2024-05-07", "v": 2315.2}, {"d": "2024-05-08", "v": 2313.6}, {"d": "2024-05-09", "v": 2332.1}, {"d": "2024-05-10", "v": 2367.3}, {"d": "2024-05-13", "v": 2336.1}, {"d": "2024-05-14", "v": 2353.4}, {"d": "2024-05-15", "v": 2388.7}, {"d": "2024-05-16", "v": 2380.0}, {"d": "2024-05-17", "v": 2412.2}, {"d": "2024-05-20", "v": 2433.9}, {"d": "2024-05-21", "v": 2421.7}, {"d": "2024-05-22", "v": 2389.2}, {"d": "2024-05-23", "v": 2335.0}, {"d": "2024-05-24", "v": 2332.5}, {"d": "2024-05-28", "v": 2355.2}, {"d": "2024-05-29", "v": 2340.3}, {"d": "2024-05-30", "v": 2342.9}, {"d": "2024-05-31", "v": 2322.9}, {"d": "2024-06-03", "v": 2346.6}, {"d": "2024-06-04", "v": 2325.5}, {"d": "2024-06-05", "v": 2354.1}, {"d": "2024-06-06", "v": 2370.3}, {"d": "2024-06-07", "v": 2305.2}, {"d": "2024-06-10", "v": 2307.7}, {"d": "2024-06-11", "v": 2307.5}, {"d": "2024-06-12", "v": 2336.0}, {"d": "2024-06-13", "v": 2300.2}, {"d": "2024-06-14", "v": 2331.4}, {"d": "2024-06-17", "v": 2312.4}, {"d": "2024-06-18", "v": 2330.4}, {"d": "2024-06-20", "v": 2353.8}, {"d": "2024-06-21", "v": 2316.4}, {"d": "2024-06-24", "v": 2330.0}, {"d": "2024-06-25", "v": 2316.6}, {"d": "2024-06-26", "v": 2299.2}, {"d": "2024-06-27", "v": 2324.5}, {"d": "2024-06-28", "v": 2327.7}, {"d": "2024-07-01", "v": 2327.6}, {"d": "2024-07-02", "v": 2323.0}, {"d": "2024-07-03", "v": 2359.8}, {"d": "2024-07-05", "v": 2388.5}, {"d": "2024-07-08", "v": 2355.2}, {"d": "2024-07-09", "v": 2360.1}, {"d": "2024-07-10", "v": 2372.2}, {"d": "2024-07-11", "v": 2415.0}, {"d": "2024-07-12", "v": 2414.0}, {"d": "2024-07-15", "v": 2422.9}, {"d": "2024-07-16", "v": 2462.4}, {"d": "2024-07-17", "v": 2454.8}, {"d": "2024-07-18", "v": 2451.8}, {"d": "2024-07-19", "v": 2395.5}, {"d": "2024-07-22", "v": 2392.0}, {"d": "2024-07-23", "v": 2404.6}, {"d": "2024-07-24", "v": 2413.3}, {"d": "2024-07-25", "v": 2351.9}, {"d": "2024-07-26", "v": 2380.0}, {"d": "2024-07-29", "v": 2377.3}, {"d": "2024-07-30", "v": 2405.0}, {"d": "2024-07-31", "v": 2426.5}, {"d": "2024-08-01", "v": 2435.0}, {"d": "2024-08-02", "v": 2425.7}, {"d": "2024-08-05", "v": 2401.7}, {"d": "2024-08-06", "v": 2389.1}, {"d": "2024-08-07", "v": 2390.5}, {"d": "2024-08-08", "v": 2422.2}, {"d": "2024-08-09", "v": 2432.1}, {"d": "2024-08-12", "v": 2462.4}, {"d": "2024-08-13", "v": 2466.7}, {"d": "2024-08-14", "v": 2439.4}, {"d": "2024-08-15", "v": 2453.1}, {"d": "2024-08-16", "v": 2498.6}, {"d": "2024-08-19", "v": 2501.8}, {"d": "2024-08-20", "v": 2511.3}, {"d": "2024-08-21", "v": 2508.4}, {"d": "2024-08-22", "v": 2478.9}, {"d": "2024-08-23", "v": 2508.4}, {"d": "2024-08-26", "v": 2517.7}, {"d": "2024-08-27", "v": 2516.0}, {"d": "2024-08-28", "v": 2501.0}, {"d": "2024-08-29", "v": 2525.7}, {"d": "2024-08-30", "v": 2493.8}, {"d": "2024-09-03", "v": 2489.9}, {"d": "2024-09-04", "v": 2493.4}, {"d": "2024-09-05", "v": 2511.4}, {"d": "2024-09-06", "v": 2493.5}, {"d": "2024-09-09", "v": 2501.8}, {"d": "2024-09-10", "v": 2512.3}, {"d": "2024-09-11", "v": 2512.1}, {"d": "2024-09-12", "v": 2551.2}, {"d": "2024-09-13", "v": 2581.3}, {"d": "2024-09-16", "v": 2580.4}, {"d": "2024-09-17", "v": 2564.3}, {"d": "2024-09-18", "v": 2570.7}, {"d": "2024-09-19", "v": 2588.0}, {"d": "2024-09-20", "v": 2619.9}, {"d": "2024-09-23", "v": 2626.5}, {"d": "2024-09-24", "v": 2651.2}, {"d": "2024-09-25", "v": 2659.2}, {"d": "2024-09-26", "v": 2669.9}, {"d": "2024-09-27", "v": 2644.3}, {"d": "2024-09-30", "v": 2636.1}, {"d": "2024-10-01", "v": 2667.3}, {"d": "2024-10-02", "v": 2647.1}, {"d": "2024-10-03", "v": 2657.1}, {"d": "2024-10-04", "v": 2645.8}, {"d": "2024-10-07", "v": 2644.8}, {"d": "2024-10-08", "v": 2615.0}, {"d": "2024-10-09", "v": 2606.0}, {"d": "2024-10-10", "v": 2620.6}, {"d": "2024-10-11", "v": 2657.6}, {"d": "2024-10-14", "v": 2647.8}, {"d": "2024-10-15", "v": 2661.4}, {"d": "2024-10-16", "v": 2674.0}, {"d": "2024-10-17", "v": 2691.0}, {"d": "2024-10-18", "v": 2713.7}, {"d": "2024-10-21", "v": 2723.1}, {"d": "2024-10-22", "v": 2744.2}, {"d": "2024-10-23", "v": 2714.4}, {"d": "2024-10-24", "v": 2734.9}, {"d": "2024-10-25", "v": 2740.9}, {"d": "2024-10-28", "v": 2742.9}, {"d": "2024-10-29", "v": 2768.4}, {"d": "2024-10-30", "v": 2788.5}, {"d": "2024-10-31", "v": 2738.3}, {"d": "2024-11-01", "v": 2738.6}, {"d": "2024-11-04", "v": 2736.1}, {"d": "2024-11-05", "v": 2740.3}, {"d": "2024-11-06", "v": 2667.6}, {"d": "2024-11-07", "v": 2698.4}, {"d": "2024-11-08", "v": 2687.5}, {"d": "2024-11-11", "v": 2611.2}, {"d": "2024-11-12", "v": 2600.0}, {"d": "2024-11-13", "v": 2580.8}, {"d": "2024-11-14", "v": 2568.2}, {"d": "2024-11-15", "v": 2565.7}, {"d": "2024-11-18", "v": 2610.6}, {"d": "2024-11-19", "v": 2627.1}, {"d": "2024-11-20", "v": 2648.2}, {"d": "2024-11-21", "v": 2672.1}, {"d": "2024-11-22", "v": 2709.9}, {"d": "2024-11-25", "v": 2616.8}, {"d": "2024-11-26", "v": 2620.3}, {"d": "2024-11-27", "v": 2639.9}, {"d": "2024-11-29", "v": 2657.0}, {"d": "2024-12-02", "v": 2634.9}, {"d": "2024-12-03", "v": 2644.7}, {"d": "2024-12-04", "v": 2653.8}, {"d": "2024-12-05", "v": 2626.6}, {"d": "2024-12-06", "v": 2638.6}, {"d": "2024-12-09", "v": 2664.9}, {"d": "2024-12-10", "v": 2697.6}, {"d": "2024-12-11", "v": 2733.8}, {"d": "2024-12-12", "v": 2687.5}, {"d": "2024-12-13", "v": 2656.0}, {"d": "2024-12-16", "v": 2651.4}, {"d": "2024-12-17", "v": 2644.4}, {"d": "2024-12-18", "v": 2636.5}, {"d": "2024-12-19", "v": 2592.2}, {"d": "2024-12-20", "v": 2628.7}, {"d": "2024-12-23", "v": 2612.3}, {"d": "2024-12-24", "v": 2620.0}, {"d": "2024-12-26", "v": 2638.8}, {"d": "2024-12-27", "v": 2617.2}, {"d": "2024-12-30", "v": 2606.1}, {"d": "2024-12-31", "v": 2629.2}, {"d": "2025-01-02", "v": 2658.9}, {"d": "2025-01-03", "v": 2645.0}, {"d": "2025-01-06", "v": 2638.4}, {"d": "2025-01-07", "v": 2656.7}, {"d": "2025-01-08", "v": 2664.5}, {"d": "2025-01-09", "v": 2683.8}, {"d": "2025-01-10", "v": 2708.5}, {"d": "2025-01-13", "v": 2673.5}, {"d": "2025-01-14", "v": 2677.5}, {"d": "2025-01-15", "v": 2712.5}, {"d": "2025-01-16", "v": 2746.4}, {"d": "2025-01-17", "v": 2744.3}, {"d": "2025-01-21", "v": 2755.0}, {"d": "2025-01-22", "v": 2767.6}, {"d": "2025-01-23", "v": 2763.1}, {"d": "2025-01-24", "v": 2777.3}, {"d": "2025-01-27", "v": 2737.5}, {"d": "2025-01-28", "v": 2766.8}, {"d": "2025-01-29", "v": 2769.1}, {"d": "2025-01-30", "v": 2823.0}, {"d": "2025-01-31", "v": 2812.5}, {"d": "2025-02-03", "v": 2833.9}, {"d": "2025-02-04", "v": 2853.3}, {"d": "2025-02-05", "v": 2871.6}, {"d": "2025-02-06", "v": 2856.0}, {"d": "2025-02-07", "v": 2867.3}, {"d": "2025-02-10", "v": 2914.3}, {"d": "2025-02-11", "v": 2912.5}, {"d": "2025-02-12", "v": 2909.0}, {"d": "2025-02-13", "v": 2925.9}, {"d": "2025-02-14", "v": 2883.6}, {"d": "2025-02-18", "v": 2931.6}, {"d": "2025-02-19", "v": 2919.4}, {"d": "2025-02-20", "v": 2940.0}, {"d": "2025-02-21", "v": 2937.6}, {"d": "2025-02-24", "v": 2947.9}, {"d": "2025-02-25", "v": 2904.5}, {"d": "2025-02-26", "v": 2916.8}, {"d": "2025-02-27", "v": 2883.2}, {"d": "2025-02-28", "v": 2836.8}, {"d": "2025-03-03", "v": 2890.2}, {"d": "2025-03-04", "v": 2909.6}, {"d": "2025-03-05", "v": 2915.3}, {"d": "2025-03-06", "v": 2916.6}, {"d": "2025-03-07", "v": 2904.7}, {"d": "2025-03-10", "v": 2891.0}, {"d": "2025-03-11", "v": 2912.9}, {"d": "2025-03-12", "v": 2939.1}, {"d": "2025-03-13", "v": 2984.3}, {"d": "2025-03-14", "v": 2994.5}, {"d": "2025-03-17", "v": 3000.0}, {"d": "2025-03-18", "v": 3035.1}, {"d": "2025-03-19", "v": 3035.9}, {"d": "2025-03-20", "v": 3040.0}, {"d": "2025-03-21", "v": 3018.2}, {"d": "2025-03-24", "v": 3013.1}, {"d": "2025-03-25", "v": 3023.7}, {"d": "2025-03-26", "v": 3020.9}, {"d": "2025-03-27", "v": 3060.2}, {"d": "2025-03-28", "v": 3086.5}, {"d": "2025-03-31", "v": 3122.8}, {"d": "2025-04-01", "v": 3118.9}, {"d": "2025-04-02", "v": 3139.9}, {"d": "2025-04-03", "v": 3097.0}, {"d": "2025-04-04", "v": 3012.0}, {"d": "2025-04-07", "v": 2951.3}, {"d": "2025-04-08", "v": 2968.4}, {"d": "2025-04-09", "v": 3056.5}, {"d": "2025-04-10", "v": 3155.2}, {"d": "2025-04-11", "v": 3222.2}, {"d": "2025-04-14", "v": 3204.8}, {"d": "2025-04-15", "v": 3218.7}, {"d": "2025-04-16", "v": 3326.6}, {"d": "2025-04-17", "v": 3308.7}, {"d": "2025-04-21", "v": 3406.2}, {"d": "2025-04-22", "v": 3400.8}, {"d": "2025-04-23", "v": 3276.3}, {"d": "2025-04-24", "v": 3332.0}, {"d": "2025-04-25", "v": 3282.4}, {"d": "2025-04-28", "v": 3332.5}, {"d": "2025-04-29", "v": 3318.8}, {"d": "2025-04-30", "v": 3305.0}, {"d": "2025-05-01", "v": 3210.0}, {"d": "2025-05-02", "v": 3231.9}, {"d": "2025-05-05", "v": 3311.3}, {"d": "2025-05-06", "v": 3411.4}, {"d": "2025-05-07", "v": 3381.4}, {"d": "2025-05-08", "v": 3296.6}, {"d": "2025-05-09", "v": 3335.4}, {"d": "2025-05-12", "v": 3220.0}, {"d": "2025-05-13", "v": 3240.3}, {"d": "2025-05-14", "v": 3181.4}, {"d": "2025-05-15", "v": 3220.7}, {"d": "2025-05-16", "v": 3182.0}, {"d": "2025-05-19", "v": 3228.9}, {"d": "2025-05-20", "v": 3280.3}, {"d": "2025-05-21", "v": 3309.3}, {"d": "2025-05-22", "v": 3292.3}, {"d": "2025-05-23", "v": 3363.6}, {"d": "2025-05-27", "v": 3299.1}, {"d": "2025-05-28", "v": 3293.6}, {"d": "2025-05-29", "v": 3317.1}, {"d": "2025-05-30", "v": 3288.9}, {"d": "2025-06-02", "v": 3370.6}, {"d": "2025-06-03", "v": 3350.2}, {"d": "2025-06-04", "v": 3373.5}, {"d": "2025-06-05", "v": 3350.7}, {"d": "2025-06-06", "v": 3322.7}, {"d": "2025-06-09", "v": 3332.1}, {"d": "2025-06-10", "v": 3320.9}, {"d": "2025-06-11", "v": 3321.3}, {"d": "2025-06-12", "v": 3380.9}, {"d": "2025-06-13", "v": 3431.2}, {"d": "2025-06-16", "v": 3396.4}, {"d": "2025-06-17", "v": 3386.6}, {"d": "2025-06-18", "v": 3389.8}, {"d": "2025-06-20", "v": 3368.1}, {"d": "2025-06-23", "v": 3377.7}, {"d": "2025-06-24", "v": 3317.4}, {"d": "2025-06-25", "v": 3327.1}, {"d": "2025-06-26", "v": 3333.5}, {"d": "2025-06-27", "v": 3273.7}, {"d": "2025-06-30", "v": 3294.4}, {"d": "2025-07-01", "v": 3336.7}, {"d": "2025-07-02", "v": 3348.0}, {"d": "2025-07-03", "v": 3331.6}, {"d": "2025-07-04", "v": 3332.5}, {"d": "2025-07-07", "v": 3332.2}, {"d": "2025-07-08", "v": 3307.0}, {"d": "2025-07-09", "v": 3311.6}, {"d": "2025-07-10", "v": 3317.4}, {"d": "2025-07-11", "v": 3356.0}, {"d": "2025-07-14", "v": 3351.5}, {"d": "2025-07-15", "v": 3329.8}, {"d": "2025-07-16", "v": 3352.5}, {"d": "2025-07-17", "v": 3340.1}, {"d": "2025-07-18", "v": 3353.0}, {"d": "2025-07-21", "v": 3401.9}, {"d": "2025-07-22", "v": 3439.2}, {"d": "2025-07-23", "v": 3394.1}, {"d": "2025-07-24", "v": 3371.0}, {"d": "2025-07-25", "v": 3334.0}, {"d": "2025-07-28", "v": 3309.1}, {"d": "2025-07-29", "v": 3323.4}, {"d": "2025-07-30", "v": 3295.8}, {"d": "2025-07-31", "v": 3293.2}, {"d": "2025-08-01", "v": 3347.7}, {"d": "2025-08-04", "v": 3374.4}, {"d": "2025-08-05", "v": 3381.9}, {"d": "2025-08-06", "v": 3380.0}, {"d": "2025-08-07", "v": 3400.3}, {"d": "2025-08-08", "v": 3439.1}, {"d": "2025-08-11", "v": 3353.1}, {"d": "2025-08-12", "v": 3348.9}, {"d": "2025-08-13", "v": 3358.7}, {"d": "2025-08-14", "v": 3335.2}, {"d": "2025-08-15", "v": 3336.0}, {"d": "2025-08-18", "v": 3331.7}, {"d": "2025-08-19", "v": 3313.4}, {"d": "2025-08-20", "v": 3343.4}, {"d": "2025-08-21", "v": 3336.9}, {"d": "2025-08-22", "v": 3374.4}, {"d": "2025-08-25", "v": 3373.8}, {"d": "2025-08-26", "v": 3388.6}, {"d": "2025-08-27", "v": 3404.6}, {"d": "2025-08-28", "v": 3431.8}, {"d": "2025-08-29", "v": 3473.7}, {"d": "2025-09-02", "v": 3549.4}, {"d": "2025-09-03", "v": 3593.2}, {"d": "2025-09-04", "v": 3565.8}, {"d": "2025-09-05", "v": 3613.2}, {"d": "2025-09-08", "v": 3638.1}, {"d": "2025-09-09", "v": 3643.3}, {"d": "2025-09-10", "v": 3643.6}, {"d": "2025-09-11", "v": 3636.9}, {"d": "2025-09-12", "v": 3649.4}, {"d": "2025-09-15", "v": 3682.2}, {"d": "2025-09-16", "v": 3688.9}, {"d": "2025-09-17", "v": 3681.8}, {"d": "2025-09-18", "v": 3643.7}, {"d": "2025-09-19", "v": 3671.5}, {"d": "2025-09-22", "v": 3740.7}, {"d": "2025-09-23", "v": 3780.6}, {"d": "2025-09-24", "v": 3732.1}, {"d": "2025-09-25", "v": 3736.9}, {"d": "2025-09-26", "v": 3775.3}, {"d": "2025-09-29", "v": 3820.9}, {"d": "2025-09-30", "v": 3840.8}, {"d": "2025-10-01", "v": 3867.5}, {"d": "2025-10-02", "v": 3839.7}, {"d": "2025-10-03", "v": 3880.8}, {"d": "2025-10-06", "v": 3948.5}, {"d": "2025-10-07", "v": 3976.6}, {"d": "2025-10-08", "v": 4043.3}, {"d": "2025-10-09", "v": 3946.3}, {"d": "2025-10-10", "v": 3975.9}, {"d": "2025-10-13", "v": 4108.6}, {"d": "2025-10-14", "v": 4138.7}, {"d": "2025-10-15", "v": 4176.9}, {"d": "2025-10-16", "v": 4280.2}, {"d": "2025-10-17", "v": 4189.9}, {"d": "2025-10-20", "v": 4336.4}, {"d": "2025-10-21", "v": 4087.7}, {"d": "2025-10-22", "v": 4044.4}, {"d": "2025-10-23", "v": 4125.5}, {"d": "2025-10-24", "v": 4118.4}, {"d": "2025-10-27", "v": 4001.9}, {"d": "2025-10-28", "v": 3966.2}, {"d": "2025-10-29", "v": 3983.7}, {"d": "2025-10-30", "v": 4001.3}, {"d": "2025-10-31", "v": 3982.2}, {"d": "2025-11-03", "v": 4000.3}, {"d": "2025-11-04", "v": 3947.7}, {"d": "2025-11-05", "v": 3980.3}, {"d": "2025-11-06", "v": 3979.9}, {"d": "2025-11-07", "v": 3999.4}, {"d": "2025-11-10", "v": 4111.8}, {"d": "2025-11-11", "v": 4106.8}, {"d": "2025-11-12", "v": 4204.4}, {"d": "2025-11-13", "v": 4186.9}, {"d": "2025-11-14", "v": 4087.6}, {"d": "2025-11-17", "v": 4068.3}, {"d": "2025-11-18", "v": 4061.3}, {"d": "2025-11-19", "v": 4077.7}, {"d": "2025-11-20", "v": 4056.5}, {"d": "2025-11-21", "v": 4076.7}, {"d": "2025-11-24", "v": 4091.9}, {"d": "2025-11-25", "v": 4139.2}, {"d": "2025-11-26", "v": 4165.2}, {"d": "2025-11-28", "v": 4218.3}, {"d": "2025-12-01", "v": 4239.3}, {"d": "2025-12-02", "v": 4186.6}, {"d": "2025-12-03", "v": 4199.3}, {"d": "2025-12-04", "v": 4211.8}, {"d": "2025-12-05", "v": 4212.9}, {"d": "2025-12-08", "v": 4187.2}, {"d": "2025-12-09", "v": 4206.7}, {"d": "2025-12-10", "v": 4196.4}, {"d": "2025-12-11", "v": 4285.5}, {"d": "2025-12-12", "v": 4300.1}, {"d": "2025-12-15", "v": 4306.7}, {"d": "2025-12-16", "v": 4304.5}, {"d": "2025-12-17", "v": 4347.5}, {"d": "2025-12-18", "v": 4339.5}, {"d": "2025-12-19", "v": 4361.4}, {"d": "2025-12-22", "v": 4444.6}, {"d": "2025-12-23", "v": 4482.8}, {"d": "2025-12-24", "v": 4480.6}, {"d": "2025-12-26", "v": 4529.1}, {"d": "2025-12-29", "v": 4325.1}, {"d": "2025-12-30", "v": 4370.1}, {"d": "2025-12-31", "v": 4325.6}, {"d": "2026-01-02", "v": 4314.4}, {"d": "2026-01-05", "v": 4436.9}, {"d": "2026-01-06", "v": 4482.2}, {"d": "2026-01-07", "v": 4449.3}, {"d": "2026-01-08", "v": 4449.7}, {"d": "2026-01-09", "v": 4490.3}, {"d": "2026-01-12", "v": 4604.3}, {"d": "2026-01-13", "v": 4589.2}, {"d": "2026-01-14", "v": 4626.3}, {"d": "2026-01-15", "v": 4616.3}, {"d": "2026-01-16", "v": 4588.4}, {"d": "2026-01-20", "v": 4759.6}, {"d": "2026-01-21", "v": 4831.8}, {"d": "2026-01-22", "v": 4908.8}, {"d": "2026-01-23", "v": 4976.2}, {"d": "2026-01-26", "v": 5079.7}, {"d": "2026-01-27", "v": 5079.9}, {"d": "2026-01-28", "v": 5301.6}, {"d": "2026-01-29", "v": 5318.4}, {"d": "2026-01-30", "v": 4713.9}, {"d": "2026-02-02", "v": 4622.5}, {"d": "2026-02-03", "v": 4903.7}, {"d": "2026-02-04", "v": 4920.4}, {"d": "2026-02-05", "v": 4861.4}, {"d": "2026-02-06", "v": 4951.2}, {"d": "2026-02-09", "v": 5050.9}, {"d": "2026-02-10", "v": 5003.8}, {"d": "2026-02-11", "v": 5071.6}, {"d": "2026-02-12", "v": 4923.7}, {"d": "2026-02-13", "v": 5022.0}, {"d": "2026-02-17", "v": 4882.9}, {"d": "2026-02-18", "v": 4986.5}, {"d": "2026-02-19", "v": 4975.9}, {"d": "2026-02-20", "v": 5059.3}, {"d": "2026-02-23", "v": 5204.7}, {"d": "2026-02-24", "v": 5155.8}, {"d": "2026-02-25", "v": 5206.4}, {"d": "2026-02-26", "v": 5176.5}, {"d": "2026-02-27", "v": 5230.5}, {"d": "2026-03-02", "v": 5294.4}, {"d": "2026-03-03", "v": 5107.4}, {"d": "2026-03-04", "v": 5120.2}, {"d": "2026-03-05", "v": 5065.3}, {"d": "2026-03-06", "v": 5146.1}, {"d": "2026-03-09", "v": 5091.5}, {"d": "2026-03-10", "v": 5229.7}, {"d": "2026-03-11", "v": 5167.4}, {"d": "2026-03-12", "v": 5115.8}, {"d": "2026-03-13", "v": 5052.5}, {"d": "2026-03-16", "v": 4994.0}, {"d": "2026-03-17", "v": 5001.0}, {"d": "2026-03-18", "v": 4889.9}, {"d": "2026-03-19", "v": 4600.7}, {"d": "2026-03-20", "v": 4570.4}, {"d": "2026-03-23", "v": 4404.1}, {"d": "2026-03-24", "v": 4399.3}, {"d": "2026-03-25", "v": 4549.8}, {"d": "2026-03-26", "v": 4375.5}, {"d": "2026-03-27", "v": 4492.0}, {"d": "2026-03-30", "v": 4526.0}, {"d": "2026-03-31", "v": 4647.6}, {"d": "2026-04-01", "v": 4783.2}, {"d": "2026-04-02", "v": 4651.5}, {"d": "2026-04-06", "v": 4656.8}, {"d": "2026-04-07", "v": 4657.1}, {"d": "2026-04-08", "v": 4749.5}, {"d": "2026-04-09", "v": 4792.2}, {"d": "2026-04-10", "v": 4761.9}, {"d": "2026-04-13", "v": 4742.4}, {"d": "2026-04-14", "v": 4825.0}, {"d": "2026-04-15", "v": 4800.0}, {"d": "2026-04-16", "v": 4785.4}, {"d": "2026-04-17", "v": 4857.6}, {"d": "2026-04-20", "v": 4806.6}, {"d": "2026-04-21", "v": 4698.4}, {"d": "2026-04-22", "v": 4732.5}, {"d": "2026-04-23", "v": 4705.1}, {"d": "2026-04-24", "v": 4722.3}, {"d": "2026-04-27", "v": 4675.4}, {"d": "2026-04-28", "v": 4591.5}, {"d": "2026-04-29", "v": 4545.2}, {"d": "2026-04-30", "v": 4614.7}, {"d": "2026-05-01", "v": 4629.9}, {"d": "2026-05-04", "v": 4519.5}, {"d": "2026-05-05", "v": 4555.8}, {"d": "2026-05-06", "v": 4681.9}, {"d": "2026-05-07", "v": 4699.8}, {"d": "2026-05-08", "v": 4720.4}, {"d": "2026-05-11", "v": 4718.7}, {"d": "2026-05-12", "v": 4677.6}, {"d": "2026-05-13", "v": 4697.7}, {"d": "2026-05-14", "v": 4678.1}, {"d": "2026-05-15", "v": 4555.8}, {"d": "2026-05-18", "v": 4552.5}, {"d": "2026-05-19", "v": 4506.3}, {"d": "2026-05-20", "v": 4531.3}, {"d": "2026-05-21", "v": 4539.8}, {"d": "2026-05-22", "v": 4521.0}, {"d": "2026-05-26", "v": 4500.4}, {"d": "2026-05-27", "v": 4447.5}, {"d": "2026-05-28", "v": 4499.3}, {"d": "2026-05-29", "v": 4560.5}, {"d": "2026-06-01", "v": 4475.2}, {"d": "2026-06-02", "v": 4489.1}, {"d": "2026-06-03", "v": 4436.7}, {"d": "2026-06-04", "v": 4475.8}, {"d": "2026-06-05", "v": 4337.1}, {"d": "2026-06-08", "v": 4335.9}, {"d": "2026-06-09", "v": 4260.0}, {"d": "2026-06-10", "v": 4108.2}, {"d": "2026-06-11", "v": 4090.3}, {"d": "2026-06-12", "v": 4215.0}, {"d": "2026-06-15", "v": 4328.0}, {"d": "2026-06-16", "v": 4330.9}, {"d": "2026-06-17", "v": 4358.9}, {"d": "2026-06-18", "v": 4324.7}], "gold_source": "daily", "regression_vars": [{"date": "2026-04-14", "gold": 4825.0, "DI": 0.4766, "BB": 0.5556, "SC": 0.3982, "IC": 0.535, "CAI": 0.5341, "dxy": 98.12, "ust10": 0.4256, "zDI": null, "zBB": null, "zSC": null, "zIC": null, "zdDXY": null, "zdUST10": null, "int_DI_DXY": null, "int_BB_UST10": null, "S": null}, {"date": "2026-04-20", "gold": 4806.6, "DI": 0.5043, "BB": 0.7143, "SC": 0.4552, "IC": 0.3462, "CAI": 0.5517, "dxy": 98.05, "ust10": 0.425, "zDI": null, "zBB": null, "zSC": null, "zIC": null, "zdDXY": null, "zdUST10": null, "int_DI_DXY": null, "int_BB_UST10": null, "S": null}, {"date": "2026-04-24", "gold": 4722.3, "DI": 0.527, "BB": 0.75, "SC": 0.5424, "IC": 1.0, "CAI": 0.651, "dxy": 98.51, "ust10": 0.431, "zDI": 1.1819, "zBB": 0.9078, "zSC": 1.3009, "zIC": 1.3574, "zdDXY": null, "zdUST10": null, "int_DI_DXY": null, "int_BB_UST10": null, "S": null}, {"date": "2026-05-04", "gold": 4519.5, "DI": 0.1377, "BB": 0.5, "SC": 1.0, "IC": 1.0, "CAI": 0.3482, "dxy": 98.47, "ust10": 0.4446, "zDI": -1.7211, "zBB": -1.2399, "zSC": 1.6909, "zIC": 0.9727, "zdDXY": -0.6445, "zdUST10": 1.2525, "int_DI_DXY": -1.1093, "int_BB_UST10": 1.5529, "S": -0.5709}, {"date": "2026-05-08", "gold": 4720.4, "DI": 0.158, "BB": 0.8333, "SC": 0.3549, "IC": 0.5756, "CAI": 0.5207, "dxy": 97.84, "ust10": 0.4364, "zDI": -1.1605, "zBB": 1.3108, "zSC": -0.8359, "zIC": -0.4391, "zdDXY": -1.4515, "zdUST10": -1.3535, "int_DI_DXY": -1.6844, "int_BB_UST10": 1.7742, "S": 0.3193}, {"date": "2026-05-22", "gold": 4521.0, "DI": 0.2484, "BB": 0.5, "SC": 0.5139, "IC": 0.446, "CAI": 0.4011, "dxy": 99.32, "ust10": 0.4558, "zDI": -0.5679, "zBB": -1.0944, "zSC": -0.1414, "zIC": -0.7943, "zdDXY": 1.7476, "zdUST10": 1.36, "int_DI_DXY": 0.9925, "int_BB_UST10": 1.4883, "S": -0.7579}, {"date": "2026-06-05", "gold": 4337.1, "DI": 0.5901, "BB": 0.5714, "SC": 0.6091, "IC": 0.9257, "CAI": 0.595, "dxy": 100.07, "ust10": 0.4536, "zDI": 1.2112, "zBB": -0.4939, "zSC": 0.2798, "zIC": 0.9177, "zdDXY": 0.6296, "zdUST10": -0.7244, "int_DI_DXY": -0.7626, "int_BB_UST10": -0.3578, "S": 0.2597}, {"date": "2026-06-09", "gold": 4260.0, "DI": 0.5957, "BB": 0.5, "SC": 0.3766, "IC": 0.3343, "CAI": 0.5333, "dxy": 99.91, "ust10": 0.4528, "zDI": 1.0645, "zBB": -0.9403, "zSC": -0.7926, "zIC": -1.1621, "zdDXY": -0.6419, "zdUST10": -0.5217, "int_DI_DXY": 0.6833, "int_BB_UST10": -0.4906, "S": 0.2088}, {"date": "2026-06-10", "gold": 4108.2, "DI": 0.5973, "BB": 0.5714, "SC": 0.4094, "IC": 0.7303, "CAI": 0.6082, "dxy": 99.95, "ust10": 0.4542, "zDI": 0.9361, "zBB": -0.378, "zSC": -0.6349, "zIC": 0.2282, "zdDXY": -0.3095, "zdUST10": -0.2576, "int_DI_DXY": 0.2897, "int_BB_UST10": -0.0974, "S": 0.3531}, {"date": "2026-06-11", "gold": 4090.3, "DI": 0.6242, "BB": 0.8, "SC": 0.3227, "IC": 0.4287, "CAI": 0.6582, "dxy": 99.86, "ust10": 0.4463, "zDI": 0.9466, "zBB": 1.2881, "zSC": -0.9414, "zIC": -0.9897, "zdDXY": -0.5174, "zdUST10": -1.1476, "int_DI_DXY": 0.4897, "int_BB_UST10": 1.4783, "S": 0.6221}, {"date": "2026-06-16", "gold": 4330.9, "DI": 0.6394, "BB": 0.5, "SC": 0.6138, "IC": 0.6804, "CAI": 0.5531, "dxy": 99.54, "ust10": 0.4487, "zDI": 0.908, "zBB": -0.7441, "zSC": 0.4269, "zIC": 0.18, "zdDXY": -0.7144, "zdUST10": 0.0206, "int_DI_DXY": 0.6487, "int_BB_UST10": 0.0153, "S": 0.2704}, {"date": "2026-06-17", "gold": 4358.9, "DI": 0.6466, "BB": 0.9, "SC": 0.421, "IC": 0.5709, "CAI": 0.6977, "dxy": 100.09, "ust10": 0.4487, "zDI": 0.741, "zBB": 1.6065, "zSC": -0.3, "zIC": -0.0879, "zdDXY": 0.5442, "zdUST10": -0.0637, "int_DI_DXY": -0.4033, "int_BB_UST10": 0.1024, "S": 0.2566}]};</script>
+<script>
+const REPO_UPLOAD_URL="https://github.com/USER/REPO/upload/main/sample_data/reports";
+const GLOSSARY=[
+  ["Issued / Stopped","Issued = a firm delivers physical gold out; Stopped = a firm stands for and takes it in. Stopping is the demand side."],
+  ["DI · Delivery Intensity","How much metal is being claimed this contract month vs normal. High = strong appetite to take delivery."],
+  ["BB · Buyer Breadth","How many firms are taking delivery. Broad participation is healthier than a lone buyer."],
+  ["SC · Stopper Concentration","How concentrated the buying is — high means one firm is cornering the metal."],
+  ["IC · Issuer Concentration","How concentrated the delivering-out is — high means a few firms push most supply."],
+  ["CAI · Commodity Active Index","0–1 blend of DI, BB, SC, IC. Higher looks like accumulation, lower like distribution."],
+  ["DXY","US dollar index. Stronger dollar = headwind for gold; weaker = tailwind."],
+  ["10Y / ΔUST10","10-year Treasury yield and its change — the opportunity cost of holding non-yielding gold."],
+  ["Regime score S","CAI plus the DXY and 10Y macro terms in one number: positive leans accumulation."],
+];
+const SAMPLE={generated_at:"sample",as_of_date:"2026-06-11",chart_mode:"interactive",history_points:10,
+  gold:{price:4090.3,change_pct:-15.2},cai:{scaled:0.66,band:"ACCUMULATION"},
+  components:{DI:0.62,BB:0.80,SC:0.32,IC:0.43},
+  thesis:{core:"Heavy, broad delivery-taking is occurring even as price falls — buyers are standing for metal at lower prices. Value accumulation or a falling knife; constructive only once price stabilises.",stance:"mixed",conviction:"MODERATE — delivery signal; macro mixed",delivery:"",breadth:"",concentration:""},
+  latest_report:{date:"2026-06-11",total:3561,firms:[{firm:"BOFA SECURITIES",issued:2131,stopped:1},{firm:"BNP PARIBAS",issued:0,stopped:1778},{firm:"BARCLAYS",issued:827,stopped:20},{firm:"JP MORGAN",issued:0,stopped:737},{firm:"DEUTSCHE BANK AG",issued:0,stopped:503},{firm:"WELLS FARGO",issued:308,stopped:0}]},
+  series:[{date:"2026-04-14",gold:4825,cai:0.53,mtd:18210},{date:"2026-05-22",gold:4521,cai:0.40,mtd:6609},{date:"2026-06-05",gold:4337,cai:0.60,mtd:28791},{date:"2026-06-11",gold:4090,cai:0.66,mtd:33224}],
+  gold_history:[["2025-01",2650],["2025-05",3050],["2025-09",3450],["2026-01",3800],["2026-04",4250],["2026-06",4090]].map(p=>({d:p[0]+"-01",v:p[1]})),
+  regression_vars:[{date:"2026-06-05",dxy:102.2,ust10:3.90,DI:0.59,SC:0.61},{date:"2026-06-11",dxy:102.3,ust10:3.91,DI:0.62,SC:0.32}],
+  forecast:[
+    {weeks:2,date:"2026-06-25",point:4040,lo:3950,hi:4130,from_price:4090,from_date:"2026-06-11"},
+    {weeks:4,date:"2026-07-09",point:4010,lo:3880,hi:4140,from_price:4090,from_date:"2026-06-11"},
+    {weeks:6,date:"2026-07-23",point:3990,lo:3820,hi:4160,from_price:4090,from_date:"2026-06-11"}]};
+
+const BAND={"STRONG ACCUMULATION":"#1e7a52","ACCUMULATION":"#1e7a52","NEUTRAL":"#9a7a1e","MIXED / TRANSITIONAL":"#9a7a1e","DISTRIBUTION":"#b5482f","STRONG DISTRIBUTION":"#b5482f"};
+const C={gold:"#b8860b",goldDk:"#7a5e12",cai:"rgba(154,122,30,.30)",jade:"#1e7a52",verm:"#b5482f",ink:"#6f6557",grid:"rgba(27,23,18,.07)"};
+const f0=n=>n==null?"—":Number(n).toLocaleString(undefined,{maximumFractionDigits:0});
+const f1=n=>n==null?"—":Number(n).toFixed(1);
+const pc=n=>n==null?"—":(n>=0?"+":"−")+Math.abs(n).toFixed(1)+"%";
+
+function headlineFor(d){
+  // Overall verdict — picked from a matrix of scenarios:
+  // band (strong/normal accumulation · neutral · distribution/strong) x price direction.
+  const band=(d.cai?.band||"NEUTRAL").toUpperCase();
+  const g=d.gold?.change_pct;
+  const falling=g!=null&&g<-1, rising=g!=null&&g>1;
+  const M={
+    "STRONG ACCUMULATION":{base:"Aggressive accumulation — physical demand is dominant.",
+      falling:"Aggressive accumulation into falling prices.",
+      rising:"Strong accumulation as price climbs — demand confirms the move."},
+    "ACCUMULATION":{base:"Gold is being accumulated.",
+      falling:"Demand into weakness — buyers are stepping in as price slips.",
+      rising:"Steady accumulation, with price firm."},
+    "NEUTRAL":{base:"A balanced tape — no clear delivery edge.",
+      falling:"Soft, with no delivery support stepping in yet.",
+      rising:"Drifting higher without strong delivery conviction."},
+    "MIXED / TRANSITIONAL":{base:"Mixed signals — the regime is in transition.",
+      falling:"Transitional and soft — watch for a delivery floor.",
+      rising:"Transitional — price firmer than the delivery signal."},
+    "DISTRIBUTION":{base:"Gold is being distributed.",
+      falling:"Distribution into weakness — supply is pressing a soft market.",
+      rising:"Distribution into strength — supply is meeting the rally."},
+    "STRONG DISTRIBUTION":{base:"Heavy distribution — supply is overwhelming demand.",
+      falling:"Heavy distribution into a falling market.",
+      rising:"Heavy supply is capping the rally."}
+  };
+  const row=M[band]||M["NEUTRAL"];
+  if(falling&&row.falling) return row.falling;
+  if(rising&&row.rising) return row.rising;
+  return row.base;
+}
+function reportSpan(d){const s=d.series||[];return s.length?{a:s[0],b:s[s.length-1]}:null;}
+
+function chartTheme(){if(window.Chart){Chart.defaults.color=C.ink;Chart.defaults.font.family="IBM Plex Mono, monospace";Chart.defaults.font.size=10;}}
+function grid(x={}){return Object.assign({grid:{color:C.grid},ticks:{color:C.ink}},x);}
+
+function buildCharts(d){
+  chartTheme();
+  const series=d.series||[],gh=(d.gold_history||[]).map(p=>({x:p.d,y:p.v}));
+  const line=gh.length?gh:series.map(s=>({x:s.date,y:s.gold}));
+
+  // Projection from the regression equation: anchor at its from_date/price, then horizons
+  const fc=(d.forecast||[]).slice().sort((a,b)=>a.weeks-b.weeks);
+  const ds=[
+    {type:"line",label:"Gold $/oz",data:line,yAxisID:"y",borderColor:C.gold,borderWidth:1.6,pointRadius:0,tension:.25},
+    {type:"bar",label:"CAI",data:series.map(s=>({x:s.date,y:s.cai})),yAxisID:"y1",backgroundColor:C.cai,barThickness:9}
+  ];
+  let projAnchor=null;
+  if(fc.length){
+    projAnchor=fc[0].from_date;
+    const anchor={x:fc[0].from_date,y:fc[0].from_price};
+    const proj=[anchor].concat(fc.map(f=>({x:f.date,y:f.point})));
+    const hi=[anchor].concat(fc.map(f=>({x:f.date,y:f.hi})));
+    const lo=[anchor].concat(fc.map(f=>({x:f.date,y:f.lo})));
+    ds.push(
+      {type:"line",label:"proj-hi",data:hi,yAxisID:"y",borderColor:"rgba(154,122,30,.45)",borderWidth:1,borderDash:[2,3],pointRadius:0,fill:"+1",backgroundColor:"rgba(154,122,30,.15)"},
+      {type:"line",label:"proj-lo",data:lo,yAxisID:"y",borderColor:"rgba(154,122,30,.45)",borderWidth:1,borderDash:[2,3],pointRadius:0,fill:false},
+      {type:"line",label:"Projection (P̂)",data:proj,yAxisID:"y",borderColor:C.goldDk,borderWidth:2.4,borderDash:[6,4],pointRadius:3.5,pointBackgroundColor:C.goldDk,pointBorderColor:"#fff",pointBorderWidth:1}
+    );
+  }
+  const projDivider={id:"projDivider",afterDraw(ch){
+    if(!projAnchor)return; const sx=ch.scales.x; if(!sx)return;
+    const x=sx.getPixelForValue(new Date(projAnchor).getTime());
+    const ca=ch.chartArea,c=ch.ctx; c.save();
+    c.strokeStyle="rgba(27,23,18,.28)";c.setLineDash([3,4]);c.lineWidth=1;
+    c.beginPath();c.moveTo(x,ca.top);c.lineTo(x,ca.bottom);c.stroke();
+    c.setLineDash([]);c.fillStyle="#9a7a1e";c.font="600 10px 'IBM Plex Mono',monospace";
+    c.fillText("projection →",x+5,ca.top+12);c.restore();
+  }};
+  new Chart(chartPrice,{data:{datasets:ds},plugins:[projDivider],options:{maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
+    scales:{x:{type:"time",time:{unit:"month"},...grid()},y:grid({position:"left"}),y1:{position:"right",min:0,max:1,grid:{drawOnChartArea:false},ticks:{color:"#9a7a1e"}}},
+    plugins:{legend:{labels:{color:C.ink,filter:i=>!/^proj-(hi|lo)$/.test(i.text)}}}}});
+
+  const fr=(d.latest_report&&d.latest_report.firms)||[];
+  new Chart(chartFirms,{type:"bar",data:{labels:fr.map(x=>x.firm),datasets:[
+    {label:"issued (out)",data:fr.map(x=>x.issued),backgroundColor:C.verm},
+    {label:"stopped (in)",data:fr.map(x=>x.stopped),backgroundColor:C.jade}]},
+    options:{indexAxis:"y",maintainAspectRatio:false,scales:{x:grid(),y:grid({ticks:{font:{size:9}}})},plugins:{legend:{labels:{color:C.ink}}}}});
+
+  const sd=series.map(s=>s.date).filter(Boolean).sort(),last=sd[sd.length-1];
+  const qs=last?new Date(new Date(last).getTime()-95*864e5).toISOString().slice(0,10):undefined;
+  const qe=last?new Date(new Date(last).getTime()+5*864e5).toISOString().slice(0,10):undefined;
+  new Chart(chartDeliv,{data:{datasets:[
+    {type:"bar",label:"MTD contracts",data:series.map(s=>({x:s.date,y:s.mtd})),yAxisID:"yL",backgroundColor:"rgba(154,122,30,.45)",maxBarThickness:22},
+    {type:"line",label:"Gold $/oz",data:line,yAxisID:"yR",borderColor:C.gold,borderWidth:1.3,pointRadius:0,tension:.25,spanGaps:true},
+    {type:"line",label:"DI",data:(d.regression_vars||series).map(r=>({x:r.date,y:r.DI})).filter(p=>p.y!=null),yAxisID:"y01",borderColor:C.jade,borderWidth:1.2,pointRadius:2},
+    {type:"line",label:"SC",data:(d.regression_vars||series).map(r=>({x:r.date,y:r.SC})).filter(p=>p.y!=null),yAxisID:"y01",borderColor:C.verm,borderWidth:1.2,pointRadius:2}
+  ]},options:{maintainAspectRatio:false,scales:{x:{type:"time",min:qs,max:qe,time:{unit:"week"},...grid()},
+    yL:grid({position:"left",beginAtZero:true}),yR:{position:"right",grid:{drawOnChartArea:false},ticks:{color:"#9a7a1e"}},y01:{display:false,min:0,max:1}},
+    plugins:{legend:{labels:{color:C.ink}}}}});
+}
+
+function regTable(rows){
+  const el=document.getElementById("regTable");
+  if(!rows||!rows.length){el.innerHTML="";return;}
+  const order=["date","gold","DI","BB","SC","IC","CAI","dxy","ust10","zDI","zBB","zSC","zIC","zdDXY","zdUST10","int_DI_DXY","int_BB_UST10","S"];
+  const head={date:"date",gold:"P",dxy:"DXY",ust10:"10Y",zdDXY:"zΔDXY",zdUST10:"zΔ10Y",int_DI_DXY:"DI×DXY",int_BB_UST10:"BB×UST"};
+  const cols=order.filter(c=>c in rows[0]),z=new Set(["zDI","zBB","zSC","zIC","zdDXY","zdUST10","int_DI_DXY","int_BB_UST10","S"]);
+  let h="<thead><tr>"+cols.map(c=>`<th>${head[c]||c}</th>`).join("")+"</tr></thead><tbody>";
+  for(const r of rows){h+="<tr>"+cols.map(c=>{let v=r[c];
+    if(v==null)return `<td class="faint">·</td>`; if(c==="date")return `<td>${v}</td>`; if(c==="gold")return `<td>${f0(v)}</td>`;
+    let cl=z.has(c)?(v>=0?"pos":"neg"):"",t=z.has(c)?(v>=0?"+":"")+v.toFixed(2):v.toFixed(2);return `<td class="${cl}">${t}</td>`;}).join("")+"</tr>";}
+  el.innerHTML=h+"</tbody>";
+}
+
+function render(d){
+  document.getElementById("asOf").textContent="as of "+(d.as_of_date||"—")+" · "+(d.generated_at||"");
+  document.getElementById("headline").textContent=headlineFor(d);
+  document.getElementById("coreRead").textContent=d.thesis?.core||"—";
+  document.getElementById("caiValue").textContent=(d.cai?.scaled??0).toFixed(2);
+  const band=d.cai?.band||"—",bc=BAND[band]||"#9a7a1e",bp=document.getElementById("bandPill");
+  bp.textContent=band;bp.style.color=bc;bp.style.borderColor=bc;
+  document.getElementById("dot").style.background=bc;
+  document.getElementById("goldPrice").textContent="$"+f0(d.gold?.price);
+  const gc=document.getElementById("goldChange");gc.textContent=pc(d.gold?.change_pct);gc.style.color=(d.gold?.change_pct??0)>=0?C.jade:C.verm;
+  document.getElementById("conviction").textContent=d.thesis?.conviction||"";
+
+  const fcast=(d.forecast||[]).slice().sort((a,b)=>a.weeks-b.weeks);
+  if(fcast.length){
+    const f=fcast[fcast.length-1];
+    document.getElementById("projWk").textContent="· "+f.weeks+"wk";
+    document.getElementById("projPoint").textContent="$"+f0(f.point);
+    document.getElementById("projBand").textContent="Hi $"+f0(f.hi)+" · Lo $"+f0(f.lo);
+  }else{
+    document.getElementById("projWk").textContent="";
+    document.getElementById("projPoint").textContent="n/a";
+    document.getElementById("projBand").textContent="needs more history";
+  }
+
+  const cm=[["DI","Delivery intensity"],["BB","Buyer breadth"],["SC","Stopper concentration"],["IC","Issuer concentration"]];
+  const TIPS={
+    DI:"Delivery Intensity — how much physical gold is being claimed this contract month vs a normal month. High = strong appetite to take delivery.",
+    BB:"Buyer Breadth — how many different firms are taking delivery. Broad participation is healthier demand than one lone buyer.",
+    SC:"Stopper Concentration — how concentrated the buying is. High means one firm is cornering most of the metal taken in.",
+    IC:"Issuer Concentration — how concentrated the delivering-out is. High means a few firms push most of the supply."};
+  document.getElementById("components").innerHTML=cm.map(([k,l])=>{const v=d.components?.[k]??0,w=Math.round(v*100),col=k==="SC"?C.verm:C.jade;
+    return `<div class="card has-tip" data-tip="${TIPS[k]}" style="padding:12px 14px;"><div class="eyebrow" style="color:var(--faint);">${k} · ${l}</div>
+      <div class="num ink" style="font-size:1.3rem;font-weight:600;margin-top:2px;">${v.toFixed(2)}</div>
+      <div style="height:4px;background:var(--paper2);border-radius:3px;margin-top:8px;"><div style="height:4px;border-radius:3px;width:${w}%;background:${col};"></div></div></div>`;}).join("");
+
+  // Lens 2/3 stats from regression_vars (levels) + change across the window
+  const rv=d.regression_vars||[];
+  const dxyA=rv.find(r=>r.dxy!=null),dxyB=[...rv].reverse().find(r=>r.dxy!=null);
+  const tnxA=rv.find(r=>r.ust10!=null),tnxB=[...rv].reverse().find(r=>r.ust10!=null);
+  document.getElementById("dxyVal").textContent=dxyB?f1(dxyB.dxy):"n/a";
+  document.getElementById("tnxVal").textContent=tnxB?(tnxB.ust10.toFixed(2)+"%"):"n/a";
+  if(dxyA&&dxyB){const ch=dxyB.dxy-dxyA.dxy;const e=document.getElementById("dxyChg");e.textContent=(ch>=0?"+":"")+ch.toFixed(1);e.style.color=ch<=0?C.jade:C.verm;
+    document.getElementById("dxyNote").textContent=ch<=0?"Dollar softer over the window — a tailwind for gold.":"Dollar firmer over the window — a headwind for gold.";}
+  else{document.getElementById("dxyChg").textContent="—";document.getElementById("dxyNote").textContent="Live DXY needs the FRED feed at run time.";}
+  if(tnxA&&tnxB){const ch=tnxB.ust10-tnxA.ust10;const e=document.getElementById("tnxChg");e.textContent=(ch>=0?"+":"")+ch.toFixed(2)+"pp";e.style.color=ch<=0?C.jade:C.verm;
+    document.getElementById("tnxNote").textContent=ch<=0?"Yields eased — lower opportunity cost, supportive for gold.":"Yields rose — higher opportunity cost, a drag on gold.";}
+  else{document.getElementById("tnxChg").textContent="—";document.getElementById("tnxNote").textContent="Live 10Y needs the FRED feed at run time.";}
+
+  document.getElementById("glossary").innerHTML=GLOSSARY.map(([t,x])=>`<div style="margin-bottom:12px;"><dt class="ink" style="font-weight:600;">${t}</dt><dd class="muted" style="margin:2px 0 0;">${x}</dd></div>`).join("");
+  regTable(d.regression_vars);
+  if(d.chart_mode==="interactive"&&window.Chart){try{buildCharts(d);}catch(e){console.error(e);}}
+}
+
+(function(){
+  if(window.__VAULT_DATA__){render(window.__VAULT_DATA__);return;}
+  fetch("latest.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json();})
+    .then(render).catch(()=>{
+      render(SAMPLE);
+      document.getElementById("asOf").textContent="sample data";
+      document.getElementById("sampleBanner").style.display="block";
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#15120d" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>VAULT · COMEX Gold Delivery Intelligence</title>
+
+<!-- Tailwind compiled to a static stylesheet (no CDN, no production warning) -->
+<style>
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:IBM Plex Sans,system-ui;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:IBM Plex Mono,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.visible{visibility:visible}.static{position:static}.mx-auto{margin-left:auto;margin-right:auto}.-mt-0\.5{margin-top:-.125rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.table{display:table}.grid{display:grid}.hidden{display:none}.h-1{height:.25rem}.h-2\.5{height:.625rem}.w-2\.5{width:.625rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-end{justify-content:flex-end}.justify-between{justify-content:space-between}.gap-0\.5{gap:.125rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.overflow-x-auto{overflow-x:auto}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.bg-\[\#211c14\]{--tw-bg-opacity:1;background-color:rgb(33 28 20/var(--tw-bg-opacity,1))}.bg-jade{--tw-bg-opacity:1;background-color:rgb(95 185 142/var(--tw-bg-opacity,1))}.bg-panel{--tw-bg-opacity:1;background-color:rgb(30 26 19/var(--tw-bg-opacity,1))}.bg-panel\/60{background-color:rgba(30,26,19,.6)}.p-1{padding:.25rem}.p-2\.5{padding:.625rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.pb-1{padding-bottom:.25rem}.pb-24{padding-bottom:6rem}.pb-3{padding-bottom:.75rem}.pt-4{padding-top:1rem}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-6xl{font-size:3.75rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[15px\]{font-size:15px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.text-brass{--tw-text-opacity:1;color:rgb(212 176 106/var(--tw-text-opacity,1))}.text-faint{--tw-text-opacity:1;color:rgb(111 101 83/var(--tw-text-opacity,1))}.text-hi{--tw-text-opacity:1;color:rgb(243 236 221/var(--tw-text-opacity,1))}.text-hi\/90{color:hsla(41,48%,91%,.9)}.text-jade{--tw-text-opacity:1;color:rgb(95 185 142/var(--tw-text-opacity,1))}.text-mid{--tw-text-opacity:1;color:rgb(168 156 132/var(--tw-text-opacity,1))}.text-verm{--tw-text-opacity:1;color:rgb(210 105 75/var(--tw-text-opacity,1))}.grayscale{--tw-grayscale:grayscale(100%)}.filter,.grayscale{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.hover\:bg-panel2:hover{--tw-bg-opacity:1;background-color:rgb(36 31 23/var(--tw-bg-opacity,1))}@media (min-width:640px){.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Interactive charts -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+<style>
+  :root{ --ink:#15120d; --panel:#1e1a13; --line:#322b20; --hi:#f3ecdd; --mid:#a89c84;
+         --jade:#5fb98e; --verm:#d2694b; --brass:#d4b06a; }
+  html,body{background:var(--ink); color:var(--hi);}
+  body{font-family:"IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100dvh;
+    background-image:radial-gradient(1200px 500px at 80% -10%,rgba(212,176,106,.06),transparent 60%),
+      radial-gradient(900px 400px at -10% 10%,rgba(127,166,201,.04),transparent 55%);}
+  .num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;}
+  .display{font-family:"Space Grotesk",sans-serif;}
+  .hair{border-color:var(--line);}
+  .eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.66rem;color:var(--mid);}
+  .foil{background:linear-gradient(100deg,#f6e3a8,#e9c46a 28%,#b8860b 52%,#8c6a1f 70%,#e9c46a);
+    background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 9s ease-in-out infinite;}
+  @keyframes sheen{0%,100%{background-position:0 0}50%{background-position:140% 0}}
+  @media (prefers-reduced-motion:reduce){.foil{animation:none}}
+  .card{background:linear-gradient(180deg,var(--panel),#1a160f);border:1px solid var(--line);
+    box-shadow:inset 0 1px 0 rgba(243,236,221,.03), 0 10px 28px -20px rgba(0,0,0,.75);}
+  .eyebrow::before{content:"";display:inline-block;width:14px;height:2px;background:var(--brass);
+    margin-right:8px;vertical-align:middle;opacity:.85;}
+  .eqn{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;line-height:1.6;color:var(--mid);
+    background:#19150e;border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:10px;padding:10px 12px;overflow-x:auto;white-space:nowrap;}
+  header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;
+    background:linear-gradient(90deg,var(--brass),transparent 60%);opacity:.5;}
+  .chip{background:#191510;}
+  header{position:relative;}
+  .chip{border:1px solid var(--line);color:var(--mid);}
+  .chartbox{position:relative;height:300px;width:100%;}
+  .chartbox.sm{height:240px;}
+  table.reg{border-collapse:collapse;width:100%;font-family:"IBM Plex Mono",monospace;font-size:11px;}
+  table.reg th,table.reg td{padding:5px 8px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line);}
+  table.reg th{position:sticky;top:0;background:#1a160f;color:var(--mid);font-weight:600;text-align:right;}
+  table.reg td:first-child,table.reg th:first-child{text-align:left;position:sticky;left:0;background:#1a160f;}
+  .pos{color:var(--jade);} .neg{color:var(--verm);}
+  a.focusable:focus-visible,button:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+  ::selection{background:rgba(212,176,106,.28);}
+  summary{cursor:pointer;list-style:none;} summary::-webkit-details-marker{display:none;}
+</style>
+</head>
+
+<body>
+<div class="mx-auto w-full max-w-3xl px-4 pb-24 pt-4">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between gap-3 border-b hair pb-3">
+    <div class="flex items-center gap-2.5">
+      <span class="inline-block h-2.5 w-2.5 rounded-full bg-jade" id="statusDot"></span>
+      <div class="leading-tight">
+        <div class="display text-lg font-bold tracking-tight">VAULT</div>
+        <div class="eyebrow -mt-0.5">COMEX gold delivery intelligence</div>
+      </div>
+    </div>
+    <div class="text-right">
+      <div class="num text-[11px] text-mid" id="lastRun">last run —</div>
+      <div class="mt-1 flex justify-end gap-1.5">
+        <span class="chip rounded px-1.5 py-0.5 text-[10px] num">CME</span>
+        <span class="chip rounded px-1.5 py-0.5 text-[10px] num">FRED 10Y</span>
+        <span class="chip rounded px-1.5 py-0.5 text-[10px] num">DXY</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Model explainer -->
+  <section class="card mt-4 rounded-2xl p-4">
+    <div class="eyebrow">How this model reads gold</div>
+    <p class="mt-1.5 text-sm leading-relaxed text-hi/90">
+      This model classifies the gold trend and drives its price forecast from the
+      <strong>COMEX delivery structure</strong> — who delivers physical metal out (issuers) versus who
+      stands for and takes it in (stoppers) — combined with the <strong>10-Year US Treasury yield</strong>
+      and the <strong>US Dollar Index (DXY)</strong> as macro context. Delivery flow shows how much physical
+      is being claimed and how broadly; rates and the dollar set the headwind or tailwind. Together they
+      place the tape on an <span class="text-jade">accumulation</span> ↔ <span class="text-verm">distribution</span> scale.
+    </p>
+  </section>
+
+  <!-- Hero -->
+  <section class="card mt-3 rounded-2xl p-5">
+    <div class="flex items-start justify-between">
+      <div>
+        <div class="eyebrow">COMEX Accumulation Index</div>
+        <div class="mt-1 flex items-end gap-3">
+          <div class="display foil text-6xl font-bold leading-none num" id="caiValue">—</div>
+          <div class="pb-1">
+            <span id="bandPill" class="rounded-md px-2 py-1 text-xs font-semibold">—</span>
+            <div class="num mt-1 text-[11px] text-mid">of 1.00 · <span id="historyPoints">—</span> reports</div>
+          </div>
+        </div>
+      </div>
+      <div class="text-right">
+        <div class="eyebrow">Gold settlement</div>
+        <div class="num mt-1 text-2xl font-semibold" id="goldPrice">—</div>
+        <div class="num text-sm" id="goldChange">—</div>
+      </div>
+    </div>
+    <p class="mt-4 text-[15px] leading-relaxed text-hi/90" id="coreRead">—</p>
+    <div class="mt-3 flex flex-wrap items-center gap-2">
+      <span id="stancePill" class="chip rounded-full px-2.5 py-1 text-[11px] uppercase tracking-wide">—</span>
+      <span class="num text-[11px] text-mid" id="conviction">—</span>
+    </div>
+  </section>
+
+  <!-- Components -->
+  <section class="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4" id="components"></section>
+
+  <!-- Charts -->
+  <section class="card mt-3 rounded-2xl p-4">
+    <div class="flex items-center justify-between">
+      <span class="eyebrow">Gold price &amp; CAI</span>
+      <span class="num text-[11px] text-mid" id="chartStamp">—</span>
+    </div>
+    <div class="mt-2 chartbox"><canvas id="chartPrice"></canvas></div>
+    <img id="dashImg" class="mt-2 hidden w-full rounded" alt="dashboard" />
+  </section>
+
+  <div class="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+    <section class="card rounded-2xl p-4">
+      <span class="eyebrow">Latest report · issuers vs stoppers</span>
+      <div class="mt-2 chartbox sm"><canvas id="chartFirms"></canvas></div>
+    </section>
+    <section class="card rounded-2xl p-4">
+      <span class="eyebrow">Gold, deliveries &amp; concentration</span>
+      <div class="mt-2 chartbox sm"><canvas id="chartDeliv"></canvas></div>
+    </section>
+  </div>
+
+  <!-- Verdicts -->
+  <section class="card mt-3 rounded-2xl p-1"><div id="verdicts"></div></section>
+
+  <!-- Regression variables table -->
+  <section class="card mt-3 rounded-2xl p-4">
+    <div class="flex items-baseline justify-between">
+      <span class="eyebrow">Regression variables · every data point</span>
+      <span class="num text-[10px] text-faint">scroll →</span>
+    </div>
+    <div class="mt-2 overflow-x-auto"><table class="reg" id="regTable"></table></div>
+    <p class="mt-2 eqn" id="regFormula">P̂(t+h)=α+β₀P+β₁zDI+β₂zBB−β₃zSC+β₄zIC−β₅zΔDXY−β₆zΔ10Y+β₇·(DI×−ΔDXY)+β₈·(BB×−ΔUST10)</p>
+  </section>
+
+  <!-- Glossary -->
+  <section class="card mt-3 rounded-2xl p-4">
+    <details open>
+      <summary class="eyebrow flex items-center justify-between">What the variables mean <span class="text-mid">▾</span></summary>
+      <dl class="mt-3 space-y-3 text-sm leading-relaxed" id="glossary"></dl>
+    </details>
+  </section>
+
+  <!-- Action -->
+  <a id="uploadLink" href="#" class="focusable mt-4 flex items-center justify-between rounded-xl border hair bg-panel px-4 py-3 transition hover:bg-panel2">
+    <span class="text-sm font-medium">Add today’s delivery report</span>
+    <span class="num text-[11px] text-mid">commit PDF → rebuilds ▸</span>
+  </a>
+
+  <!-- Disclaimer -->
+  <footer class="mt-6 rounded-xl border hair bg-panel/60 p-4">
+    <div class="eyebrow text-brass">Disclaimer</div>
+    <p class="mt-2 text-[12px] leading-relaxed text-mid">This site STRICTLY provides informational data only. Data from CME Group, 10Y-UST, YFinance for Information only — not financial advice. Nothing on this site constitutes financial advice, investment recommendations, or buy/sell signals or should be used to derive any trading decisions. Always consult a qualified financial advisor before making investment decisions.</p>
+  </footer>
+</div>
+
+<script id="vaultData">window.__VAULT_DATA__ = {"generated_at": "2026-06-18 06:41", "as_of_date": "2026-06-17", "window": "2026-04-14 \u2013 2026-06-17", "sources": {"macro": "FRED", "delivery": "CME Issues & Stops"}, "chart_mode": "interactive", "gold": {"price": 4358.9, "change_pct": -9.660103626943013}, "cai": {"scaled": 0.6977352423470566, "band": "ACCUMULATION"}, "components": {"DI": 0.6465806679625375, "BB": 0.9, "SC": 0.42097863379462436, "IC": 0.5708515687939557}, "thesis": {"core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -9.7% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.", "stance": "mixed", "conviction": "LOW\u2013MODERATE", "delivery": "ELEVATED \u2014 1,134 contracts delivered, above baseline. Healthy standing for delivery.", "breadth": "BROAD \u2014 9 of 10 firms took delivery (effective 2.4). Demand is widely distributed.", "concentration": "Stoppers HHI 0.421 \u2014 top buyer JP MORGAN SECURITIES took 566 (50% of deliveries). Issuers HHI 0.571 \u2014 top seller JP MORGAN SECURITIES delivered 825 (73%). A single dominant accumulator is cornering the buy side."}, "latest_report": {"date": "2026-06-17", "total": 1134, "mtd": 36590, "firms": [{"firm": "JP MORGAN SECURITIES", "issued": 825, "stopped": 566}, {"firm": "SCOTIA CAPITAL (USA)", "issued": 0, "stopped": 467}, {"firm": "BARCLAYS", "issued": 208, "stopped": 0}, {"firm": "ADVANTAGE FUTURES", "issued": 101, "stopped": 3}, {"firm": "WELLS FARGO SECURITI", "issued": 0, "stopped": 42}, {"firm": "ADM", "issued": 0, "stopped": 29}, {"firm": "CME", "issued": 0, "stopped": 16}, {"firm": "DORMAN TRADING, LLC", "issued": 0, "stopped": 5}, {"firm": "DEUTSCHE BANK AG", "issued": 0, "stopped": 4}, {"firm": "BNP PARIBAS SEC CORP", "issued": 0, "stopped": 2}]}, "series": [{"date": "2026-04-14", "gold": 4825.0, "cai": 0.5340933714440348, "mtd": 18210}, {"date": "2026-04-20", "gold": 4806.6, "cai": 0.5516885826997735, "mtd": 20347}, {"date": "2026-04-24", "gold": 4722.3, "cai": 0.6509610018684515, "mtd": 22281}, {"date": "2026-05-04", "gold": 4519.5, "cai": 0.3481847971370672, "mtd": 3193}, {"date": "2026-05-08", "gold": 4720.4, "cai": 0.5206677276965439, "mtd": 3754}, {"date": "2026-05-22", "gold": 4521.0, "cai": 0.4010514839033855, "mtd": 6609}, {"date": "2026-06-05", "gold": 4337.1, "cai": 0.5950006789686892, "mtd": 28791}, {"date": "2026-06-09", "gold": 4260.0, "cai": 0.5333150419211986, "mtd": 29467}, {"date": "2026-06-10", "gold": 4108.2, "cai": 0.6081545367547365, "mtd": 29663}, {"date": "2026-06-11", "gold": 4090.3, "cai": 0.6582497078422933, "mtd": 33224}, {"date": "2026-06-16", "gold": 4330.9, "cai": 0.5530719874156006, "mtd": 35456}, {"date": "2026-06-17", "gold": 4358.9, "cai": 0.6977352423470566, "mtd": 36590}], "forecast": [{"weeks": 1, "date": "2026-06-25", "point": 4361.9, "lo": 4208.9, "hi": 4514.9, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 2, "date": "2026-07-02", "point": 4241.4, "lo": 4125.0, "hi": 4357.9, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 3, "date": "2026-07-09", "point": 4040.6, "lo": 3900.7, "hi": 4180.5, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 4, "date": "2026-07-16", "point": 4397.1, "lo": 4236.9, "hi": 4557.3, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 5, "date": "2026-07-23", "point": 4284.3, "lo": 4209.3, "hi": 4359.3, "from_price": 4324.7, "from_date": "2026-06-18"}, {"weeks": 6, "date": "2026-07-30", "point": 3870.1, "lo": 3787.4, "hi": 3952.8, "from_price": 4324.7, "from_date": "2026-06-18"}], "history_points": 12, "image": "latest.png", "gold_history": [{"d": "2024-01-02", "v": 2064.4}, {"d": "2024-01-03", "v": 2034.2}, {"d": "2024-01-04", "v": 2042.3}, {"d": "2024-01-05", "v": 2042.4}, {"d": "2024-01-08", "v": 2026.6}, {"d": "2024-01-09", "v": 2026.4}, {"d": "2024-01-10", "v": 2021.7}, {"d": "2024-01-11", "v": 2014.3}, {"d": "2024-01-12", "v": 2046.7}, {"d": "2024-01-16", "v": 2026.0}, {"d": "2024-01-17", "v": 2002.6}, {"d": "2024-01-18", "v": 2018.6}, {"d": "2024-01-19", "v": 2026.5}, {"d": "2024-01-22", "v": 2019.8}, {"d": "2024-01-23", "v": 2023.7}, {"d": "2024-01-24", "v": 2013.9}, {"d": "2024-01-25", "v": 2016.9}, {"d": "2024-01-26", "v": 2016.8}, {"d": "2024-01-29", "v": 2025.2}, {"d": "2024-01-30", "v": 2031.5}, {"d": "2024-01-31", "v": 2048.4}, {"d": "2024-02-01", "v": 2053.0}, {"d": "2024-02-02", "v": 2036.1}, {"d": "2024-02-05", "v": 2025.7}, {"d": "2024-02-06", "v": 2034.5}, {"d": "2024-02-07", "v": 2035.2}, {"d": "2024-02-08", "v": 2032.2}, {"d": "2024-02-09", "v": 2023.3}, {"d": "2024-02-12", "v": 2018.2}, {"d": "2024-02-13", "v": 1992.9}, {"d": "2024-02-14", "v": 1990.3}, {"d": "2024-02-15", "v": 2002.1}, {"d": "2024-02-16", "v": 2011.5}, {"d": "2024-02-20", "v": 2027.5}, {"d": "2024-02-21", "v": 2022.3}, {"d": "2024-02-22", "v": 2019.7}, {"d": "2024-02-23", "v": 2038.6}, {"d": "2024-02-26", "v": 2028.5}, {"d": "2024-02-27", "v": 2034.0}, {"d": "2024-02-28", "v": 2033.0}, {"d": "2024-02-29", "v": 2045.7}, {"d": "2024-03-01", "v": 2086.9}, {"d": "2024-03-04", "v": 2117.7}, {"d": "2024-03-05", "v": 2133.5}, {"d": "2024-03-06", "v": 2150.3}, {"d": "2024-03-07", "v": 2158.0}, {"d": "2024-03-08", "v": 2178.6}, {"d": "2024-03-11", "v": 2182.5}, {"d": "2024-03-12", "v": 2160.4}, {"d": "2024-03-13", "v": 2175.4}, {"d": "2024-03-14", "v": 2163.0}, {"d": "2024-03-15", "v": 2157.3}, {"d": "2024-03-18", "v": 2160.7}, {"d": "2024-03-19", "v": 2156.3}, {"d": "2024-03-20", "v": 2157.9}, {"d": "2024-03-21", "v": 2182.4}, {"d": "2024-03-22", "v": 2158.1}, {"d": "2024-03-25", "v": 2174.8}, {"d": "2024-03-26", "v": 2175.6}, {"d": "2024-03-27", "v": 2190.6}, {"d": "2024-03-28", "v": 2217.4}, {"d": "2024-04-01", "v": 2236.5}, {"d": "2024-04-02", "v": 2261.0}, {"d": "2024-04-03", "v": 2294.4}, {"d": "2024-04-04", "v": 2288.8}, {"d": "2024-04-05", "v": 2325.7}, {"d": "2024-04-08", "v": 2331.7}, {"d": "2024-04-09", "v": 2343.5}, {"d": "2024-04-10", "v": 2329.6}, {"d": "2024-04-11", "v": 2354.8}, {"d": "2024-04-12", "v": 2356.2}, {"d": "2024-04-15", "v": 2365.8}, {"d": "2024-04-16", "v": 2390.8}, {"d": "2024-04-17", "v": 2371.7}, {"d": "2024-04-18", "v": 2382.3}, {"d": "2024-04-19", "v": 2398.4}, {"d": "2024-04-22", "v": 2332.2}, {"d": "2024-04-23", "v": 2327.7}, {"d": "2024-04-24", "v": 2324.5}, {"d": "2024-04-25", "v": 2329.8}, {"d": "2024-04-26", "v": 2334.8}, {"d": "2024-04-29", "v": 2345.4}, {"d": "2024-04-30", "v": 2291.4}, {"d": "2024-05-01", "v": 2299.9}, {"d": "2024-05-02", "v": 2299.2}, {"d": "2024-05-03", "v": 2299.0}, {"d": "2024-05-06", "v": 2321.6}, {"d": "2024-05-07", "v": 2315.2}, {"d": "2024-05-08", "v": 2313.6}, {"d": "2024-05-09", "v": 2332.1}, {"d": "2024-05-10", "v": 2367.3}, {"d": "2024-05-13", "v": 2336.1}, {"d": "2024-05-14", "v": 2353.4}, {"d": "2024-05-15", "v": 2388.7}, {"d": "2024-05-16", "v": 2380.0}, {"d": "2024-05-17", "v": 2412.2}, {"d": "2024-05-20", "v": 2433.9}, {"d": "2024-05-21", "v": 2421.7}, {"d": "2024-05-22", "v": 2389.2}, {"d": "2024-05-23", "v": 2335.0}, {"d": "2024-05-24", "v": 2332.5}, {"d": "2024-05-28", "v": 2355.2}, {"d": "2024-05-29", "v": 2340.3}, {"d": "2024-05-30", "v": 2342.9}, {"d": "2024-05-31", "v": 2322.9}, {"d": "2024-06-03", "v": 2346.6}, {"d": "2024-06-04", "v": 2325.5}, {"d": "2024-06-05", "v": 2354.1}, {"d": "2024-06-06", "v": 2370.3}, {"d": "2024-06-07", "v": 2305.2}, {"d": "2024-06-10", "v": 2307.7}, {"d": "2024-06-11", "v": 2307.5}, {"d": "2024-06-12", "v": 2336.0}, {"d": "2024-06-13", "v": 2300.2}, {"d": "2024-06-14", "v": 2331.4}, {"d": "2024-06-17", "v": 2312.4}, {"d": "2024-06-18", "v": 2330.4}, {"d": "2024-06-20", "v": 2353.8}, {"d": "2024-06-21", "v": 2316.4}, {"d": "2024-06-24", "v": 2330.0}, {"d": "2024-06-25", "v": 2316.6}, {"d": "2024-06-26", "v": 2299.2}, {"d": "2024-06-27", "v": 2324.5}, {"d": "2024-06-28", "v": 2327.7}, {"d": "2024-07-01", "v": 2327.6}, {"d": "2024-07-02", "v": 2323.0}, {"d": "2024-07-03", "v": 2359.8}, {"d": "2024-07-05", "v": 2388.5}, {"d": "2024-07-08", "v": 2355.2}, {"d": "2024-07-09", "v": 2360.1}, {"d": "2024-07-10", "v": 2372.2}, {"d": "2024-07-11", "v": 2415.0}, {"d": "2024-07-12", "v": 2414.0}, {"d": "2024-07-15", "v": 2422.9}, {"d": "2024-07-16", "v": 2462.4}, {"d": "2024-07-17", "v": 2454.8}, {"d": "2024-07-18", "v": 2451.8}, {"d": "2024-07-19", "v": 2395.5}, {"d": "2024-07-22", "v": 2392.0}, {"d": "2024-07-23", "v": 2404.6}, {"d": "2024-07-24", "v": 2413.3}, {"d": "2024-07-25", "v": 2351.9}, {"d": "2024-07-26", "v": 2380.0}, {"d": "2024-07-29", "v": 2377.3}, {"d": "2024-07-30", "v": 2405.0}, {"d": "2024-07-31", "v": 2426.5}, {"d": "2024-08-01", "v": 2435.0}, {"d": "2024-08-02", "v": 2425.7}, {"d": "2024-08-05", "v": 2401.7}, {"d": "2024-08-06", "v": 2389.1}, {"d": "2024-08-07", "v": 2390.5}, {"d": "2024-08-08", "v": 2422.2}, {"d": "2024-08-09", "v": 2432.1}, {"d": "2024-08-12", "v": 2462.4}, {"d": "2024-08-13", "v": 2466.7}, {"d": "2024-08-14", "v": 2439.4}, {"d": "2024-08-15", "v": 2453.1}, {"d": "2024-08-16", "v": 2498.6}, {"d": "2024-08-19", "v": 2501.8}, {"d": "2024-08-20", "v": 2511.3}, {"d": "2024-08-21", "v": 2508.4}, {"d": "2024-08-22", "v": 2478.9}, {"d": "2024-08-23", "v": 2508.4}, {"d": "2024-08-26", "v": 2517.7}, {"d": "2024-08-27", "v": 2516.0}, {"d": "2024-08-28", "v": 2501.0}, {"d": "2024-08-29", "v": 2525.7}, {"d": "2024-08-30", "v": 2493.8}, {"d": "2024-09-03", "v": 2489.9}, {"d": "2024-09-04", "v": 2493.4}, {"d": "2024-09-05", "v": 2511.4}, {"d": "2024-09-06", "v": 2493.5}, {"d": "2024-09-09", "v": 2501.8}, {"d": "2024-09-10", "v": 2512.3}, {"d": "2024-09-11", "v": 2512.1}, {"d": "2024-09-12", "v": 2551.2}, {"d": "2024-09-13", "v": 2581.3}, {"d": "2024-09-16", "v": 2580.4}, {"d": "2024-09-17", "v": 2564.3}, {"d": "2024-09-18", "v": 2570.7}, {"d": "2024-09-19", "v": 2588.0}, {"d": "2024-09-20", "v": 2619.9}, {"d": "2024-09-23", "v": 2626.5}, {"d": "2024-09-24", "v": 2651.2}, {"d": "2024-09-25", "v": 2659.2}, {"d": "2024-09-26", "v": 2669.9}, {"d": "2024-09-27", "v": 2644.3}, {"d": "2024-09-30", "v": 2636.1}, {"d": "2024-10-01", "v": 2667.3}, {"d": "2024-10-02", "v": 2647.1}, {"d": "2024-10-03", "v": 2657.1}, {"d": "2024-10-04", "v": 2645.8}, {"d": "2024-10-07", "v": 2644.8}, {"d": "2024-10-08", "v": 2615.0}, {"d": "2024-10-09", "v": 2606.0}, {"d": "2024-10-10", "v": 2620.6}, {"d": "2024-10-11", "v": 2657.6}, {"d": "2024-10-14", "v": 2647.8}, {"d": "2024-10-15", "v": 2661.4}, {"d": "2024-10-16", "v": 2674.0}, {"d": "2024-10-17", "v": 2691.0}, {"d": "2024-10-18", "v": 2713.7}, {"d": "2024-10-21", "v": 2723.1}, {"d": "2024-10-22", "v": 2744.2}, {"d": "2024-10-23", "v": 2714.4}, {"d": "2024-10-24", "v": 2734.9}, {"d": "2024-10-25", "v": 2740.9}, {"d": "2024-10-28", "v": 2742.9}, {"d": "2024-10-29", "v": 2768.4}, {"d": "2024-10-30", "v": 2788.5}, {"d": "2024-10-31", "v": 2738.3}, {"d": "2024-11-01", "v": 2738.6}, {"d": "2024-11-04", "v": 2736.1}, {"d": "2024-11-05", "v": 2740.3}, {"d": "2024-11-06", "v": 2667.6}, {"d": "2024-11-07", "v": 2698.4}, {"d": "2024-11-08", "v": 2687.5}, {"d": "2024-11-11", "v": 2611.2}, {"d": "2024-11-12", "v": 2600.0}, {"d": "2024-11-13", "v": 2580.8}, {"d": "2024-11-14", "v": 2568.2}, {"d": "2024-11-15", "v": 2565.7}, {"d": "2024-11-18", "v": 2610.6}, {"d": "2024-11-19", "v": 2627.1}, {"d": "2024-11-20", "v": 2648.2}, {"d": "2024-11-21", "v": 2672.1}, {"d": "2024-11-22", "v": 2709.9}, {"d": "2024-11-25", "v": 2616.8}, {"d": "2024-11-26", "v": 2620.3}, {"d": "2024-11-27", "v": 2639.9}, {"d": "2024-11-29", "v": 2657.0}, {"d": "2024-12-02", "v": 2634.9}, {"d": "2024-12-03", "v": 2644.7}, {"d": "2024-12-04", "v": 2653.8}, {"d": "2024-12-05", "v": 2626.6}, {"d": "2024-12-06", "v": 2638.6}, {"d": "2024-12-09", "v": 2664.9}, {"d": "2024-12-10", "v": 2697.6}, {"d": "2024-12-11", "v": 2733.8}, {"d": "2024-12-12", "v": 2687.5}, {"d": "2024-12-13", "v": 2656.0}, {"d": "2024-12-16", "v": 2651.4}, {"d": "2024-12-17", "v": 2644.4}, {"d": "2024-12-18", "v": 2636.5}, {"d": "2024-12-19", "v": 2592.2}, {"d": "2024-12-20", "v": 2628.7}, {"d": "2024-12-23", "v": 2612.3}, {"d": "2024-12-24", "v": 2620.0}, {"d": "2024-12-26", "v": 2638.8}, {"d": "2024-12-27", "v": 2617.2}, {"d": "2024-12-30", "v": 2606.1}, {"d": "2024-12-31", "v": 2629.2}, {"d": "2025-01-02", "v": 2658.9}, {"d": "2025-01-03", "v": 2645.0}, {"d": "2025-01-06", "v": 2638.4}, {"d": "2025-01-07", "v": 2656.7}, {"d": "2025-01-08", "v": 2664.5}, {"d": "2025-01-09", "v": 2683.8}, {"d": "2025-01-10", "v": 2708.5}, {"d": "2025-01-13", "v": 2673.5}, {"d": "2025-01-14", "v": 2677.5}, {"d": "2025-01-15", "v": 2712.5}, {"d": "2025-01-16", "v": 2746.4}, {"d": "2025-01-17", "v": 2744.3}, {"d": "2025-01-21", "v": 2755.0}, {"d": "2025-01-22", "v": 2767.6}, {"d": "2025-01-23", "v": 2763.1}, {"d": "2025-01-24", "v": 2777.3}, {"d": "2025-01-27", "v": 2737.5}, {"d": "2025-01-28", "v": 2766.8}, {"d": "2025-01-29", "v": 2769.1}, {"d": "2025-01-30", "v": 2823.0}, {"d": "2025-01-31", "v": 2812.5}, {"d": "2025-02-03", "v": 2833.9}, {"d": "2025-02-04", "v": 2853.3}, {"d": "2025-02-05", "v": 2871.6}, {"d": "2025-02-06", "v": 2856.0}, {"d": "2025-02-07", "v": 2867.3}, {"d": "2025-02-10", "v": 2914.3}, {"d": "2025-02-11", "v": 2912.5}, {"d": "2025-02-12", "v": 2909.0}, {"d": "2025-02-13", "v": 2925.9}, {"d": "2025-02-14", "v": 2883.6}, {"d": "2025-02-18", "v": 2931.6}, {"d": "2025-02-19", "v": 2919.4}, {"d": "2025-02-20", "v": 2940.0}, {"d": "2025-02-21", "v": 2937.6}, {"d": "2025-02-24", "v": 2947.9}, {"d": "2025-02-25", "v": 2904.5}, {"d": "2025-02-26", "v": 2916.8}, {"d": "2025-02-27", "v": 2883.2}, {"d": "2025-02-28", "v": 2836.8}, {"d": "2025-03-03", "v": 2890.2}, {"d": "2025-03-04", "v": 2909.6}, {"d": "2025-03-05", "v": 2915.3}, {"d": "2025-03-06", "v": 2916.6}, {"d": "2025-03-07", "v": 2904.7}, {"d": "2025-03-10", "v": 2891.0}, {"d": "2025-03-11", "v": 2912.9}, {"d": "2025-03-12", "v": 2939.1}, {"d": "2025-03-13", "v": 2984.3}, {"d": "2025-03-14", "v": 2994.5}, {"d": "2025-03-17", "v": 3000.0}, {"d": "2025-03-18", "v": 3035.1}, {"d": "2025-03-19", "v": 3035.9}, {"d": "2025-03-20", "v": 3040.0}, {"d": "2025-03-21", "v": 3018.2}, {"d": "2025-03-24", "v": 3013.1}, {"d": "2025-03-25", "v": 3023.7}, {"d": "2025-03-26", "v": 3020.9}, {"d": "2025-03-27", "v": 3060.2}, {"d": "2025-03-28", "v": 3086.5}, {"d": "2025-03-31", "v": 3122.8}, {"d": "2025-04-01", "v": 3118.9}, {"d": "2025-04-02", "v": 3139.9}, {"d": "2025-04-03", "v": 3097.0}, {"d": "2025-04-04", "v": 3012.0}, {"d": "2025-04-07", "v": 2951.3}, {"d": "2025-04-08", "v": 2968.4}, {"d": "2025-04-09", "v": 3056.5}, {"d": "2025-04-10", "v": 3155.2}, {"d": "2025-04-11", "v": 3222.2}, {"d": "2025-04-14", "v": 3204.8}, {"d": "2025-04-15", "v": 3218.7}, {"d": "2025-04-16", "v": 3326.6}, {"d": "2025-04-17", "v": 3308.7}, {"d": "2025-04-21", "v": 3406.2}, {"d": "2025-04-22", "v": 3400.8}, {"d": "2025-04-23", "v": 3276.3}, {"d": "2025-04-24", "v": 3332.0}, {"d": "2025-04-25", "v": 3282.4}, {"d": "2025-04-28", "v": 3332.5}, {"d": "2025-04-29", "v": 3318.8}, {"d": "2025-04-30", "v": 3305.0}, {"d": "2025-05-01", "v": 3210.0}, {"d": "2025-05-02", "v": 3231.9}, {"d": "2025-05-05", "v": 3311.3}, {"d": "2025-05-06", "v": 3411.4}, {"d": "2025-05-07", "v": 3381.4}, {"d": "2025-05-08", "v": 3296.6}, {"d": "2025-05-09", "v": 3335.4}, {"d": "2025-05-12", "v": 3220.0}, {"d": "2025-05-13", "v": 3240.3}, {"d": "2025-05-14", "v": 3181.4}, {"d": "2025-05-15", "v": 3220.7}, {"d": "2025-05-16", "v": 3182.0}, {"d": "2025-05-19", "v": 3228.9}, {"d": "2025-05-20", "v": 3280.3}, {"d": "2025-05-21", "v": 3309.3}, {"d": "2025-05-22", "v": 3292.3}, {"d": "2025-05-23", "v": 3363.6}, {"d": "2025-05-27", "v": 3299.1}, {"d": "2025-05-28", "v": 3293.6}, {"d": "2025-05-29", "v": 3317.1}, {"d": "2025-05-30", "v": 3288.9}, {"d": "2025-06-02", "v": 3370.6}, {"d": "2025-06-03", "v": 3350.2}, {"d": "2025-06-04", "v": 3373.5}, {"d": "2025-06-05", "v": 3350.7}, {"d": "2025-06-06", "v": 3322.7}, {"d": "2025-06-09", "v": 3332.1}, {"d": "2025-06-10", "v": 3320.9}, {"d": "2025-06-11", "v": 3321.3}, {"d": "2025-06-12", "v": 3380.9}, {"d": "2025-06-13", "v": 3431.2}, {"d": "2025-06-16", "v": 3396.4}, {"d": "2025-06-17", "v": 3386.6}, {"d": "2025-06-18", "v": 3389.8}, {"d": "2025-06-20", "v": 3368.1}, {"d": "2025-06-23", "v": 3377.7}, {"d": "2025-06-24", "v": 3317.4}, {"d": "2025-06-25", "v": 3327.1}, {"d": "2025-06-26", "v": 3333.5}, {"d": "2025-06-27", "v": 3273.7}, {"d": "2025-06-30", "v": 3294.4}, {"d": "2025-07-01", "v": 3336.7}, {"d": "2025-07-02", "v": 3348.0}, {"d": "2025-07-03", "v": 3331.6}, {"d": "2025-07-04", "v": 3332.5}, {"d": "2025-07-07", "v": 3332.2}, {"d": "2025-07-08", "v": 3307.0}, {"d": "2025-07-09", "v": 3311.6}, {"d": "2025-07-10", "v": 3317.4}, {"d": "2025-07-11", "v": 3356.0}, {"d": "2025-07-14", "v": 3351.5}, {"d": "2025-07-15", "v": 3329.8}, {"d": "2025-07-16", "v": 3352.5}, {"d": "2025-07-17", "v": 3340.1}, {"d": "2025-07-18", "v": 3353.0}, {"d": "2025-07-21", "v": 3401.9}, {"d": "2025-07-22", "v": 3439.2}, {"d": "2025-07-23", "v": 3394.1}, {"d": "2025-07-24", "v": 3371.0}, {"d": "2025-07-25", "v": 3334.0}, {"d": "2025-07-28", "v": 3309.1}, {"d": "2025-07-29", "v": 3323.4}, {"d": "2025-07-30", "v": 3295.8}, {"d": "2025-07-31", "v": 3293.2}, {"d": "2025-08-01", "v": 3347.7}, {"d": "2025-08-04", "v": 3374.4}, {"d": "2025-08-05", "v": 3381.9}, {"d": "2025-08-06", "v": 3380.0}, {"d": "2025-08-07", "v": 3400.3}, {"d": "2025-08-08", "v": 3439.1}, {"d": "2025-08-11", "v": 3353.1}, {"d": "2025-08-12", "v": 3348.9}, {"d": "2025-08-13", "v": 3358.7}, {"d": "2025-08-14", "v": 3335.2}, {"d": "2025-08-15", "v": 3336.0}, {"d": "2025-08-18", "v": 3331.7}, {"d": "2025-08-19", "v": 3313.4}, {"d": "2025-08-20", "v": 3343.4}, {"d": "2025-08-21", "v": 3336.9}, {"d": "2025-08-22", "v": 3374.4}, {"d": "2025-08-25", "v": 3373.8}, {"d": "2025-08-26", "v": 3388.6}, {"d": "2025-08-27", "v": 3404.6}, {"d": "2025-08-28", "v": 3431.8}, {"d": "2025-08-29", "v": 3473.7}, {"d": "2025-09-02", "v": 3549.4}, {"d": "2025-09-03", "v": 3593.2}, {"d": "2025-09-04", "v": 3565.8}, {"d": "2025-09-05", "v": 3613.2}, {"d": "2025-09-08", "v": 3638.1}, {"d": "2025-09-09", "v": 3643.3}, {"d": "2025-09-10", "v": 3643.6}, {"d": "2025-09-11", "v": 3636.9}, {"d": "2025-09-12", "v": 3649.4}, {"d": "2025-09-15", "v": 3682.2}, {"d": "2025-09-16", "v": 3688.9}, {"d": "2025-09-17", "v": 3681.8}, {"d": "2025-09-18", "v": 3643.7}, {"d": "2025-09-19", "v": 3671.5}, {"d": "2025-09-22", "v": 3740.7}, {"d": "2025-09-23", "v": 3780.6}, {"d": "2025-09-24", "v": 3732.1}, {"d": "2025-09-25", "v": 3736.9}, {"d": "2025-09-26", "v": 3775.3}, {"d": "2025-09-29", "v": 3820.9}, {"d": "2025-09-30", "v": 3840.8}, {"d": "2025-10-01", "v": 3867.5}, {"d": "2025-10-02", "v": 3839.7}, {"d": "2025-10-03", "v": 3880.8}, {"d": "2025-10-06", "v": 3948.5}, {"d": "2025-10-07", "v": 3976.6}, {"d": "2025-10-08", "v": 4043.3}, {"d": "2025-10-09", "v": 3946.3}, {"d": "2025-10-10", "v": 3975.9}, {"d": "2025-10-13", "v": 4108.6}, {"d": "2025-10-14", "v": 4138.7}, {"d": "2025-10-15", "v": 4176.9}, {"d": "2025-10-16", "v": 4280.2}, {"d": "2025-10-17", "v": 4189.9}, {"d": "2025-10-20", "v": 4336.4}, {"d": "2025-10-21", "v": 4087.7}, {"d": "2025-10-22", "v": 4044.4}, {"d": "2025-10-23", "v": 4125.5}, {"d": "2025-10-24", "v": 4118.4}, {"d": "2025-10-27", "v": 4001.9}, {"d": "2025-10-28", "v": 3966.2}, {"d": "2025-10-29", "v": 3983.7}, {"d": "2025-10-30", "v": 4001.3}, {"d": "2025-10-31", "v": 3982.2}, {"d": "2025-11-03", "v": 4000.3}, {"d": "2025-11-04", "v": 3947.7}, {"d": "2025-11-05", "v": 3980.3}, {"d": "2025-11-06", "v": 3979.9}, {"d": "2025-11-07", "v": 3999.4}, {"d": "2025-11-10", "v": 4111.8}, {"d": "2025-11-11", "v": 4106.8}, {"d": "2025-11-12", "v": 4204.4}, {"d": "2025-11-13", "v": 4186.9}, {"d": "2025-11-14", "v": 4087.6}, {"d": "2025-11-17", "v": 4068.3}, {"d": "2025-11-18", "v": 4061.3}, {"d": "2025-11-19", "v": 4077.7}, {"d": "2025-11-20", "v": 4056.5}, {"d": "2025-11-21", "v": 4076.7}, {"d": "2025-11-24", "v": 4091.9}, {"d": "2025-11-25", "v": 4139.2}, {"d": "2025-11-26", "v": 4165.2}, {"d": "2025-11-28", "v": 4218.3}, {"d": "2025-12-01", "v": 4239.3}, {"d": "2025-12-02", "v": 4186.6}, {"d": "2025-12-03", "v": 4199.3}, {"d": "2025-12-04", "v": 4211.8}, {"d": "2025-12-05", "v": 4212.9}, {"d": "2025-12-08", "v": 4187.2}, {"d": "2025-12-09", "v": 4206.7}, {"d": "2025-12-10", "v": 4196.4}, {"d": "2025-12-11", "v": 4285.5}, {"d": "2025-12-12", "v": 4300.1}, {"d": "2025-12-15", "v": 4306.7}, {"d": "2025-12-16", "v": 4304.5}, {"d": "2025-12-17", "v": 4347.5}, {"d": "2025-12-18", "v": 4339.5}, {"d": "2025-12-19", "v": 4361.4}, {"d": "2025-12-22", "v": 4444.6}, {"d": "2025-12-23", "v": 4482.8}, {"d": "2025-12-24", "v": 4480.6}, {"d": "2025-12-26", "v": 4529.1}, {"d": "2025-12-29", "v": 4325.1}, {"d": "2025-12-30", "v": 4370.1}, {"d": "2025-12-31", "v": 4325.6}, {"d": "2026-01-02", "v": 4314.4}, {"d": "2026-01-05", "v": 4436.9}, {"d": "2026-01-06", "v": 4482.2}, {"d": "2026-01-07", "v": 4449.3}, {"d": "2026-01-08", "v": 4449.7}, {"d": "2026-01-09", "v": 4490.3}, {"d": "2026-01-12", "v": 4604.3}, {"d": "2026-01-13", "v": 4589.2}, {"d": "2026-01-14", "v": 4626.3}, {"d": "2026-01-15", "v": 4616.3}, {"d": "2026-01-16", "v": 4588.4}, {"d": "2026-01-20", "v": 4759.6}, {"d": "2026-01-21", "v": 4831.8}, {"d": "2026-01-22", "v": 4908.8}, {"d": "2026-01-23", "v": 4976.2}, {"d": "2026-01-26", "v": 5079.7}, {"d": "2026-01-27", "v": 5079.9}, {"d": "2026-01-28", "v": 5301.6}, {"d": "2026-01-29", "v": 5318.4}, {"d": "2026-01-30", "v": 4713.9}, {"d": "2026-02-02", "v": 4622.5}, {"d": "2026-02-03", "v": 4903.7}, {"d": "2026-02-04", "v": 4920.4}, {"d": "2026-02-05", "v": 4861.4}, {"d": "2026-02-06", "v": 4951.2}, {"d": "2026-02-09", "v": 5050.9}, {"d": "2026-02-10", "v": 5003.8}, {"d": "2026-02-11", "v": 5071.6}, {"d": "2026-02-12", "v": 4923.7}, {"d": "2026-02-13", "v": 5022.0}, {"d": "2026-02-17", "v": 4882.9}, {"d": "2026-02-18", "v": 4986.5}, {"d": "2026-02-19", "v": 4975.9}, {"d": "2026-02-20", "v": 5059.3}, {"d": "2026-02-23", "v": 5204.7}, {"d": "2026-02-24", "v": 5155.8}, {"d": "2026-02-25", "v": 5206.4}, {"d": "2026-02-26", "v": 5176.5}, {"d": "2026-02-27", "v": 5230.5}, {"d": "2026-03-02", "v": 5294.4}, {"d": "2026-03-03", "v": 5107.4}, {"d": "2026-03-04", "v": 5120.2}, {"d": "2026-03-05", "v": 5065.3}, {"d": "2026-03-06", "v": 5146.1}, {"d": "2026-03-09", "v": 5091.5}, {"d": "2026-03-10", "v": 5229.7}, {"d": "2026-03-11", "v": 5167.4}, {"d": "2026-03-12", "v": 5115.8}, {"d": "2026-03-13", "v": 5052.5}, {"d": "2026-03-16", "v": 4994.0}, {"d": "2026-03-17", "v": 5001.0}, {"d": "2026-03-18", "v": 4889.9}, {"d": "2026-03-19", "v": 4600.7}, {"d": "2026-03-20", "v": 4570.4}, {"d": "2026-03-23", "v": 4404.1}, {"d": "2026-03-24", "v": 4399.3}, {"d": "2026-03-25", "v": 4549.8}, {"d": "2026-03-26", "v": 4375.5}, {"d": "2026-03-27", "v": 4492.0}, {"d": "2026-03-30", "v": 4526.0}, {"d": "2026-03-31", "v": 4647.6}, {"d": "2026-04-01", "v": 4783.2}, {"d": "2026-04-02", "v": 4651.5}, {"d": "2026-04-06", "v": 4656.8}, {"d": "2026-04-07", "v": 4657.1}, {"d": "2026-04-08", "v": 4749.5}, {"d": "2026-04-09", "v": 4792.2}, {"d": "2026-04-10", "v": 4761.9}, {"d": "2026-04-13", "v": 4742.4}, {"d": "2026-04-14", "v": 4825.0}, {"d": "2026-04-15", "v": 4800.0}, {"d": "2026-04-16", "v": 4785.4}, {"d": "2026-04-17", "v": 4857.6}, {"d": "2026-04-20", "v": 4806.6}, {"d": "2026-04-21", "v": 4698.4}, {"d": "2026-04-22", "v": 4732.5}, {"d": "2026-04-23", "v": 4705.1}, {"d": "2026-04-24", "v": 4722.3}, {"d": "2026-04-27", "v": 4675.4}, {"d": "2026-04-28", "v": 4591.5}, {"d": "2026-04-29", "v": 4545.2}, {"d": "2026-04-30", "v": 4614.7}, {"d": "2026-05-01", "v": 4629.9}, {"d": "2026-05-04", "v": 4519.5}, {"d": "2026-05-05", "v": 4555.8}, {"d": "2026-05-06", "v": 4681.9}, {"d": "2026-05-07", "v": 4699.8}, {"d": "2026-05-08", "v": 4720.4}, {"d": "2026-05-11", "v": 4718.7}, {"d": "2026-05-12", "v": 4677.6}, {"d": "2026-05-13", "v": 4697.7}, {"d": "2026-05-14", "v": 4678.1}, {"d": "2026-05-15", "v": 4555.8}, {"d": "2026-05-18", "v": 4552.5}, {"d": "2026-05-19", "v": 4506.3}, {"d": "2026-05-20", "v": 4531.3}, {"d": "2026-05-21", "v": 4539.8}, {"d": "2026-05-22", "v": 4521.0}, {"d": "2026-05-26", "v": 4500.4}, {"d": "2026-05-27", "v": 4447.5}, {"d": "2026-05-28", "v": 4499.3}, {"d": "2026-05-29", "v": 4560.5}, {"d": "2026-06-01", "v": 4475.2}, {"d": "2026-06-02", "v": 4489.1}, {"d": "2026-06-03", "v": 4436.7}, {"d": "2026-06-04", "v": 4475.8}, {"d": "2026-06-05", "v": 4337.1}, {"d": "2026-06-08", "v": 4335.9}, {"d": "2026-06-09", "v": 4260.0}, {"d": "2026-06-10", "v": 4108.2}, {"d": "2026-06-11", "v": 4090.3}, {"d": "2026-06-12", "v": 4215.0}, {"d": "2026-06-15", "v": 4328.0}, {"d": "2026-06-16", "v": 4330.9}, {"d": "2026-06-17", "v": 4358.9}, {"d": "2026-06-18", "v": 4324.7}], "gold_source": "daily", "regression_vars": [{"date": "2026-04-14", "gold": 4825.0, "DI": 0.4766, "BB": 0.5556, "SC": 0.3982, "IC": 0.535, "CAI": 0.5341, "dxy": 98.12, "ust10": 0.4256, "zDI": null, "zBB": null, "zSC": null, "zIC": null, "zdDXY": null, "zdUST10": null, "int_DI_DXY": null, "int_BB_UST10": null, "S": null}, {"date": "2026-04-20", "gold": 4806.6, "DI": 0.5043, "BB": 0.7143, "SC": 0.4552, "IC": 0.3462, "CAI": 0.5517, "dxy": 98.05, "ust10": 0.425, "zDI": null, "zBB": null, "zSC": null, "zIC": null, "zdDXY": null, "zdUST10": null, "int_DI_DXY": null, "int_BB_UST10": null, "S": null}, {"date": "2026-04-24", "gold": 4722.3, "DI": 0.527, "BB": 0.75, "SC": 0.5424, "IC": 1.0, "CAI": 0.651, "dxy": 98.51, "ust10": 0.431, "zDI": 1.1819, "zBB": 0.9078, "zSC": 1.3009, "zIC": 1.3574, "zdDXY": null, "zdUST10": null, "int_DI_DXY": null, "int_BB_UST10": null, "S": null}, {"date": "2026-05-04", "gold": 4519.5, "DI": 0.1377, "BB": 0.5, "SC": 1.0, "IC": 1.0, "CAI": 0.3482, "dxy": 98.47, "ust10": 0.4446, "zDI": -1.7211, "zBB": -1.2399, "zSC": 1.6909, "zIC": 0.9727, "zdDXY": -0.6445, "zdUST10": 1.2525, "int_DI_DXY": -1.1093, "int_BB_UST10": 1.5529, "S": -0.5709}, {"date": "2026-05-08", "gold": 4720.4, "DI": 0.158, "BB": 0.8333, "SC": 0.3549, "IC": 0.5756, "CAI": 0.5207, "dxy": 97.84, "ust10": 0.4364, "zDI": -1.1605, "zBB": 1.3108, "zSC": -0.8359, "zIC": -0.4391, "zdDXY": -1.4515, "zdUST10": -1.3535, "int_DI_DXY": -1.6844, "int_BB_UST10": 1.7742, "S": 0.3193}, {"date": "2026-05-22", "gold": 4521.0, "DI": 0.2484, "BB": 0.5, "SC": 0.5139, "IC": 0.446, "CAI": 0.4011, "dxy": 99.32, "ust10": 0.4558, "zDI": -0.5679, "zBB": -1.0944, "zSC": -0.1414, "zIC": -0.7943, "zdDXY": 1.7476, "zdUST10": 1.36, "int_DI_DXY": 0.9925, "int_BB_UST10": 1.4883, "S": -0.7579}, {"date": "2026-06-05", "gold": 4337.1, "DI": 0.5901, "BB": 0.5714, "SC": 0.6091, "IC": 0.9257, "CAI": 0.595, "dxy": 100.07, "ust10": 0.4536, "zDI": 1.2112, "zBB": -0.4939, "zSC": 0.2798, "zIC": 0.9177, "zdDXY": 0.6296, "zdUST10": -0.7244, "int_DI_DXY": -0.7626, "int_BB_UST10": -0.3578, "S": 0.2597}, {"date": "2026-06-09", "gold": 4260.0, "DI": 0.5957, "BB": 0.5, "SC": 0.3766, "IC": 0.3343, "CAI": 0.5333, "dxy": 99.91, "ust10": 0.4528, "zDI": 1.0645, "zBB": -0.9403, "zSC": -0.7926, "zIC": -1.1621, "zdDXY": -0.6419, "zdUST10": -0.5217, "int_DI_DXY": 0.6833, "int_BB_UST10": -0.4906, "S": 0.2088}, {"date": "2026-06-10", "gold": 4108.2, "DI": 0.5973, "BB": 0.5714, "SC": 0.4094, "IC": 0.7303, "CAI": 0.6082, "dxy": 99.95, "ust10": 0.4542, "zDI": 0.9361, "zBB": -0.378, "zSC": -0.6349, "zIC": 0.2282, "zdDXY": -0.3095, "zdUST10": -0.2576, "int_DI_DXY": 0.2897, "int_BB_UST10": -0.0974, "S": 0.3531}, {"date": "2026-06-11", "gold": 4090.3, "DI": 0.6242, "BB": 0.8, "SC": 0.3227, "IC": 0.4287, "CAI": 0.6582, "dxy": 99.86, "ust10": 0.4463, "zDI": 0.9466, "zBB": 1.2881, "zSC": -0.9414, "zIC": -0.9897, "zdDXY": -0.5174, "zdUST10": -1.1476, "int_DI_DXY": 0.4897, "int_BB_UST10": 1.4783, "S": 0.6221}, {"date": "2026-06-16", "gold": 4330.9, "DI": 0.6394, "BB": 0.5, "SC": 0.6138, "IC": 0.6804, "CAI": 0.5531, "dxy": 99.54, "ust10": 0.4487, "zDI": 0.908, "zBB": -0.7441, "zSC": 0.4269, "zIC": 0.18, "zdDXY": -0.7144, "zdUST10": 0.0206, "int_DI_DXY": 0.6487, "int_BB_UST10": 0.0153, "S": 0.2704}, {"date": "2026-06-17", "gold": 4358.9, "DI": 0.6466, "BB": 0.9, "SC": 0.421, "IC": 0.5709, "CAI": 0.6977, "dxy": 100.09, "ust10": 0.4487, "zDI": 0.741, "zBB": 1.6065, "zSC": -0.3, "zIC": -0.0879, "zdDXY": 0.5442, "zdUST10": -0.0637, "int_DI_DXY": -0.4033, "int_BB_UST10": 0.1024, "S": 0.2566}]};</script>
+<script>
+const REPO_UPLOAD_URL = "https://github.com/USER/REPO/upload/main/sample_data/reports";
+
+const GLOSSARY = [
+  ["Issued (delivered out)", "Contracts where a clearing firm hands over physical gold to settle a futures position — the supply side of delivery."],
+  ["Stopped (taken in)", "Contracts where a firm stands for and receives physical gold — the demand side. Rising stops mean buyers want the metal, not cash."],
+  ["Delivery Intensity (DI)", "How much physical is being claimed this contract month versus a normal month. High DI = strong appetite to take metal."],
+  ["Buyer Breadth (BB)", "How many different firms are taking delivery. Broad participation is healthier demand than one lone buyer."],
+  ["Stopper Concentration (SC)", "How concentrated the buying is. High SC means a single firm is cornering most of the metal taken in."],
+  ["Issuer Concentration (IC)", "How concentrated the selling/delivering is. High IC means a few firms are pushing most of the physical out."],
+  ["CAI (COMEX Accumulation Index)", "A 0–1 blend of DI, BB, SC and IC. Higher = a delivery picture that looks more like accumulation; lower = distribution."],
+  ["DXY (US Dollar Index)", "The dollar's strength vs major currencies. A stronger dollar is usually a headwind for gold; weaker is a tailwind."],
+  ["10-Year Treasury (ΔUST10)", "The 10-year US government bond yield and its recent change. Rising real yields raise the opportunity cost of holding gold."],
+  ["z-score (z·)", "Each input is standardised against its own recent history, so '+1.5' means unusually high vs the trailing window, '−1' unusually low."],
+  ["Interaction terms", "DI×−ΔDXY and BB×−ΔUST10 capture when strong delivery lines up with a falling dollar or falling yields — the most supportive combinations for gold."],
+  ["Regime score (S)", "The CAI delivery read combined with the DXY and 10Y macro terms into one trend score: positive leans accumulation, negative leans distribution."],
+  ["Absorption vs distribution", "Absorption = supply being taken up by willing buyers while price holds. Distribution / demand-into-weakness = metal changing hands as price falls."],
+];
+
+const SAMPLE = {
+  generated_at:"sample", as_of_date:"2026-06-11", chart_mode:"interactive", history_points:10,
+  gold:{price:4090.3, change_pct:-15.23}, cai:{scaled:0.66, band:"ACCUMULATION"},
+  components:{DI:0.62,BB:0.80,SC:0.32,IC:0.43},
+  thesis:{core:"DEMAND INTO WEAKNESS. Heavy, broad delivery-taking even as price fell — value-accumulation or a falling knife.",
+    stance:"mixed", conviction:"MODERATE", delivery:"ELEVATED — 3,561 contracts.", breadth:"BROAD — 12 of 15 firms.",
+    concentration:"Top buyer BNP Paribas 50%; top seller BofA 60%."},
+  latest_report:{date:"2026-06-11", total:3561, mtd:33224, firms:[
+    {firm:"BOFA SECURITIES",issued:2131,stopped:1},{firm:"BNP PARIBAS",issued:0,stopped:1778},
+    {firm:"BARCLAYS",issued:827,stopped:20},{firm:"JP MORGAN",issued:0,stopped:737},
+    {firm:"DEUTSCHE BANK AG",issued:0,stopped:503},{firm:"DEUTSCHE BANK",issued:442,stopped:0},
+    {firm:"WELLS FARGO",issued:308,stopped:0},{firm:"CME",issued:0,stopped:198}]},
+  series:[{date:"2026-04-14",gold:4825,cai:0.53,mtd:18210},{date:"2026-05-22",gold:4521,cai:0.40,mtd:6609},
+    {date:"2026-06-05",gold:4337,cai:0.60,mtd:28791},{date:"2026-06-11",gold:4090,cai:0.66,mtd:33224}],
+  gold_history:[["2025-01",2650],["2025-04",2900],["2025-07",3200],["2025-10",3500],
+    ["2026-01",3750],["2026-03",3950],["2026-05",4150],["2026-06",4090]].map(p=>({d:p[0]+"-01",v:p[1]})),
+  regression_vars:[{date:"2026-06-05",gold:4337,DI:0.59,BB:0.57,SC:0.61,IC:0.93,CAI:0.60,dxy:102.2,ust10:3.90,zDI:1.71,zBB:-0.58,zSC:0.54,zIC:1.24,zdDXY:1.47,zdUST10:1.74,int_DI_DXY:-2.52,int_BB_UST10:1.02,S:-0.16},
+    {date:"2026-06-11",gold:4090,DI:0.62,BB:0.80,SC:0.32,IC:0.43,CAI:0.66,dxy:102.3,ust10:3.91,zDI:1.62,zBB:1.09,zSC:-1.02,zIC:-0.85,zdDXY:1.44,zdUST10:1.73,int_DI_DXY:-2.34,int_BB_UST10:-1.88,S:-0.28}]
+};
+
+const BAND_COLOR={"STRONG ACCUMULATION":"#5fb98e","ACCUMULATION":"#5fb98e","NEUTRAL":"#d4b06a",
+  "MIXED / TRANSITIONAL":"#d4b06a","DISTRIBUTION":"#d2694b","STRONG DISTRIBUTION":"#d2694b"};
+const C={gold:"#d4af37",goldDk:"#8c6a1f",cai:"#6e40c9",jade:"#5fb98e",verm:"#d2694b",mid:"#a89c84",line:"rgba(120,108,86,.18)"};
+const fmt0=n=>n==null?"—":Number(n).toLocaleString(undefined,{maximumFractionDigits:0});
+const pct=n=>n==null?"—":(n>=0?"+":"−")+Math.abs(n).toFixed(1)+"%";
+
+function setupChartTheme(){
+  if(!window.Chart) return;
+  Chart.defaults.color=C.mid; Chart.defaults.font.family="IBM Plex Mono, monospace";
+  Chart.defaults.font.size=10; Chart.defaults.plugins.legend.labels.boxWidth=10;
+}
+function gridcfg(extra={}){return Object.assign({grid:{color:C.line},ticks:{color:C.mid}},extra);}
+
+function buildCharts(d){
+  setupChartTheme();
+  const series=d.series||[];
+  const gh=(d.gold_history||[]).map(p=>({x:p.d,y:p.v}));
+  const line = gh.length ? gh : series.map(s=>({x:s.date,y:s.gold}));
+
+  // Price + CAI
+  new Chart(document.getElementById("chartPrice"),{
+    data:{datasets:[
+      {type:"line",label:"Gold $/oz",data:line,yAxisID:"y",borderColor:C.gold,borderWidth:1.6,pointRadius:0,tension:.25},
+      {type:"scatter",label:"Report print",data:series.map(s=>({x:s.date,y:s.gold})),yAxisID:"y",borderColor:C.goldDk,backgroundColor:C.goldDk,pointRadius:3.5},
+      {type:"bar",label:"CAI",data:series.map(s=>({x:s.date,y:s.cai})),yAxisID:"y1",backgroundColor:"rgba(110,64,201,.40)",barThickness:9}
+    ]},
+    options:{maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
+      scales:{x:{type:"time",time:{unit:"month"},...gridcfg()},
+        y:gridcfg({position:"left",title:{display:true,text:"$/oz",color:C.mid}}),
+        y1:{position:"right",min:0,max:1,grid:{drawOnChartArea:false},ticks:{color:C.cai}}},
+      plugins:{legend:{labels:{color:C.mid}}}}
+  });
+
+  // Issuers vs stoppers
+  const f=(d.latest_report&&d.latest_report.firms)||[];
+  new Chart(document.getElementById("chartFirms"),{
+    type:"bar",
+    data:{labels:f.map(x=>x.firm),datasets:[
+      {label:"issued (out)",data:f.map(x=>x.issued),backgroundColor:C.verm},
+      {label:"stopped (in)",data:f.map(x=>x.stopped),backgroundColor:C.jade}]},
+    options:{indexAxis:"y",maintainAspectRatio:false,
+      scales:{x:gridcfg({title:{display:true,text:"contracts",color:C.mid}}),y:gridcfg({ticks:{font:{size:9}}})},
+      plugins:{legend:{labels:{color:C.mid}}}}
+  });
+
+  // Deliveries: last-quarter view so MTD bars read clearly
+  const sdates=series.map(s=>s.date).filter(Boolean).sort();
+  const lastD=sdates.length?sdates[sdates.length-1]:null;
+  const qStart=lastD?new Date(new Date(lastD).getTime()-95*864e5).toISOString().slice(0,10):undefined;
+  const qEnd=lastD?new Date(new Date(lastD).getTime()+5*864e5).toISOString().slice(0,10):undefined;
+  new Chart(document.getElementById("chartDeliv"),{
+    data:{datasets:[
+      {type:"bar",label:"MTD contracts",data:series.map(s=>({x:s.date,y:s.mtd})),yAxisID:"yL",backgroundColor:"rgba(138,109,26,.65)",maxBarThickness:22},
+      {type:"line",label:"Gold $/oz",data:line,yAxisID:"yR",borderColor:C.gold,borderWidth:1.4,pointRadius:0,tension:.25,spanGaps:true},
+      {type:"line",label:"DI",data:(d.regression_vars||series).map(r=>({x:r.date,y:r.DI})).filter(p=>p.y!=null),yAxisID:"y01",borderColor:C.jade,borderWidth:1.2,pointRadius:2},
+      {type:"line",label:"SC",data:(d.regression_vars||series).map(r=>({x:r.date,y:r.SC})).filter(p=>p.y!=null),yAxisID:"y01",borderColor:C.verm,borderWidth:1.2,pointRadius:2}
+    ]},
+    options:{maintainAspectRatio:false,
+      scales:{x:{type:"time",min:qStart,max:qEnd,time:{unit:"week"},...gridcfg()},
+        yL:gridcfg({position:"left",beginAtZero:true,title:{display:true,text:"MTD",color:C.mid}}),
+        yR:{position:"right",grid:{drawOnChartArea:false},ticks:{color:"#9c7a10"}},
+        y01:{display:false,min:0,max:1}},
+      plugins:{legend:{labels:{color:C.mid}},title:{display:true,text:"Latest quarter",color:C.mid,font:{size:10}}}}
+  });
+}
+
+function renderRegTable(rows){
+  if(!rows||!rows.length){document.getElementById("regTable").innerHTML="";return;}
+  const order=["date","gold","DI","BB","SC","IC","CAI","dxy","ust10","zDI","zBB","zSC","zIC","zdDXY","zdUST10","int_DI_DXY","int_BB_UST10","S"];
+  const head={date:"date",gold:"P",dxy:"DXY",ust10:"10Y",zdDXY:"zΔDXY",zdUST10:"zΔ10Y",int_DI_DXY:"DI×DXY",int_BB_UST10:"BB×UST"};
+  const cols=order.filter(c=>c in rows[0]);
+  const z=new Set(["zDI","zBB","zSC","zIC","zdDXY","zdUST10","int_DI_DXY","int_BB_UST10","S"]);
+  let html="<thead><tr>"+cols.map(c=>`<th>${head[c]||c}</th>`).join("")+"</tr></thead><tbody>";
+  for(const r of rows){
+    html+="<tr>"+cols.map(c=>{
+      let v=r[c];
+      if(v==null) return `<td class="text-faint">·</td>`;
+      if(c==="date") return `<td>${v}</td>`;
+      if(c==="gold") return `<td>${fmt0(v)}</td>`;
+      let cls=z.has(c)?(v>=0?"pos":"neg"):"";
+      let txt=z.has(c)?(v>=0?"+":"")+v.toFixed(2):v.toFixed(2);
+      return `<td class="${cls}">${txt}</td>`;
+    }).join("")+"</tr>";
+  }
+  document.getElementById("regTable").innerHTML=html+"</tbody>";
+}
+
+function render(d){
+  document.getElementById("lastRun").textContent="last run "+(d.generated_at||"—");
+  document.getElementById("historyPoints").textContent=d.history_points??"—";
+  document.getElementById("chartStamp").textContent=d.generated_at||"";
+  document.getElementById("caiValue").textContent=(d.cai?.scaled??0).toFixed(2);
+  const band=d.cai?.band||"—",bc=BAND_COLOR[band]||"#d4b06a";
+  const pill=document.getElementById("bandPill");
+  pill.textContent=band; pill.style.color=bc;
+  pill.style.background="color-mix(in srgb,"+bc+" 16%,transparent)";
+  pill.style.border="1px solid color-mix(in srgb,"+bc+" 45%,transparent)";
+  document.getElementById("statusDot").style.background=bc;
+  document.getElementById("goldPrice").textContent="$"+fmt0(d.gold?.price);
+  const gc=document.getElementById("goldChange");
+  gc.textContent=pct(d.gold?.change_pct); gc.style.color=(d.gold?.change_pct??0)>=0?C.jade:C.verm;
+  document.getElementById("coreRead").textContent=d.thesis?.core||"—";
+  const sp=document.getElementById("stancePill"); sp.textContent=d.thesis?.stance||"—";
+  const scol=d.thesis?.stance==="bullish"?C.jade:d.thesis?.stance==="bearish"?C.verm:"#d4b06a";
+  sp.style.color=scol; sp.style.borderColor="color-mix(in srgb,"+scol+" 45%,transparent)";
+  document.getElementById("conviction").textContent=d.thesis?.conviction||"";
+
+  const cm=[["DI","Delivery"],["BB","Breadth"],["SC","Concentr."],["IC","Issuer"]];
+  document.getElementById("components").innerHTML=cm.map(([k,label])=>{
+    const v=d.components?.[k]??0,w=Math.round(v*100),col=k==="SC"?C.verm:C.jade;
+    return `<div class="card rounded-xl p-2.5"><div class="num text-[10px] text-mid">${k} · ${label}</div>
+      <div class="num mt-0.5 text-lg font-semibold">${v.toFixed(2)}</div>
+      <div class="mt-1.5 h-1 w-full rounded bg-[#211c14]"><div class="h-1 rounded" style="width:${w}%;background:${col}"></div></div></div>`;
+  }).join("");
+
+  const vm=[["Delivery intentions",d.thesis?.delivery],["Buyer breadth",d.thesis?.breadth],["Concentration",d.thesis?.concentration]];
+  document.getElementById("verdicts").innerHTML=vm.map(([t,b],i)=>
+    `<div class="flex flex-col gap-0.5 px-3 py-3 ${i<2?'border-b hair':''}"><span class="eyebrow">${t}</span><span class="text-sm text-hi/90">${b||"—"}</span></div>`).join("");
+
+  document.getElementById("glossary").innerHTML=GLOSSARY.map(([t,def])=>
+    `<div><dt class="font-semibold text-hi">${t}</dt><dd class="text-mid">${def}</dd></div>`).join("");
+
+  renderRegTable(d.regression_vars);
+  document.getElementById("uploadLink").href=REPO_UPLOAD_URL;
+
+  // Charts vs PNG fallback
+  if(d.chart_mode==="interactive" && window.Chart){
+    try{ buildCharts(d); }catch(e){ console.error(e); showPng(d); }
+  } else { showPng(d); }
+}
+
+function showPng(d){
+  ["chartPrice","chartFirms","chartDeliv"].forEach(id=>document.getElementById(id).closest(".chartbox")?.classList.add("hidden"));
+  const img=document.getElementById("dashImg");
+  if(d.image){ img.src=d.image+"?t="+Date.now(); img.classList.remove("hidden"); }
+}
+
+(async function(){
+  // 1) self-contained build: data baked into the page (works on Pages AND file://)
+  if (window.__VAULT_DATA__) { render(window.__VAULT_DATA__); return; }
+  // 2) served build: fetch the sibling latest.json (GitHub Pages, http server)
+  try{
+    const r=await fetch("latest.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    render(await r.json());
+  }catch(e){
+    // 3) opened as a bare file with no data: show the embedded sample
+    render(SAMPLE);
+    document.getElementById("lastRun").textContent="sample data";
+  }
+})();
+</script>
+</body>
+</html>
