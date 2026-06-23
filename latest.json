@@ -1,83 +1,88 @@
 {
-  "generated_at": "2026-06-23 01:51",
-  "as_of_date": "2026-06-18",
-  "window": "2026-04-14 \u2013 2026-06-18",
+  "generated_at": "2026-06-23 11:38",
+  "as_of_date": "2026-06-22",
+  "window": "2026-04-14 \u2013 2026-06-22",
   "sources": {
     "macro": "FRED",
     "delivery": "CME Issues & Stops"
   },
   "chart_mode": "interactive",
   "gold": {
-    "price": 4224.1,
-    "change_pct": -12.453886010362687
+    "price": 4181.9,
+    "change_pct": -13.328497409326431
   },
   "cai": {
-    "scaled": 0.6206557743212873,
+    "scaled": 0.5811305537605773,
     "band": "ACCUMULATION"
   },
   "components": {
-    "DI": 0.6504596455660806,
-    "BB": 0.6666666666666666,
-    "SC": 0.7093188364639539,
-    "IC": 0.8990577711063329
+    "DI": 0.6562038023859456,
+    "BB": 0.45454545454545453,
+    "SC": 0.3997632219323891,
+    "IC": 0.6336548729889183
   },
   "thesis": {
-    "core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -12.5% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.",
+    "core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -13.3% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.",
     "stance": "mixed",
     "conviction": "LOW\u2013MODERATE",
-    "delivery": "ELEVATED \u2014 628 contracts delivered, above baseline. Healthy standing for delivery.",
-    "breadth": "BROAD \u2014 6 of 9 firms took delivery (effective 1.4). Demand is widely distributed.",
-    "concentration": "Stoppers HHI 0.709 \u2014 top buyer RBC CAP MARKETS took 523 (83% of deliveries). Issuers HHI 0.899 \u2014 top seller JP MORGAN SECURITIES delivered 595 (95%). A single dominant accumulator is cornering the buy side."
+    "delivery": "ELEVATED \u2014 956 contracts delivered, above baseline. Healthy standing for delivery.",
+    "breadth": "MODERATE \u2014 5 of 11 firms stopping. Demand reasonably spread but not deep.",
+    "concentration": "Stoppers HHI 0.400 \u2014 top buyer RBC CAP MARKETS took 506 (53% of deliveries). Issuers HHI 0.634 \u2014 top seller SCOTIA CAPITAL (USA) delivered 734 (77%). A single dominant accumulator is cornering the buy side."
   },
   "latest_report": {
-    "date": "2026-06-18",
-    "total": 628,
-    "mtd": 37218,
+    "date": "2026-06-22",
+    "total": 956,
+    "mtd": 38174,
     "firms": [
       {
-        "firm": "JP MORGAN SECURITIES",
-        "issued": 595,
-        "stopped": 77
+        "firm": "SCOTIA CAPITAL (USA)",
+        "issued": 734,
+        "stopped": 0
       },
       {
         "firm": "RBC CAP MARKETS",
         "issued": 0,
-        "stopped": 523
+        "stopped": 506
       },
       {
-        "firm": "SCOTIA CAPITAL (USA)",
-        "issued": 22,
+        "firm": "JP MORGAN SECURITIES",
+        "issued": 0,
+        "stopped": 315
+      },
+      {
+        "firm": "DEUTSCHE BANK",
+        "issued": 200,
         "stopped": 0
       },
       {
         "firm": "DEUTSCHE BANK AG",
         "issued": 0,
-        "stopped": 14
+        "stopped": 94
+      },
+      {
+        "firm": "WELLS FARGO SECURITI",
+        "issued": 0,
+        "stopped": 35
+      },
+      {
+        "firm": "ADVANTAGE FUTURES",
+        "issued": 19,
+        "stopped": 0
       },
       {
         "firm": "CME",
         "issued": 0,
-        "stopped": 8
-      },
-      {
-        "firm": "ADVANTAGE FUTURES",
-        "issued": 7,
-        "stopped": 0
+        "stopped": 6
       },
       {
         "firm": "ADM",
-        "issued": 0,
-        "stopped": 5
-      },
-      {
-        "firm": "DORMAN TRADING, LLC",
-        "issued": 4,
+        "issued": 1,
         "stopped": 0
       },
       {
-        "firm": "WEDBUSH SECURITIES",
-        "issued": 0,
-        "stopped": 1
+        "firm": "DORMAN TRADING, LLC",
+        "issued": 1,
+        "stopped": 0
       }
     ]
   },
@@ -159,65 +164,71 @@
       "gold": 4224.1,
       "cai": 0.6206557743212873,
       "mtd": 37218
+    },
+    {
+      "date": "2026-06-22",
+      "gold": 4181.9,
+      "cai": 0.5811305537605773,
+      "mtd": 38174
     }
   ],
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-06-29",
-      "point": 4183.5,
-      "lo": 4033.4,
-      "hi": 4333.7,
-      "from_price": 4180.6,
-      "from_date": "2026-06-22"
+      "date": "2026-06-30",
+      "point": 4132.7,
+      "lo": 3980.1,
+      "hi": 4285.4,
+      "from_price": 4144.6,
+      "from_date": "2026-06-23"
     },
     {
       "weeks": 2,
-      "date": "2026-07-06",
-      "point": 4012.2,
-      "lo": 3894.1,
-      "hi": 4130.3,
-      "from_price": 4180.6,
-      "from_date": "2026-06-22"
+      "date": "2026-07-07",
+      "point": 3898.8,
+      "lo": 3781.3,
+      "hi": 4016.3,
+      "from_price": 4144.6,
+      "from_date": "2026-06-23"
     },
     {
       "weeks": 3,
-      "date": "2026-07-13",
-      "point": 3799.5,
-      "lo": 3654.5,
-      "hi": 3944.5,
-      "from_price": 4180.6,
-      "from_date": "2026-06-22"
+      "date": "2026-07-14",
+      "point": 3720.2,
+      "lo": 3576.4,
+      "hi": 3863.9,
+      "from_price": 4144.6,
+      "from_date": "2026-06-23"
     },
     {
       "weeks": 4,
-      "date": "2026-07-20",
-      "point": 4151.9,
-      "lo": 3983.8,
-      "hi": 4320.0,
-      "from_price": 4180.6,
-      "from_date": "2026-06-22"
+      "date": "2026-07-21",
+      "point": 4031.7,
+      "lo": 3866.0,
+      "hi": 4197.3,
+      "from_price": 4144.6,
+      "from_date": "2026-06-23"
     },
     {
       "weeks": 5,
-      "date": "2026-07-27",
-      "point": 4215.5,
-      "lo": 4110.9,
-      "hi": 4320.1,
-      "from_price": 4180.6,
-      "from_date": "2026-06-22"
+      "date": "2026-07-28",
+      "point": 3976.1,
+      "lo": 3858.4,
+      "hi": 4093.7,
+      "from_price": 4144.6,
+      "from_date": "2026-06-23"
     },
     {
       "weeks": 6,
-      "date": "2026-08-03",
-      "point": 3790.5,
-      "lo": 3673.5,
-      "hi": 3907.5,
-      "from_price": 4180.6,
-      "from_date": "2026-06-22"
+      "date": "2026-08-04",
+      "point": 3824.5,
+      "lo": 3700.7,
+      "hi": 3948.2,
+      "from_price": 4144.6,
+      "from_date": "2026-06-23"
     }
   ],
-  "history_points": 13,
+  "history_points": 14,
   "image": "latest.png",
   "gold_history": [
     {
@@ -2702,7 +2713,11 @@
     },
     {
       "d": "2026-06-22",
-      "v": 4180.6
+      "v": 4181.9
+    },
+    {
+      "d": "2026-06-23",
+      "v": 4144.6
     }
   ],
   "gold_source": "daily",
@@ -2966,6 +2981,26 @@
       "int_DI_DXY": -0.4084,
       "int_BB_UST10": 0.0859,
       "S": 0.1481
+    },
+    {
+      "date": "2026-06-22",
+      "gold": 4181.9,
+      "DI": 0.6562,
+      "BB": 0.4545,
+      "SC": 0.3998,
+      "IC": 0.6337,
+      "CAI": 0.5811,
+      "dxy": 101.02,
+      "ust10": 4.451,
+      "zDI": 1.2315,
+      "zBB": -1.1258,
+      "zSC": -0.6328,
+      "zIC": -0.0863,
+      "zdDXY": -0.1076,
+      "zdUST10": 0.4191,
+      "int_DI_DXY": 0.1325,
+      "int_BB_UST10": 0.4718,
+      "S": 0.1602
     }
   ]
 }
