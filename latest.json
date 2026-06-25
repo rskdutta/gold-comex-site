@@ -1,86 +1,81 @@
 {
-  "generated_at": "2026-06-24 15:54",
-  "as_of_date": "2026-06-22",
-  "window": "2026-04-14 \u2013 2026-06-22",
+  "generated_at": "2026-06-25 02:29",
+  "as_of_date": "2026-06-24",
+  "window": "2026-04-14 \u2013 2026-06-24",
   "sources": {
     "macro": "FRED",
     "delivery": "CME Issues & Stops"
   },
   "chart_mode": "interactive",
   "gold": {
-    "price": 4181.9,
-    "change_pct": -13.328497409326431
+    "price": 3990.3,
+    "change_pct": -17.29948186528497
   },
   "cai": {
-    "scaled": 0.5811305537605773,
+    "scaled": 0.6000951280863811,
     "band": "ACCUMULATION"
   },
   "components": {
-    "DI": 0.6562038023859456,
-    "BB": 0.45454545454545453,
-    "SC": 0.3997632219323891,
-    "IC": 0.6336548729889183
+    "DI": 0.6587845907121166,
+    "BB": 0.5555555555555556,
+    "SC": 0.6910436454752056,
+    "IC": 0.9404172251034321
   },
   "thesis": {
-    "core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -13.3% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.",
+    "core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -17.3% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.",
     "stance": "mixed",
     "conviction": "LOW\u2013MODERATE",
-    "delivery": "ELEVATED \u2014 956 contracts delivered, above baseline. Healthy standing for delivery.",
-    "breadth": "MODERATE \u2014 5 of 11 firms stopping. Demand reasonably spread but not deep.",
-    "concentration": "Stoppers HHI 0.400 \u2014 top buyer RBC CAP MARKETS took 506 (53% of deliveries). Issuers HHI 0.634 \u2014 top seller SCOTIA CAPITAL (USA) delivered 734 (77%). A single dominant accumulator is cornering the buy side."
+    "delivery": "ELEVATED \u2014 262 contracts delivered, above baseline. Healthy standing for delivery.",
+    "breadth": "MODERATE \u2014 5 of 9 firms stopping. Demand reasonably spread but not deep.",
+    "concentration": "Stoppers HHI 0.691 \u2014 top buyer JP MORGAN SECURITIES took 216 (82% of deliveries). Issuers HHI 0.940 \u2014 top seller DEUTSCHE BANK delivered 254 (97%). A single dominant accumulator is cornering the buy side."
   },
   "latest_report": {
-    "date": "2026-06-22",
-    "total": 956,
-    "mtd": 38174,
+    "date": "2026-06-24",
+    "total": 262,
+    "mtd": 38614,
     "firms": [
       {
-        "firm": "SCOTIA CAPITAL (USA)",
-        "issued": 734,
+        "firm": "DEUTSCHE BANK",
+        "issued": 254,
         "stopped": 0
-      },
-      {
-        "firm": "RBC CAP MARKETS",
-        "issued": 0,
-        "stopped": 506
       },
       {
         "firm": "JP MORGAN SECURITIES",
         "issued": 0,
-        "stopped": 315
-      },
-      {
-        "firm": "DEUTSCHE BANK",
-        "issued": 200,
-        "stopped": 0
+        "stopped": 216
       },
       {
         "firm": "DEUTSCHE BANK AG",
         "issued": 0,
-        "stopped": 94
+        "stopped": 25
       },
       {
         "firm": "WELLS FARGO SECURITI",
         "issued": 0,
-        "stopped": 35
+        "stopped": 9
+      },
+      {
+        "firm": "ADM",
+        "issued": 0,
+        "stopped": 7
       },
       {
         "firm": "ADVANTAGE FUTURES",
-        "issued": 19,
+        "issued": 6,
         "stopped": 0
       },
       {
         "firm": "CME",
         "issued": 0,
-        "stopped": 6
+        "stopped": 5
       },
       {
-        "firm": "ADM",
+        "firm": "RBC CAP MARKETS",
         "issued": 1,
         "stopped": 0
       },
       {
-        "firm": "DORMAN TRADING, LLC",
+        "firm": "STONEX FINANCIAL INC",
         "issued": 1,
         "stopped": 0
       }
@@ -170,65 +165,71 @@
       "gold": 4181.9,
       "cai": 0.5811305537605773,
       "mtd": 38174
+    },
+    {
+      "date": "2026-06-24",
+      "gold": 3990.3,
+      "cai": 0.6000951280863811,
+      "mtd": 38614
     }
   ],
   "forecast": [
     {
       "weeks": 1,
       "date": "2026-07-01",
-      "point": 4015.7,
-      "lo": 3855.8,
-      "hi": 4175.6,
-      "from_price": 4021.6,
+      "point": 3988.3,
+      "lo": 3826.7,
+      "hi": 4149.8,
+      "from_price": 3996.5,
       "from_date": "2026-06-24"
     },
     {
       "weeks": 2,
       "date": "2026-07-08",
-      "point": 3711.6,
-      "lo": 3593.1,
-      "hi": 3830.1,
-      "from_price": 4021.6,
+      "point": 3669.4,
+      "lo": 3549.8,
+      "hi": 3789.0,
+      "from_price": 3996.5,
       "from_date": "2026-06-24"
     },
     {
       "weeks": 3,
       "date": "2026-07-15",
-      "point": 3468.0,
-      "lo": 3317.6,
-      "hi": 3618.5,
-      "from_price": 4021.6,
+      "point": 3413.8,
+      "lo": 3261.4,
+      "hi": 3566.2,
+      "from_price": 3996.5,
       "from_date": "2026-06-24"
     },
     {
       "weeks": 4,
       "date": "2026-07-22",
-      "point": 3861.6,
-      "lo": 3697.4,
-      "hi": 4025.7,
-      "from_price": 4021.6,
+      "point": 3835.1,
+      "lo": 3670.2,
+      "hi": 4000.0,
+      "from_price": 3996.5,
       "from_date": "2026-06-24"
     },
     {
       "weeks": 5,
       "date": "2026-07-29",
-      "point": 3655.6,
-      "lo": 3518.2,
-      "hi": 3792.9,
-      "from_price": 4021.6,
+      "point": 3624.0,
+      "lo": 3483.1,
+      "hi": 3764.9,
+      "from_price": 3996.5,
       "from_date": "2026-06-24"
     },
     {
       "weeks": 6,
       "date": "2026-08-05",
-      "point": 3803.6,
-      "lo": 3663.6,
-      "hi": 3943.6,
-      "from_price": 4021.6,
+      "point": 3778.5,
+      "lo": 3634.7,
+      "hi": 3922.3,
+      "from_price": 3996.5,
       "from_date": "2026-06-24"
     }
   ],
-  "history_points": 14,
+  "history_points": 15,
   "image": "latest.png",
   "gold_history": [
     {
@@ -2721,7 +2722,7 @@
     },
     {
       "d": "2026-06-24",
-      "v": 4021.6
+      "v": 3996.5
     }
   ],
   "gold_source": "daily",
@@ -3005,6 +3006,26 @@
       "int_DI_DXY": 0.1325,
       "int_BB_UST10": 0.4718,
       "S": 0.1602
+    },
+    {
+      "date": "2026-06-24",
+      "gold": 3990.3,
+      "DI": 0.6588,
+      "BB": 0.5556,
+      "SC": 0.691,
+      "IC": 0.9404,
+      "CAI": 0.6001,
+      "dxy": 101.527,
+      "ust10": 4.402,
+      "zDI": 1.066,
+      "zBB": -0.425,
+      "zSC": 1.3834,
+      "zIC": 1.4667,
+      "zdDXY": 0.9017,
+      "zdUST10": -0.9484,
+      "int_DI_DXY": -0.9613,
+      "int_BB_UST10": -0.403,
+      "S": 0.2042
     }
   ]
 }
