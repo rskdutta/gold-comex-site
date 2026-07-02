@@ -1,68 +1,88 @@
 {
-  "generated_at": "2026-07-01 16:09",
-  "as_of_date": "2026-06-26",
-  "window": "2026-04-14 \u2013 2026-06-26",
+  "generated_at": "2026-07-02 08:55",
+  "as_of_date": "2026-07-01",
+  "window": "2026-04-14 \u2013 2026-07-01",
   "sources": {
     "macro": "FRED",
     "delivery": "CME Issues & Stops"
   },
   "chart_mode": "interactive",
   "gold": {
-    "price": 4078.7,
-    "change_pct": -15.467357512953372
+    "price": 4068.3,
+    "change_pct": -15.682901554404141
   },
   "cai": {
-    "scaled": 0.5329051904780913,
-    "band": "NEUTRAL"
+    "scaled": 0.4346456759583102,
+    "band": "DISTRIBUTION"
   },
   "components": {
-    "DI": 0.6712743051560626,
+    "DI": 0.2991309223437062,
     "BB": 0.5,
-    "SC": 0.5510204081632654,
-    "IC": 0.3877551020408163
+    "SC": 0.5847384369422962,
+    "IC": 0.6459836035098155
   },
   "thesis": {
-    "core": "DEMAND INTO WEAKNESS. Heavy, broad delivery-taking is occurring even as price down -15.5% \u2014 concentrated issuers are pushing physical out and buyers are standing for it at lower prices. This is value-accumulation OR a falling knife; it turns constructive only once price stabilises.",
-    "stance": "mixed",
+    "core": "DISTRIBUTION / PASSIVE. Delivery flow is light and demand is unconvincing; price down -15.7%, consistent with supply changing hands without strong accumulation.",
+    "stance": "bearish",
     "conviction": "LOW\u2013MODERATE",
-    "delivery": "AGGRESSIVE \u2014 7 contracts delivered, well above the ~1,500 baseline. Strong intent to stand for physical.",
-    "breadth": "MODERATE \u2014 3 of 6 firms stopping. Demand reasonably spread but not deep.",
-    "concentration": "Stoppers HHI 0.551 \u2014 top buyer BOFA SECURITIES took 5 (71% of deliveries). Issuers HHI 0.388 \u2014 top seller ADVANTAGE FUTURES delivered 3 (43%). A single dominant accumulator is cornering the buy side."
+    "delivery": "LIGHT \u2014 only 656 contracts delivered, below baseline. Little conviction to take physical.",
+    "breadth": "MODERATE \u2014 5 of 10 firms stopping. Demand reasonably spread but not deep.",
+    "concentration": "Stoppers HHI 0.585 \u2014 top buyer BNP PARIBAS SEC CORP took 488 (74% of deliveries). Issuers HHI 0.646 \u2014 top seller WELLS FARGO SECURITI delivered 517 (79%). A single dominant accumulator is cornering the buy side."
   },
   "latest_report": {
-    "date": "2026-06-26",
-    "total": 7,
-    "mtd": 40841,
+    "date": "2026-07-01",
+    "total": 656,
+    "mtd": 8536,
     "firms": [
       {
-        "firm": "BOFA SECURITIES",
-        "issued": 0,
-        "stopped": 5
-      },
-      {
-        "firm": "ADM",
-        "issued": 3,
+        "firm": "WELLS FARGO SECURITI",
+        "issued": 517,
         "stopped": 0
       },
       {
-        "firm": "ADVANTAGE FUTURES",
-        "issued": 3,
-        "stopped": 0
+        "firm": "BNP PARIBAS SEC CORP",
+        "issued": 0,
+        "stopped": 488
       },
       {
-        "firm": "CME",
+        "firm": "JP MORGAN SECURITIES",
         "issued": 0,
-        "stopped": 1
+        "stopped": 108
+      },
+      {
+        "firm": "DEUTSCHE BANK",
+        "issued": 100,
+        "stopped": 0
       },
       {
         "firm": "DEUTSCHE BANK AG",
         "issued": 0,
-        "stopped": 1
+        "stopped": 36
       },
       {
-        "firm": "DEUTSCHE BANK",
-        "issued": 1,
+        "firm": "RBC CAP MARKETS",
+        "issued": 0,
+        "stopped": 23
+      },
+      {
+        "firm": "STONEX FINANCIAL INC",
+        "issued": 21,
         "stopped": 0
+      },
+      {
+        "firm": "ADVANTAGE FUTURES",
+        "issued": 16,
+        "stopped": 0
+      },
+      {
+        "firm": "ADM",
+        "issued": 2,
+        "stopped": 0
+      },
+      {
+        "firm": "BARCLAYS",
+        "issued": 0,
+        "stopped": 1
       }
     ]
   },
@@ -162,65 +182,71 @@
       "gold": 4078.7,
       "cai": 0.5329051904780913,
       "mtd": 40841
+    },
+    {
+      "date": "2026-07-01",
+      "gold": 4068.3,
+      "cai": 0.4346456759583102,
+      "mtd": 8536
     }
   ],
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-07-08",
-      "point": 4243.0,
-      "lo": 4080.1,
-      "hi": 4405.9,
-      "from_price": 4093.8,
-      "from_date": "2026-07-01"
+      "date": "2026-07-09",
+      "point": 4197.2,
+      "lo": 4035.2,
+      "hi": 4359.3,
+      "from_price": 4087.9,
+      "from_date": "2026-07-02"
     },
     {
       "weeks": 2,
-      "date": "2026-07-15",
-      "point": 4047.6,
-      "lo": 3925.7,
-      "hi": 4169.5,
-      "from_price": 4093.8,
-      "from_date": "2026-07-01"
+      "date": "2026-07-16",
+      "point": 3962.3,
+      "lo": 3841.9,
+      "hi": 4082.6,
+      "from_price": 4087.9,
+      "from_date": "2026-07-02"
     },
     {
       "weeks": 3,
-      "date": "2026-07-22",
-      "point": 3721.5,
-      "lo": 3567.4,
-      "hi": 3875.6,
-      "from_price": 4093.8,
-      "from_date": "2026-07-01"
+      "date": "2026-07-23",
+      "point": 3792.3,
+      "lo": 3626.6,
+      "hi": 3957.9,
+      "from_price": 4087.9,
+      "from_date": "2026-07-02"
     },
     {
       "weeks": 4,
-      "date": "2026-07-29",
-      "point": 3958.7,
-      "lo": 3792.3,
-      "hi": 4125.2,
-      "from_price": 4093.8,
-      "from_date": "2026-07-01"
+      "date": "2026-07-30",
+      "point": 3848.2,
+      "lo": 3683.7,
+      "hi": 4012.6,
+      "from_price": 4087.9,
+      "from_date": "2026-07-02"
     },
     {
       "weeks": 5,
-      "date": "2026-08-05",
-      "point": 3640.7,
-      "lo": 3495.4,
-      "hi": 3786.0,
-      "from_price": 4093.8,
-      "from_date": "2026-07-01"
+      "date": "2026-08-06",
+      "point": 3639.8,
+      "lo": 3493.1,
+      "hi": 3786.6,
+      "from_price": 4087.9,
+      "from_date": "2026-07-02"
     },
     {
       "weeks": 6,
-      "date": "2026-08-12",
-      "point": 3768.1,
-      "lo": 3584.1,
-      "hi": 3952.1,
-      "from_price": 4093.8,
-      "from_date": "2026-07-01"
+      "date": "2026-08-13",
+      "point": 3707.5,
+      "lo": 3527.5,
+      "hi": 3887.5,
+      "from_price": 4087.9,
+      "from_date": "2026-07-02"
     }
   ],
-  "history_points": 16,
+  "history_points": 17,
   "image": "latest.png",
   "gold_history": [
     {
@@ -2733,7 +2759,11 @@
     },
     {
       "d": "2026-07-01",
-      "v": 4093.8
+      "v": 4068.3
+    },
+    {
+      "d": "2026-07-02",
+      "v": 4087.9
     }
   ],
   "gold_source": "daily",
@@ -3057,6 +3087,26 @@
       "int_DI_DXY": 1.4729,
       "int_BB_UST10": -0.1613,
       "S": 0.2503
+    },
+    {
+      "date": "2026-07-01",
+      "gold": 4068.3,
+      "DI": 0.2991,
+      "BB": 0.5,
+      "SC": 0.5847,
+      "IC": 0.646,
+      "CAI": 0.4346,
+      "dxy": 101.39,
+      "ust10": 4.372,
+      "zDI": -2.6292,
+      "zBB": -0.7171,
+      "zSC": 0.3633,
+      "zIC": -0.0129,
+      "zdDXY": -0.3919,
+      "zdUST10": 0.4154,
+      "int_DI_DXY": -1.0305,
+      "int_BB_UST10": 0.2979,
+      "S": -0.7331
     }
   ]
 }
