@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02 15:54",
+  "generated_at": "2026-07-03 15:35",
   "as_of_date": "2026-07-01",
   "window": "2026-04-14 \u2013 2026-07-01",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "DISTRIBUTION / PASSIVE. Delivery flow is light and demand is unconvincing; price down -15.7%, consistent with supply changing hands without strong accumulation.",
     "stance": "bearish",
-    "conviction": "LOW\u2013MODERATE",
+    "conviction": "MODERATE",
     "delivery": "LIGHT \u2014 only 656 contracts delivered, below baseline. Little conviction to take physical.",
     "breadth": "MODERATE \u2014 5 of 10 firms stopping. Demand reasonably spread but not deep.",
     "concentration": "Stoppers HHI 0.585 \u2014 top buyer BNP PARIBAS SEC CORP took 488 (74% of deliveries). Issuers HHI 0.646 \u2014 top seller WELLS FARGO SECURITI delivered 517 (79%). A single dominant accumulator is cornering the buy side."
@@ -193,57 +193,57 @@
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-07-09",
-      "point": 4310.3,
-      "lo": 4146.7,
-      "hi": 4473.9,
-      "from_price": 4138.7,
-      "from_date": "2026-07-02"
+      "date": "2026-07-10",
+      "point": 4294.3,
+      "lo": 4132.4,
+      "hi": 4456.3,
+      "from_price": 4181.7,
+      "from_date": "2026-07-03"
     },
     {
       "weeks": 2,
-      "date": "2026-07-16",
-      "point": 4102.2,
-      "lo": 3981.7,
-      "hi": 4222.7,
-      "from_price": 4138.7,
-      "from_date": "2026-07-02"
+      "date": "2026-07-17",
+      "point": 4090.3,
+      "lo": 3966.5,
+      "hi": 4214.1,
+      "from_price": 4181.7,
+      "from_date": "2026-07-03"
     },
     {
       "weeks": 3,
-      "date": "2026-07-23",
-      "point": 3897.7,
-      "lo": 3728.2,
-      "hi": 4067.1,
-      "from_price": 4138.7,
-      "from_date": "2026-07-02"
+      "date": "2026-07-24",
+      "point": 3973.9,
+      "lo": 3795.0,
+      "hi": 4152.8,
+      "from_price": 4181.7,
+      "from_date": "2026-07-03"
     },
     {
       "weeks": 4,
-      "date": "2026-07-30",
-      "point": 4003.7,
-      "lo": 3839.3,
-      "hi": 4168.0,
-      "from_price": 4138.7,
-      "from_date": "2026-07-02"
+      "date": "2026-07-31",
+      "point": 3971.0,
+      "lo": 3809.4,
+      "hi": 4132.6,
+      "from_price": 4181.7,
+      "from_date": "2026-07-03"
     },
     {
       "weeks": 5,
-      "date": "2026-08-06",
-      "point": 3754.2,
-      "lo": 3604.1,
-      "hi": 3904.3,
-      "from_price": 4138.7,
-      "from_date": "2026-07-02"
+      "date": "2026-08-07",
+      "point": 3800.0,
+      "lo": 3651.6,
+      "hi": 3948.4,
+      "from_price": 4181.7,
+      "from_date": "2026-07-03"
     },
     {
       "weeks": 6,
-      "date": "2026-08-13",
-      "point": 3844.7,
-      "lo": 3663.6,
-      "hi": 4025.7,
-      "from_price": 4138.7,
-      "from_date": "2026-07-02"
+      "date": "2026-08-14",
+      "point": 3876.1,
+      "lo": 3697.1,
+      "hi": 4055.2,
+      "from_price": 4181.7,
+      "from_date": "2026-07-03"
     }
   ],
   "history_points": 17,
@@ -2763,7 +2763,11 @@
     },
     {
       "d": "2026-07-02",
-      "v": 4138.7
+      "v": 4112.7
+    },
+    {
+      "d": "2026-07-03",
+      "v": 4181.7
     }
   ],
   "gold_source": "daily",
