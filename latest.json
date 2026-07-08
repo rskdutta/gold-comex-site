@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07 16:04",
+  "generated_at": "2026-07-08 15:52",
   "as_of_date": "2026-07-02",
   "window": "2026-04-14 \u2013 2026-07-02",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
     "stance": "mixed",
-    "conviction": "MODERATE",
+    "conviction": "LOW\u2013MODERATE",
     "delivery": "LIGHT \u2014 only 205 contracts delivered, below baseline. Little conviction to take physical.",
     "breadth": "BROAD \u2014 3 of 4 firms took delivery (effective 1.6). Demand is widely distributed.",
     "concentration": "Stoppers HHI 0.635 \u2014 top buyer JP MORGAN SECURITIES took 160 (78% of deliveries). Issuers HHI 1.000 \u2014 top seller DEUTSCHE BANK delivered 205 (100%). A single dominant accumulator is cornering the buy side."
@@ -169,57 +169,57 @@
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-07-14",
-      "point": 4276.0,
-      "lo": 4114.1,
-      "hi": 4437.9,
-      "from_price": 4149.5,
-      "from_date": "2026-07-07"
+      "date": "2026-07-15",
+      "point": 4171.3,
+      "lo": 4010.7,
+      "hi": 4331.9,
+      "from_price": 4041.8,
+      "from_date": "2026-07-08"
     },
     {
       "weeks": 2,
-      "date": "2026-07-21",
-      "point": 4112.5,
-      "lo": 3988.9,
-      "hi": 4236.1,
-      "from_price": 4149.5,
-      "from_date": "2026-07-07"
+      "date": "2026-07-22",
+      "point": 4002.5,
+      "lo": 3879.9,
+      "hi": 4125.0,
+      "from_price": 4041.8,
+      "from_date": "2026-07-08"
     },
     {
       "weeks": 3,
-      "date": "2026-07-28",
-      "point": 3982.1,
-      "lo": 3806.4,
-      "hi": 4157.8,
-      "from_price": 4149.5,
-      "from_date": "2026-07-07"
+      "date": "2026-07-29",
+      "point": 3859.6,
+      "lo": 3684.5,
+      "hi": 4034.7,
+      "from_price": 4041.8,
+      "from_date": "2026-07-08"
     },
     {
       "weeks": 4,
-      "date": "2026-08-04",
-      "point": 4017.2,
-      "lo": 3856.7,
-      "hi": 4177.6,
-      "from_price": 4149.5,
-      "from_date": "2026-07-07"
+      "date": "2026-08-05",
+      "point": 3879.0,
+      "lo": 3720.5,
+      "hi": 4037.6,
+      "from_price": 4041.8,
+      "from_date": "2026-07-08"
     },
     {
       "weeks": 5,
-      "date": "2026-08-11",
-      "point": 3814.4,
-      "lo": 3669.6,
-      "hi": 3959.1,
-      "from_price": 4149.5,
-      "from_date": "2026-07-07"
+      "date": "2026-08-12",
+      "point": 3688.4,
+      "lo": 3546.0,
+      "hi": 3830.8,
+      "from_price": 4041.8,
+      "from_date": "2026-07-08"
     },
     {
       "weeks": 6,
-      "date": "2026-08-18",
-      "point": 3858.5,
-      "lo": 3684.2,
-      "hi": 4032.8,
-      "from_price": 4149.5,
-      "from_date": "2026-07-07"
+      "date": "2026-08-19",
+      "point": 3750.9,
+      "lo": 3580.3,
+      "hi": 3921.4,
+      "from_price": 4041.8,
+      "from_date": "2026-07-08"
     }
   ],
   "history_points": 18,
@@ -2747,7 +2747,11 @@
     },
     {
       "d": "2026-07-07",
-      "v": 4149.5
+      "v": 4145.3
+    },
+    {
+      "d": "2026-07-08",
+      "v": 4041.8
     }
   ],
   "gold_source": "daily",
