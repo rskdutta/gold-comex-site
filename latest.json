@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10 15:58",
+  "generated_at": "2026-07-11 14:37",
   "as_of_date": "2026-07-08",
   "window": "2026-04-14 \u2013 2026-07-08",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "DISTRIBUTION / PASSIVE. Delivery flow is light and demand is unconvincing; price down -15.6%, consistent with supply changing hands without strong accumulation.",
     "stance": "bearish",
-    "conviction": "MODERATE",
+    "conviction": "LOW\u2013MODERATE",
     "delivery": "LIGHT \u2014 only 285 contracts delivered, below baseline. Little conviction to take physical.",
     "breadth": "MODERATE \u2014 3 of 6 firms stopping. Demand reasonably spread but not deep.",
     "concentration": "Stoppers HHI 0.498 \u2014 top buyer WELLS FARGO SECURITI took 172 (60% of deliveries). Issuers HHI 0.504 \u2014 top seller STONEX FINANCIAL INC delivered 160 (56%). A single dominant accumulator is cornering the buy side."
@@ -186,55 +186,55 @@
     {
       "weeks": 1,
       "date": "2026-07-17",
-      "point": 4157.5,
-      "lo": 3996.4,
-      "hi": 4318.5,
-      "from_price": 4117.6,
+      "point": 4149.9,
+      "lo": 3988.6,
+      "hi": 4311.3,
+      "from_price": 4104.1,
       "from_date": "2026-07-10"
     },
     {
       "weeks": 2,
       "date": "2026-07-24",
-      "point": 4055.6,
-      "lo": 3916.6,
-      "hi": 4194.6,
-      "from_price": 4117.6,
+      "point": 4056.1,
+      "lo": 3917.8,
+      "hi": 4194.4,
+      "from_price": 4104.1,
       "from_date": "2026-07-10"
     },
     {
       "weeks": 3,
       "date": "2026-07-31",
-      "point": 3890.0,
-      "lo": 3719.7,
-      "hi": 4060.3,
-      "from_price": 4117.6,
+      "point": 3876.5,
+      "lo": 3706.0,
+      "hi": 4046.9,
+      "from_price": 4104.1,
       "from_date": "2026-07-10"
     },
     {
       "weeks": 4,
       "date": "2026-08-07",
-      "point": 3920.1,
-      "lo": 3762.9,
-      "hi": 4077.2,
-      "from_price": 4117.6,
+      "point": 3914.5,
+      "lo": 3757.8,
+      "hi": 4071.2,
+      "from_price": 4104.1,
       "from_date": "2026-07-10"
     },
     {
       "weeks": 5,
       "date": "2026-08-14",
-      "point": 3732.0,
-      "lo": 3593.4,
-      "hi": 3870.6,
-      "from_price": 4117.6,
+      "point": 3716.8,
+      "lo": 3578.5,
+      "hi": 3855.1,
+      "from_price": 4104.1,
       "from_date": "2026-07-10"
     },
     {
       "weeks": 6,
       "date": "2026-08-21",
-      "point": 3877.6,
-      "lo": 3709.8,
-      "hi": 4045.5,
-      "from_price": 4117.6,
+      "point": 3866.0,
+      "lo": 3698.5,
+      "hi": 4033.5,
+      "from_price": 4104.1,
       "from_date": "2026-07-10"
     }
   ],
@@ -2775,7 +2775,7 @@
     },
     {
       "d": "2026-07-10",
-      "v": 4117.6
+      "v": 4104.1
     }
   ],
   "gold_source": "daily",
