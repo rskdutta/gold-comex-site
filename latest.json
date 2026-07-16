@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15 15:09",
+  "generated_at": "2026-07-16 15:19",
   "as_of_date": "2026-07-14",
   "window": "2026-04-14 \u2013 2026-07-14",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "DISTRIBUTION / PASSIVE. Delivery flow is light and demand is unconvincing; price down -15.8%, consistent with supply changing hands without strong accumulation.",
     "stance": "bearish",
-    "conviction": "LOW\u2013MODERATE",
+    "conviction": "MODERATE",
     "delivery": "ROUTINE \u2014 1,047 contracts delivered, near baseline. Ordinary delivery flow.",
     "breadth": "MODERATE \u2014 4 of 9 firms stopping. Demand reasonably spread but not deep.",
     "concentration": "Stoppers HHI 0.885 \u2014 top buyer BOFA SECURITIES took 984 (94% of deliveries). Issuers HHI 0.307 \u2014 top seller RBC CAP MARKETS delivered 475 (45%). A single dominant accumulator is cornering the buy side."
@@ -206,57 +206,57 @@
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-07-22",
-      "point": 4064.9,
-      "lo": 3901.2,
-      "hi": 4228.6,
-      "from_price": 4067.3,
-      "from_date": "2026-07-15"
+      "date": "2026-07-23",
+      "point": 3999.1,
+      "lo": 3834.8,
+      "hi": 4163.5,
+      "from_price": 3997.9,
+      "from_date": "2026-07-16"
     },
     {
       "weeks": 2,
-      "date": "2026-07-29",
-      "point": 3987.2,
-      "lo": 3847.4,
-      "hi": 4127.0,
-      "from_price": 4067.3,
-      "from_date": "2026-07-15"
+      "date": "2026-07-30",
+      "point": 3939.7,
+      "lo": 3799.4,
+      "hi": 4080.0,
+      "from_price": 3997.9,
+      "from_date": "2026-07-16"
     },
     {
       "weeks": 3,
-      "date": "2026-08-05",
-      "point": 3858.5,
-      "lo": 3689.8,
-      "hi": 4027.3,
-      "from_price": 4067.3,
-      "from_date": "2026-07-15"
+      "date": "2026-08-06",
+      "point": 3829.7,
+      "lo": 3659.6,
+      "hi": 3999.8,
+      "from_price": 3997.9,
+      "from_date": "2026-07-16"
     },
     {
       "weeks": 4,
-      "date": "2026-08-12",
-      "point": 3810.5,
-      "lo": 3659.2,
-      "hi": 3961.8,
-      "from_price": 4067.3,
-      "from_date": "2026-07-15"
+      "date": "2026-08-13",
+      "point": 3770.5,
+      "lo": 3620.7,
+      "hi": 3920.3,
+      "from_price": 3997.9,
+      "from_date": "2026-07-16"
     },
     {
       "weeks": 5,
-      "date": "2026-08-19",
-      "point": 3636.7,
-      "lo": 3502.9,
-      "hi": 3770.5,
-      "from_price": 4067.3,
-      "from_date": "2026-07-15"
+      "date": "2026-08-20",
+      "point": 3589.1,
+      "lo": 3457.1,
+      "hi": 3721.1,
+      "from_price": 3997.9,
+      "from_date": "2026-07-16"
     },
     {
       "weeks": 6,
-      "date": "2026-08-26",
-      "point": 3774.8,
-      "lo": 3614.1,
-      "hi": 3935.5,
-      "from_price": 4067.3,
-      "from_date": "2026-07-15"
+      "date": "2026-08-27",
+      "point": 3699.0,
+      "lo": 3539.9,
+      "hi": 3858.2,
+      "from_price": 3997.9,
+      "from_date": "2026-07-16"
     }
   ],
   "history_points": 20,
@@ -2808,7 +2808,11 @@
     },
     {
       "d": "2026-07-15",
-      "v": 4067.3
+      "v": 4044.0
+    },
+    {
+      "d": "2026-07-16",
+      "v": 3997.9
     }
   ],
   "gold_source": "daily",
@@ -3201,17 +3205,17 @@
       "SC": 0.8847,
       "IC": 0.3066,
       "CAI": 0.3288,
-      "dxy": 101.28,
-      "ust10": 4.609,
+      "dxy": 100.94,
+      "ust10": 4.585,
       "zDI": -0.7634,
       "zBB": -1.0114,
       "zSC": 1.9215,
       "zIC": -1.4693,
-      "zdDXY": 0.2088,
-      "zdUST10": 0.3409,
-      "int_DI_DXY": 0.1594,
-      "int_BB_UST10": 0.3448,
-      "S": -0.7401
+      "zdDXY": -0.5456,
+      "zdUST10": 0.0119,
+      "int_DI_DXY": -0.4165,
+      "int_BB_UST10": 0.012,
+      "S": -0.6061
     }
   ]
 }
