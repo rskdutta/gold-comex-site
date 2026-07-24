@@ -1,82 +1,67 @@
 {
-  "generated_at": "2026-07-17 14:59",
-  "as_of_date": "2026-07-14",
-  "window": "2026-04-14 \u2013 2026-07-14",
+  "generated_at": "2026-07-24 02:18",
+  "as_of_date": "2026-07-21",
+  "window": "2026-04-14 \u2013 2026-07-21",
   "sources": {
     "macro": "FRED",
     "delivery": "CME Issues & Stops"
   },
   "chart_mode": "interactive",
   "gold": {
-    "price": 4061.1,
-    "change_pct": -15.832124352331608
+    "price": 4071.1,
+    "change_pct": -15.624870466321244
   },
   "cai": {
-    "scaled": 0.3287517596550298,
-    "band": "DISTRIBUTION"
+    "scaled": 0.54725624745563,
+    "band": "NEUTRAL"
   },
   "components": {
-    "DI": 0.3610223642172524,
-    "BB": 0.4444444444444444,
-    "SC": 0.8846533827034807,
-    "IC": 0.30660850257569494
+    "DI": 0.3898160295329042,
+    "BB": 0.6666666666666666,
+    "SC": 0.2946675900277008,
+    "IC": 0.4650277008310249
   },
   "thesis": {
-    "core": "DISTRIBUTION / PASSIVE. Delivery flow is light and demand is unconvincing; price down -15.8%, consistent with supply changing hands without strong accumulation.",
-    "stance": "bearish",
-    "conviction": "MODERATE",
-    "delivery": "ROUTINE \u2014 1,047 contracts delivered, near baseline. Ordinary delivery flow.",
-    "breadth": "MODERATE \u2014 4 of 9 firms stopping. Demand reasonably spread but not deep.",
-    "concentration": "Stoppers HHI 0.885 \u2014 top buyer BOFA SECURITIES took 984 (94% of deliveries). Issuers HHI 0.307 \u2014 top seller RBC CAP MARKETS delivered 475 (45%). A single dominant accumulator is cornering the buy side."
+    "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
+    "stance": "mixed",
+    "conviction": "LOW\u2013MODERATE",
+    "delivery": "ROUTINE \u2014 76 contracts delivered, near baseline. Ordinary delivery flow.",
+    "breadth": "BROAD \u2014 4 of 6 firms took delivery (effective 3.4). Demand is widely distributed.",
+    "concentration": "Stoppers HHI 0.295 \u2014 top buyer WELLS FARGO SECURITI took 27 (36% of deliveries). Issuers HHI 0.465 \u2014 top seller JP MORGAN SECURITIES delivered 45 (59%)."
   },
   "latest_report": {
-    "date": "2026-07-14",
-    "total": 1047,
-    "mtd": 11300,
+    "date": "2026-07-21",
+    "total": 76,
+    "mtd": 12777,
     "firms": [
       {
-        "firm": "BOFA SECURITIES",
-        "issued": 0,
-        "stopped": 984
-      },
-      {
-        "firm": "RBC CAP MARKETS",
-        "issued": 475,
-        "stopped": 0
-      },
-      {
-        "firm": "DEUTSCHE BANK",
-        "issued": 220,
-        "stopped": 0
+        "firm": "JP MORGAN SECURITIES",
+        "issued": 45,
+        "stopped": 6
       },
       {
         "firm": "WELLS FARGO SECURITI",
-        "issued": 191,
-        "stopped": 0
+        "issued": 0,
+        "stopped": 27
       },
       {
-        "firm": "STONEX FINANCIAL INC",
-        "issued": 160,
+        "firm": "ADM",
+        "issued": 25,
         "stopped": 0
       },
       {
         "firm": "BNP PARIBAS SEC CORP",
         "issued": 0,
-        "stopped": 28
+        "stopped": 24
       },
       {
-        "firm": "MACQUARIE FUTURES US",
+        "firm": "DEUTSCHE BANK AG",
         "issued": 0,
-        "stopped": 25
+        "stopped": 19
       },
       {
-        "firm": "ADM",
-        "issued": 0,
-        "stopped": 10
-      },
-      {
-        "firm": "WEDBUSH SECURITIES",
-        "issued": 1,
+        "firm": "STONEX FINANCIAL INC",
+        "issued": 6,
         "stopped": 0
       }
     ]
@@ -201,65 +186,77 @@
       "gold": 4061.1,
       "cai": 0.3287517596550298,
       "mtd": 11300
+    },
+    {
+      "date": "2026-07-17",
+      "gold": 4012.7,
+      "cai": 0.5601836049066273,
+      "mtd": 12485
+    },
+    {
+      "date": "2026-07-21",
+      "gold": 4071.1,
+      "cai": 0.54725624745563,
+      "mtd": 12777
     }
   ],
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-07-24",
-      "point": 3964.1,
-      "lo": 3799.9,
-      "hi": 4128.3,
-      "from_price": 4000.0,
-      "from_date": "2026-07-17"
+      "date": "2026-07-30",
+      "point": 4040.6,
+      "lo": 3880.8,
+      "hi": 4200.4,
+      "from_price": 4046.0,
+      "from_date": "2026-07-23"
     },
     {
       "weeks": 2,
-      "date": "2026-07-31",
-      "point": 3872.0,
-      "lo": 3731.6,
-      "hi": 4012.3,
-      "from_price": 4000.0,
-      "from_date": "2026-07-17"
+      "date": "2026-08-06",
+      "point": 4044.5,
+      "lo": 3907.2,
+      "hi": 4181.8,
+      "from_price": 4046.0,
+      "from_date": "2026-07-23"
     },
     {
       "weeks": 3,
-      "date": "2026-08-07",
-      "point": 3836.4,
-      "lo": 3666.9,
-      "hi": 4006.0,
-      "from_price": 4000.0,
-      "from_date": "2026-07-17"
+      "date": "2026-08-13",
+      "point": 3972.5,
+      "lo": 3800.1,
+      "hi": 4144.9,
+      "from_price": 4046.0,
+      "from_date": "2026-07-23"
     },
     {
       "weeks": 4,
-      "date": "2026-08-14",
-      "point": 3665.2,
-      "lo": 3516.9,
-      "hi": 3813.5,
-      "from_price": 4000.0,
-      "from_date": "2026-07-17"
+      "date": "2026-08-20",
+      "point": 4015.2,
+      "lo": 3859.4,
+      "hi": 4170.9,
+      "from_price": 4046.0,
+      "from_date": "2026-07-23"
     },
     {
       "weeks": 5,
-      "date": "2026-08-21",
-      "point": 3616.2,
-      "lo": 3483.5,
-      "hi": 3749.0,
-      "from_price": 4000.0,
-      "from_date": "2026-07-17"
+      "date": "2026-08-27",
+      "point": 3838.1,
+      "lo": 3709.2,
+      "hi": 3967.1,
+      "from_price": 4046.0,
+      "from_date": "2026-07-23"
     },
     {
       "weeks": 6,
-      "date": "2026-08-28",
-      "point": 3636.9,
-      "lo": 3479.8,
-      "hi": 3794.0,
-      "from_price": 4000.0,
-      "from_date": "2026-07-17"
+      "date": "2026-09-03",
+      "point": 3876.6,
+      "lo": 3723.6,
+      "hi": 4029.6,
+      "from_price": 4046.0,
+      "from_date": "2026-07-23"
     }
   ],
-  "history_points": 20,
+  "history_points": 22,
   "image": "latest.png",
   "gold_history": [
     {
@@ -2816,7 +2813,23 @@
     },
     {
       "d": "2026-07-17",
-      "v": 4000.0
+      "v": 4012.7
+    },
+    {
+      "d": "2026-07-20",
+      "v": 4010.3
+    },
+    {
+      "d": "2026-07-21",
+      "v": 4071.1
+    },
+    {
+      "d": "2026-07-22",
+      "v": 4146.9
+    },
+    {
+      "d": "2026-07-23",
+      "v": 4046.0
     }
   ],
   "gold_source": "daily",
@@ -3220,6 +3233,46 @@
       "int_DI_DXY": -0.4165,
       "int_BB_UST10": 0.012,
       "S": -0.6061
+    },
+    {
+      "date": "2026-07-17",
+      "gold": 4012.7,
+      "DI": 0.3843,
+      "BB": 0.6667,
+      "SC": 0.4643,
+      "IC": 0.7902,
+      "CAI": 0.5602,
+      "dxy": 100.75,
+      "ust10": 4.541,
+      "zDI": -0.4533,
+      "zBB": 1.1931,
+      "zSC": -0.8763,
+      "zIC": 0.5968,
+      "zdDXY": -0.5598,
+      "zdUST10": -0.8394,
+      "int_DI_DXY": -0.2537,
+      "int_BB_UST10": 1.0015,
+      "S": 0.4521
+    },
+    {
+      "date": "2026-07-21",
+      "gold": 4071.1,
+      "DI": 0.3898,
+      "BB": 0.6667,
+      "SC": 0.2947,
+      "IC": 0.465,
+      "CAI": 0.5473,
+      "dxy": 101.18,
+      "ust10": 4.628,
+      "zDI": -0.239,
+      "zBB": 0.9277,
+      "zSC": -1.732,
+      "zIC": -0.6842,
+      "zdDXY": 1.1846,
+      "zdUST10": 1.0451,
+      "int_DI_DXY": 0.2832,
+      "int_BB_UST10": -0.9695,
+      "S": -0.2935
     }
   ]
 }
