@@ -1,68 +1,58 @@
 {
-  "generated_at": "2026-07-27 16:00",
-  "as_of_date": "2026-07-21",
-  "window": "2026-04-14 \u2013 2026-07-21",
+  "generated_at": "2026-07-28 12:41",
+  "as_of_date": "2026-07-27",
+  "window": "2026-04-14 \u2013 2026-07-27",
   "sources": {
     "macro": "FRED",
     "delivery": "CME Issues & Stops"
   },
   "chart_mode": "interactive",
   "gold": {
-    "price": 4071.1,
-    "change_pct": -15.624870466321244
+    "price": 4074.5,
+    "change_pct": -15.554404145077722
   },
   "cai": {
-    "scaled": 0.54725624745563,
-    "band": "NEUTRAL"
+    "scaled": 0.6240722433460075,
+    "band": "ACCUMULATION"
   },
   "components": {
-    "DI": 0.3898160295329042,
-    "BB": 0.6666666666666666,
-    "SC": 0.2946675900277008,
-    "IC": 0.4650277008310249
+    "DI": 0.3916349809885932,
+    "BB": 0.75,
+    "SC": 0.44000000000000006,
+    "IC": 1.0
   },
   "thesis": {
     "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
     "stance": "mixed",
     "conviction": "LOW\u2013MODERATE",
-    "delivery": "ROUTINE \u2014 76 contracts delivered, near baseline. Ordinary delivery flow.",
-    "breadth": "BROAD \u2014 4 of 6 firms took delivery (effective 3.4). Demand is widely distributed.",
-    "concentration": "Stoppers HHI 0.295 \u2014 top buyer WELLS FARGO SECURITI took 27 (36% of deliveries). Issuers HHI 0.465 \u2014 top seller JP MORGAN SECURITIES delivered 45 (59%)."
+    "delivery": "ROUTINE \u2014 5 contracts delivered, near baseline. Ordinary delivery flow.",
+    "breadth": "BROAD \u2014 3 of 4 firms took delivery (effective 2.3). Demand is widely distributed.",
+    "concentration": "Stoppers HHI 0.440 \u2014 top buyer WELLS FARGO SECURITI took 3 (60% of deliveries). Issuers HHI 1.000 \u2014 top seller RBC CAP MARKETS delivered 5 (100%). A single dominant accumulator is cornering the buy side."
   },
   "latest_report": {
-    "date": "2026-07-21",
-    "total": 76,
-    "mtd": 12777,
+    "date": "2026-07-27",
+    "total": 5,
+    "mtd": 12875,
     "firms": [
       {
-        "firm": "JP MORGAN SECURITIES",
-        "issued": 45,
-        "stopped": 6
+        "firm": "RBC CAP MARKETS",
+        "issued": 5,
+        "stopped": 0
       },
       {
         "firm": "WELLS FARGO SECURITI",
         "issued": 0,
-        "stopped": 27
+        "stopped": 3
       },
       {
         "firm": "ADM",
-        "issued": 25,
-        "stopped": 0
-      },
-      {
-        "firm": "BNP PARIBAS SEC CORP",
         "issued": 0,
-        "stopped": 24
+        "stopped": 1
       },
       {
-        "firm": "DEUTSCHE BANK AG",
+        "firm": "BOFA SECURITIES",
         "issued": 0,
-        "stopped": 19
-      },
-      {
-        "firm": "STONEX FINANCIAL INC",
-        "issued": 6,
-        "stopped": 0
+        "stopped": 1
       }
     ]
   },
@@ -198,65 +188,71 @@
       "gold": 4071.1,
       "cai": 0.54725624745563,
       "mtd": 12777
+    },
+    {
+      "date": "2026-07-27",
+      "gold": 4074.5,
+      "cai": 0.6240722433460075,
+      "mtd": 12875
     }
   ],
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-08-03",
-      "point": 4067.3,
-      "lo": 3908.7,
-      "hi": 4226.0,
-      "from_price": 4079.6,
-      "from_date": "2026-07-27"
+      "date": "2026-08-04",
+      "point": 4016.9,
+      "lo": 3859.6,
+      "hi": 4174.3,
+      "from_price": 4031.0,
+      "from_date": "2026-07-28"
     },
     {
       "weeks": 2,
-      "date": "2026-08-10",
-      "point": 4012.2,
-      "lo": 3876.6,
-      "hi": 4147.8,
-      "from_price": 4079.6,
-      "from_date": "2026-07-27"
+      "date": "2026-08-11",
+      "point": 3943.1,
+      "lo": 3808.7,
+      "hi": 4077.5,
+      "from_price": 4031.0,
+      "from_date": "2026-07-28"
     },
     {
       "weeks": 3,
-      "date": "2026-08-17",
-      "point": 3984.0,
-      "lo": 3815.0,
-      "hi": 4153.0,
-      "from_price": 4079.6,
-      "from_date": "2026-07-27"
+      "date": "2026-08-18",
+      "point": 3939.8,
+      "lo": 3772.2,
+      "hi": 4107.4,
+      "from_price": 4031.0,
+      "from_date": "2026-07-28"
     },
     {
       "weeks": 4,
-      "date": "2026-08-24",
-      "point": 3990.6,
-      "lo": 3831.3,
-      "hi": 4150.0,
-      "from_price": 4079.6,
-      "from_date": "2026-07-27"
+      "date": "2026-08-25",
+      "point": 3952.0,
+      "lo": 3791.5,
+      "hi": 4112.5,
+      "from_price": 4031.0,
+      "from_date": "2026-07-28"
     },
     {
       "weeks": 5,
-      "date": "2026-08-31",
-      "point": 3869.0,
-      "lo": 3739.6,
-      "hi": 3998.5,
-      "from_price": 4079.6,
-      "from_date": "2026-07-27"
+      "date": "2026-09-01",
+      "point": 3866.6,
+      "lo": 3736.1,
+      "hi": 3997.0,
+      "from_price": 4031.0,
+      "from_date": "2026-07-28"
     },
     {
       "weeks": 6,
-      "date": "2026-09-07",
-      "point": 3956.1,
-      "lo": 3802.9,
-      "hi": 4109.2,
-      "from_price": 4079.6,
-      "from_date": "2026-07-27"
+      "date": "2026-09-08",
+      "point": 3934.7,
+      "lo": 3783.7,
+      "hi": 4085.6,
+      "from_price": 4031.0,
+      "from_date": "2026-07-28"
     }
   ],
-  "history_points": 22,
+  "history_points": 23,
   "image": "latest.png",
   "gold_history": [
     {
@@ -2837,7 +2833,11 @@
     },
     {
       "d": "2026-07-27",
-      "v": 4079.6
+      "v": 4074.5
+    },
+    {
+      "d": "2026-07-28",
+      "v": 4031.0
     }
   ],
   "gold_source": "daily",
@@ -3281,6 +3281,26 @@
       "int_DI_DXY": 0.2832,
       "int_BB_UST10": -0.9695,
       "S": -0.2935
+    },
+    {
+      "date": "2026-07-27",
+      "gold": 4074.5,
+      "DI": 0.3916,
+      "BB": 0.75,
+      "SC": 0.44,
+      "IC": 1.0,
+      "CAI": 0.6241,
+      "dxy": 101.47,
+      "ust10": 4.641,
+      "zDI": 0.0096,
+      "zBB": 1.3148,
+      "zSC": -0.6466,
+      "zIC": 1.442,
+      "zdDXY": 1.0432,
+      "zdUST10": -0.3259,
+      "int_DI_DXY": -0.0101,
+      "int_BB_UST10": 0.4284,
+      "S": 0.3167
     }
   ]
 }
