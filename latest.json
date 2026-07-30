@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29 15:37",
+  "generated_at": "2026-07-30 07:38",
   "as_of_date": "2026-07-27",
   "window": "2026-04-14 \u2013 2026-07-27",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
     "stance": "mixed",
-    "conviction": "LOW\u2013MODERATE",
+    "conviction": "MODERATE",
     "delivery": "ROUTINE \u2014 5 contracts delivered, near baseline. Ordinary delivery flow.",
     "breadth": "BROAD \u2014 3 of 4 firms took delivery (effective 2.3). Demand is widely distributed.",
     "concentration": "Stoppers HHI 0.440 \u2014 top buyer WELLS FARGO SECURITI took 3 (60% of deliveries). Issuers HHI 1.000 \u2014 top seller RBC CAP MARKETS delivered 5 (100%). A single dominant accumulator is cornering the buy side."
@@ -199,57 +199,57 @@
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-08-05",
-      "point": 4045.1,
-      "lo": 3888.7,
-      "hi": 4201.4,
-      "from_price": 4068.5,
-      "from_date": "2026-07-29"
+      "date": "2026-08-06",
+      "point": 4075.0,
+      "lo": 3919.3,
+      "hi": 4230.8,
+      "from_price": 4101.0,
+      "from_date": "2026-07-30"
     },
     {
       "weeks": 2,
-      "date": "2026-08-12",
-      "point": 3974.4,
-      "lo": 3839.4,
-      "hi": 4109.4,
-      "from_price": 4068.5,
-      "from_date": "2026-07-29"
+      "date": "2026-08-13",
+      "point": 3959.1,
+      "lo": 3823.1,
+      "hi": 4095.1,
+      "from_price": 4101.0,
+      "from_date": "2026-07-30"
     },
     {
       "weeks": 3,
-      "date": "2026-08-19",
-      "point": 3966.5,
-      "lo": 3800.2,
-      "hi": 4132.8,
-      "from_price": 4068.5,
-      "from_date": "2026-07-29"
+      "date": "2026-08-20",
+      "point": 3993.7,
+      "lo": 3828.8,
+      "hi": 4158.5,
+      "from_price": 4101.0,
+      "from_date": "2026-07-30"
     },
     {
       "weeks": 4,
-      "date": "2026-08-26",
-      "point": 3967.7,
-      "lo": 3808.0,
-      "hi": 4127.5,
-      "from_price": 4068.5,
-      "from_date": "2026-07-29"
+      "date": "2026-08-27",
+      "point": 3961.2,
+      "lo": 3803.2,
+      "hi": 4119.2,
+      "from_price": 4101.0,
+      "from_date": "2026-07-30"
     },
     {
       "weeks": 5,
-      "date": "2026-09-02",
-      "point": 3911.9,
-      "lo": 3777.0,
-      "hi": 4046.9,
-      "from_price": 4068.5,
-      "from_date": "2026-07-29"
+      "date": "2026-09-03",
+      "point": 3957.3,
+      "lo": 3815.8,
+      "hi": 4098.7,
+      "from_price": 4101.0,
+      "from_date": "2026-07-30"
     },
     {
       "weeks": 6,
-      "date": "2026-09-09",
-      "point": 3947.5,
-      "lo": 3798.5,
-      "hi": 4096.5,
-      "from_price": 4068.5,
-      "from_date": "2026-07-29"
+      "date": "2026-09-10",
+      "point": 3957.9,
+      "lo": 3810.1,
+      "hi": 4105.7,
+      "from_price": 4101.0,
+      "from_date": "2026-07-30"
     }
   ],
   "history_points": 23,
@@ -2841,7 +2841,11 @@
     },
     {
       "d": "2026-07-29",
-      "v": 4068.5
+      "v": 4034.7
+    },
+    {
+      "d": "2026-07-30",
+      "v": 4101.0
     }
   ],
   "gold_source": "daily",
@@ -3294,17 +3298,17 @@
       "SC": 0.44,
       "IC": 1.0,
       "CAI": 0.6241,
-      "dxy": 101.47,
+      "dxy": 101.51,
       "ust10": 4.641,
       "zDI": 0.0096,
       "zBB": 1.3148,
       "zSC": -0.6466,
       "zIC": 1.442,
-      "zdDXY": 1.0432,
+      "zdDXY": 1.1408,
       "zdUST10": -0.3259,
-      "int_DI_DXY": -0.0101,
+      "int_DI_DXY": -0.011,
       "int_BB_UST10": 0.4284,
-      "S": 0.3167
+      "S": 0.2991
     }
   ]
 }
