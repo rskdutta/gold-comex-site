@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30 07:38",
+  "generated_at": "2026-07-30 15:34",
   "as_of_date": "2026-07-27",
   "window": "2026-04-14 \u2013 2026-07-27",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
     "stance": "mixed",
-    "conviction": "MODERATE",
+    "conviction": "LOW\u2013MODERATE",
     "delivery": "ROUTINE \u2014 5 contracts delivered, near baseline. Ordinary delivery flow.",
     "breadth": "BROAD \u2014 3 of 4 firms took delivery (effective 2.3). Demand is widely distributed.",
     "concentration": "Stoppers HHI 0.440 \u2014 top buyer WELLS FARGO SECURITI took 3 (60% of deliveries). Issuers HHI 1.000 \u2014 top seller RBC CAP MARKETS delivered 5 (100%). A single dominant accumulator is cornering the buy side."
@@ -200,55 +200,55 @@
     {
       "weeks": 1,
       "date": "2026-08-06",
-      "point": 4075.0,
-      "lo": 3919.3,
-      "hi": 4230.8,
-      "from_price": 4101.0,
+      "point": 4135.4,
+      "lo": 3979.0,
+      "hi": 4291.9,
+      "from_price": 4153.5,
       "from_date": "2026-07-30"
     },
     {
       "weeks": 2,
       "date": "2026-08-13",
-      "point": 3959.1,
-      "lo": 3823.1,
-      "hi": 4095.1,
-      "from_price": 4101.0,
+      "point": 4001.4,
+      "lo": 3863.5,
+      "hi": 4139.4,
+      "from_price": 4153.5,
       "from_date": "2026-07-30"
     },
     {
       "weeks": 3,
       "date": "2026-08-20",
-      "point": 3993.7,
-      "lo": 3828.8,
-      "hi": 4158.5,
-      "from_price": 4101.0,
+      "point": 4056.0,
+      "lo": 3890.4,
+      "hi": 4221.5,
+      "from_price": 4153.5,
       "from_date": "2026-07-30"
     },
     {
       "weeks": 4,
       "date": "2026-08-27",
-      "point": 3961.2,
-      "lo": 3803.2,
-      "hi": 4119.2,
-      "from_price": 4101.0,
+      "point": 4042.4,
+      "lo": 3884.8,
+      "hi": 4200.1,
+      "from_price": 4153.5,
       "from_date": "2026-07-30"
     },
     {
       "weeks": 5,
       "date": "2026-09-03",
-      "point": 3957.3,
-      "lo": 3815.8,
-      "hi": 4098.7,
-      "from_price": 4101.0,
+      "point": 3991.4,
+      "lo": 3846.5,
+      "hi": 4136.3,
+      "from_price": 4153.5,
       "from_date": "2026-07-30"
     },
     {
       "weeks": 6,
       "date": "2026-09-10",
-      "point": 3957.9,
-      "lo": 3810.1,
-      "hi": 4105.7,
-      "from_price": 4101.0,
+      "point": 3998.7,
+      "lo": 3849.7,
+      "hi": 4147.7,
+      "from_price": 4153.5,
       "from_date": "2026-07-30"
     }
   ],
@@ -2845,7 +2845,7 @@
     },
     {
       "d": "2026-07-30",
-      "v": 4101.0
+      "v": 4153.5
     }
   ],
   "gold_source": "daily",
