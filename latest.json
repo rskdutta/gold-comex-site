@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 17:23",
+  "generated_at": "2026-09-09 17:15",
   "as_of_date": "2026-09-01",
   "window": "2026-04-14 \u2013 2026-09-01",
   "sources": {
@@ -24,7 +24,7 @@
   "thesis": {
     "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
     "stance": "mixed",
-    "conviction": "MODERATE",
+    "conviction": "LOW\u2013MODERATE",
     "delivery": "LIGHT \u2014 only 429 contracts delivered, below baseline. Little conviction to take physical.",
     "breadth": "BROAD \u2014 7 of 9 firms took delivery (effective 3.7). Demand is widely distributed.",
     "concentration": "Stoppers HHI 0.273 \u2014 top buyer JP MORGAN SECURITIES took 161 (38% of deliveries). Issuers HHI 0.680 \u2014 top seller BNP PARIBAS SEC CORP delivered 344 (80%)."
@@ -296,57 +296,57 @@
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-09-15",
-      "point": 4388.2,
-      "lo": 4222.8,
-      "hi": 4553.5,
-      "from_price": 4440.3,
-      "from_date": "2026-09-08"
+      "date": "2026-09-16",
+      "point": 4417.9,
+      "lo": 4252.8,
+      "hi": 4583.0,
+      "from_price": 4458.1,
+      "from_date": "2026-09-09"
     },
     {
       "weeks": 2,
-      "date": "2026-09-22",
-      "point": 4362.1,
-      "lo": 4171.2,
-      "hi": 4553.0,
-      "from_price": 4440.3,
-      "from_date": "2026-09-08"
+      "date": "2026-09-23",
+      "point": 4358.4,
+      "lo": 4168.5,
+      "hi": 4548.3,
+      "from_price": 4458.1,
+      "from_date": "2026-09-09"
     },
     {
       "weeks": 3,
-      "date": "2026-09-29",
-      "point": 4345.1,
-      "lo": 4119.6,
-      "hi": 4570.6,
-      "from_price": 4440.3,
-      "from_date": "2026-09-08"
+      "date": "2026-09-30",
+      "point": 4354.3,
+      "lo": 4129.9,
+      "hi": 4578.6,
+      "from_price": 4458.1,
+      "from_date": "2026-09-09"
     },
     {
       "weeks": 4,
-      "date": "2026-10-06",
-      "point": 4305.6,
-      "lo": 4068.2,
-      "hi": 4543.0,
-      "from_price": 4440.3,
-      "from_date": "2026-09-08"
+      "date": "2026-10-07",
+      "point": 4304.0,
+      "lo": 4067.0,
+      "hi": 4541.0,
+      "from_price": 4458.1,
+      "from_date": "2026-09-09"
     },
     {
       "weeks": 5,
-      "date": "2026-10-13",
-      "point": 4275.6,
-      "lo": 4052.9,
-      "hi": 4498.3,
-      "from_price": 4440.3,
-      "from_date": "2026-09-08"
+      "date": "2026-10-14",
+      "point": 4276.0,
+      "lo": 4053.5,
+      "hi": 4498.6,
+      "from_price": 4458.1,
+      "from_date": "2026-09-09"
     },
     {
       "weeks": 6,
-      "date": "2026-10-20",
-      "point": 4192.5,
-      "lo": 4033.5,
-      "hi": 4351.5,
-      "from_price": 4440.3,
-      "from_date": "2026-09-08"
+      "date": "2026-10-21",
+      "point": 4186.5,
+      "lo": 4028.5,
+      "hi": 4344.5,
+      "from_price": 4458.1,
+      "from_date": "2026-09-09"
     }
   ],
   "history_points": 35,
@@ -3050,7 +3050,11 @@
     },
     {
       "d": "2026-09-08",
-      "v": 4440.3
+      "v": 4393.9
+    },
+    {
+      "d": "2026-09-09",
+      "v": 4458.1
     }
   ],
   "gold_source": "daily",
