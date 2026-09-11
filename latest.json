@@ -1,83 +1,58 @@
 {
-  "generated_at": "2026-09-10 17:07",
-  "as_of_date": "2026-09-01",
-  "window": "2026-04-14 \u2013 2026-09-01",
+  "generated_at": "2026-09-11 08:51",
+  "as_of_date": "2026-09-10",
+  "window": "2026-04-14 \u2013 2026-09-10",
   "sources": {
     "macro": "FRED",
     "delivery": "CME Issues & Stops"
   },
   "chart_mode": "interactive",
   "gold": {
-    "price": 4348.0,
-    "change_pct": -9.8860103626943
+    "price": 4364.5,
+    "change_pct": -9.544041450777202
   },
   "cai": {
-    "scaled": 0.5191781202981962,
+    "scaled": 0.5482598556846181,
     "band": "NEUTRAL"
   },
   "components": {
-    "DI": 0.11016195052500445,
-    "BB": 0.7777777777777778,
-    "SC": 0.2732380284827838,
-    "IC": 0.6795713998511203
+    "DI": 0.12002815909890883,
+    "BB": 0.75,
+    "SC": 0.34375,
+    "IC": 1.0
   },
   "thesis": {
     "core": "MIXED / TRANSITIONAL. Some accumulation signatures are present but not confirmed across delivery intensity, breadth and price. Treat as a watch-list condition rather than a committed regime.",
     "stance": "mixed",
     "conviction": "LOW\u2013MODERATE",
-    "delivery": "LIGHT \u2014 only 429 contracts delivered, below baseline. Little conviction to take physical.",
-    "breadth": "BROAD \u2014 7 of 9 firms took delivery (effective 3.7). Demand is widely distributed.",
-    "concentration": "Stoppers HHI 0.273 \u2014 top buyer JP MORGAN SECURITIES took 161 (38% of deliveries). Issuers HHI 0.680 \u2014 top seller BNP PARIBAS SEC CORP delivered 344 (80%)."
+    "delivery": "LIGHT \u2014 only 8 contracts delivered, below baseline. Little conviction to take physical.",
+    "breadth": "BROAD \u2014 3 of 4 firms took delivery (effective 2.9). Demand is widely distributed.",
+    "concentration": "Stoppers HHI 0.344 \u2014 top buyer JP MORGAN SECURITIES took 3 (38% of deliveries). Issuers HHI 1.000 \u2014 top seller ADM delivered 8 (100%)."
   },
   "latest_report": {
-    "date": "2026-09-01",
-    "total": 429,
-    "mtd": 2476,
+    "date": "2026-09-10",
+    "total": 8,
+    "mtd": 2728,
     "firms": [
       {
-        "firm": "BNP PARIBAS SEC CORP",
-        "issued": 344,
+        "firm": "ADM",
+        "issued": 8,
         "stopped": 0
       },
       {
         "firm": "JP MORGAN SECURITIES",
         "issued": 0,
-        "stopped": 161
-      },
-      {
-        "firm": "WELLS FARGO SECURITI",
-        "issued": 0,
-        "stopped": 130
-      },
-      {
-        "firm": "HSBC",
-        "issued": 82,
-        "stopped": 0
+        "stopped": 3
       },
       {
         "firm": "DEUTSCHE BANK AG",
         "issued": 0,
-        "stopped": 70
-      },
-      {
-        "firm": "MACQUARIE FUTURES US",
-        "issued": 0,
-        "stopped": 49
+        "stopped": 3
       },
       {
         "firm": "BARCLAYS",
-        "issued": 3,
-        "stopped": 10
-      },
-      {
-        "firm": "RBC CAP MARKETS",
         "issued": 0,
-        "stopped": 8
-      },
-      {
-        "firm": "ADM",
-        "issued": 0,
-        "stopped": 1
+        "stopped": 2
       }
     ]
   },
@@ -291,65 +266,71 @@
       "gold": 4348.0,
       "cai": 0.5191781202981962,
       "mtd": 2476
+    },
+    {
+      "date": "2026-09-10",
+      "gold": 4364.5,
+      "cai": 0.5482598556846181,
+      "mtd": 2728
     }
   ],
   "forecast": [
     {
       "weeks": 1,
-      "date": "2026-09-17",
-      "point": 4398.9,
-      "lo": 4235.0,
-      "hi": 4562.9,
-      "from_price": 4403.7,
-      "from_date": "2026-09-10"
+      "date": "2026-09-18",
+      "point": 4454.7,
+      "lo": 4291.6,
+      "hi": 4617.7,
+      "from_price": 4397.8,
+      "from_date": "2026-09-11"
     },
     {
       "weeks": 2,
-      "date": "2026-09-24",
-      "point": 4350.1,
-      "lo": 4161.0,
-      "hi": 4539.2,
-      "from_price": 4403.7,
-      "from_date": "2026-09-10"
+      "date": "2026-09-25",
+      "point": 4462.6,
+      "lo": 4274.2,
+      "hi": 4651.1,
+      "from_price": 4397.8,
+      "from_date": "2026-09-11"
     },
     {
       "weeks": 3,
-      "date": "2026-10-01",
-      "point": 4326.0,
-      "lo": 4103.4,
-      "hi": 4548.6,
-      "from_price": 4403.7,
-      "from_date": "2026-09-10"
+      "date": "2026-10-02",
+      "point": 4372.6,
+      "lo": 4151.3,
+      "hi": 4593.9,
+      "from_price": 4397.8,
+      "from_date": "2026-09-11"
     },
     {
       "weeks": 4,
-      "date": "2026-10-08",
-      "point": 4300.9,
-      "lo": 4065.4,
-      "hi": 4536.3,
-      "from_price": 4403.7,
-      "from_date": "2026-09-10"
+      "date": "2026-10-09",
+      "point": 4396.4,
+      "lo": 4162.5,
+      "hi": 4630.4,
+      "from_price": 4397.8,
+      "from_date": "2026-09-11"
     },
     {
       "weeks": 5,
-      "date": "2026-10-15",
-      "point": 4290.5,
-      "lo": 4069.1,
-      "hi": 4512.0,
-      "from_price": 4403.7,
-      "from_date": "2026-09-10"
+      "date": "2026-10-16",
+      "point": 4284.3,
+      "lo": 4063.2,
+      "hi": 4505.5,
+      "from_price": 4397.8,
+      "from_date": "2026-09-11"
     },
     {
       "weeks": 6,
-      "date": "2026-10-22",
-      "point": 4224.2,
-      "lo": 4067.9,
-      "hi": 4380.5,
-      "from_price": 4403.7,
-      "from_date": "2026-09-10"
+      "date": "2026-10-23",
+      "point": 4245.2,
+      "lo": 4090.0,
+      "hi": 4400.3,
+      "from_price": 4397.8,
+      "from_date": "2026-09-11"
     }
   ],
-  "history_points": 35,
+  "history_points": 36,
   "image": "latest.png",
   "gold_history": [
     {
@@ -3058,7 +3039,11 @@
     },
     {
       "d": "2026-09-10",
-      "v": 4403.7
+      "v": 4364.5
+    },
+    {
+      "d": "2026-09-11",
+      "v": 4397.8
     }
   ],
   "gold_source": "daily",
@@ -3762,6 +3747,26 @@
       "int_DI_DXY": 0.69,
       "int_BB_UST10": -0.9938,
       "S": -0.0986
+    },
+    {
+      "date": "2026-09-10",
+      "gold": 4364.5,
+      "DI": 0.12,
+      "BB": 0.75,
+      "SC": 0.3438,
+      "IC": 1.0,
+      "CAI": 0.5483,
+      "dxy": 99.09,
+      "ust10": 4.944,
+      "zDI": -0.8974,
+      "zBB": 1.1843,
+      "zSC": -0.3617,
+      "zIC": 1.6567,
+      "zdDXY": -0.9733,
+      "zdUST10": 1.8325,
+      "int_DI_DXY": -0.8734,
+      "int_BB_UST10": -2.1702,
+      "S": 0.0181
     }
   ]
 }
